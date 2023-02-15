@@ -93,16 +93,26 @@ export default function Home() {
   const events = [
     {
       id: 1,
+      url: "https://bebras.or.id/v3/bebras-indonesia-challenge-2022/",
+      name: "Bebras Indonesia Computational Thinking Challenge 2022",
+      description:
+        "Bebras Indonesia Computational Thinking Challenge is an online challenge for Students to educate problem solving skills that contain the concept of Computational Thinking. This activity was divided into 4 categories according to the education level of the participants, namely SiKecil, Siaga, Penggalang, and Penegak. At this event, I am responsible as a member of the committee through data recapitulation of all workshop participants for competition preparation training and uploading competition participant registration data from various Elementary Schools, Junior High Schools, and Senior High Schools in Indonesia to the central information system.",
+      position:
+        "Member of UC Bureau Committee",
+      date: "Nov 2022 - Jan 2023",
+    },
+    {
+      id: 2,
       url: "https://sites.google.com/ciputra.ac.id/ct-for-educators/",
       name: "Best Practices on Computational Thinking for Future Educators Workshop",
       description:
         "Best Practices on Computational Thinking for Future Educators Workshop is a special program designed by Universitas Ciputra Techno Center for Teachers to train Computational Thinking successfully. This program empowers Educators to become Experts in embedding Computational Thinking in their teaching strategies. Workshop topics include Introduction to Computational Thinking, Computational Thinking in Class & Developing Computational Thinking Tasks, and Computational Thinking Tools. At this event, I am responsible as a member of the Module (Presentation Slides) Division through designing the layout of the content and making illustrations of the material that has been prepared by the Trainer.",
       position:
         "Member of Module (Presentation Slides) Division (Ad Hoc Committee)",
-      date: "Jul 2022",
+      date: "Jul 2022 - Sep 2022",
     },
     {
-      id: 2,
+      id: 3,
       url: "https://informatika.uc.ac.id/id/2022/04/technopreneurship-workshop-2022-day-1/",
       name: "Technopreneurship Workshop",
       description:
@@ -111,7 +121,7 @@ export default function Home() {
       date: "Apr 2022",
     },
     {
-      id: 3,
+      id: 4,
       url: "https://nplc.uc.ac.id/",
       name: "8th National Programming & Logic Competition",
       description:
@@ -169,6 +179,15 @@ export default function Home() {
   const achievements = [
     {
       id: 1,
+      url: "https://informatika.uc.ac.id/id/2022/11/prestasi-nasional-team-informatika-uc-juara-lo-kreatif-2022/",
+      name: "2nd Place in Lomba Nasional Kreativitas Mahasiswa 2022 - Web/Mobile Application Category",
+      description: `Lomba Nasional Kreativitas Mahasiswa (LO Kreatif) 2022 is a national scale competition in the form of 9 categories that organized by Asosiasi Perguruan Tinggi Swasta Indonesia Wilayah VII Jawa Timur. Archotech Team representing Universitas Ciputra Surabaya in the Web/Mobile Application competition category with the competition theme "Mewujudkan Inovasi Kreatif Anak Bangsa Untuk Merdeka Belajar" managed to win by occupying the Runner up.`,
+      publisher:
+        "Asosiasi Perguruan Tinggi Swasta Indonesia Wilayah VII Jawa Timur",
+      date: "Nov 2022",
+    },
+    {
+      id: 2,
       url: "https://informatika.uc.ac.id/id/2022/08/juara-2-ui-ux-design-competition-national-informatic-fun-competition-2022/",
       name: "2nd Place in National Informatic Fun Competition 2K22 - UI/UX Design Category",
       description: `National Informatic Fun Competition (NIFC) 2K22 is a national scale activity in the form of 8 categories of Competition, Workshop, Webinars, and Bazaars organized by HIMA Teknik Informatika Universitas Muhammadiyah Riau. Weerausaha Team representing Universitas Ciputra Surabaya in the User Interface - User Experience (UI/UX) Design competition category with the competition theme "The Role of Digital Technology in the Development of Educational Ideas and Innovation" along with the sub-theme "Education" managed to win by occupying the Runner up.`,
@@ -176,7 +195,7 @@ export default function Home() {
       date: "Aug 2022",
     },
     {
-      id: 2,
+      id: 3,
       url: "https://informatika.uc.ac.id/id/2022/08/prestasi-fit-competition-2022-juara-1-harapan-2-dan-ide-terbaik/",
       name: "9th Place in Faculty of Information Technology Competition 2022 - Web Developer Category",
       description: `Faculty of Information Technology (FIT) Competition 2022 is a national scale competition in the field of information technology held by Himpunan Mahasiswa S1 Teknik Informatika Fakultas Teknologi Informasi Universitas Kristen Satya Wacana. This competition aims to foster a competitive spirit and spur students to realize creative and innovative ideas in the field of Informatics Engineering that have technology-based business values ​​(mobile and website applications) and are beneficial to the community. SK Team representing Universitas Ciputra Surabaya in the Web Developer category with the competition theme "Innovation For a Better World" managed to rank 9th as a finalist.`,
@@ -184,8 +203,8 @@ export default function Home() {
       date: "Aug 2022",
     },
     {
-      id: 3,
-      url: "https://media-exp1.licdn.com/dms/image/C562DAQGm0CjYpS3yCg/profile-treasury-image-shrink_800_800/0/1646667126399?e=1661623200&v=beta&t=-bHIDUtZToFpZowoAJZqzgVz-Er4WbWny41nVOBKnc4",
+      id: 4,
+      url: "https://drive.google.com/file/d/15ydpPZhchkpiBSl9l5dyzWO2O69V4GY2/view?usp=share_link",
       name: "Full Score Achievement",
       description:
         "Reached Grade Point Average 4.0 in 2021/2022 Odd (3rd Semester).",
@@ -341,7 +360,7 @@ export default function Home() {
             </div>
           </div>
           <h3 className="scroll-down text-center mt-5">
-            <a href="#content">
+            <a href="#home">
               <i
                 className="bi bi-chevron-double-down"
                 data-bs-toggle="tooltip"
@@ -383,7 +402,7 @@ export default function Home() {
           </div>
         </div>
 
-        <section id="content" data-aos="fade-up">
+        <section id="home" data-aos="fade-up">
           <h4 className="text-center section-title">&#128587;&ensp;About Me</h4>
           <br />
           <div className="hstack flex-column flex-sm-row justify-content-between gap-4">
@@ -864,8 +883,7 @@ export default function Home() {
           <div className="modal-content bg-dark">
             <div className="modal-header text-center">
               <h5 className="modal-title" id="staticBackdropLabel">
-                <i className="bi bi-camera"></i>&emsp;Collection of My
-                Shoots
+                <i className="bi bi-camera"></i>&emsp;Collection of My Shoots
               </h5>
               <button
                 type="button"

@@ -22,7 +22,7 @@ export default function Projects() {
       <Header />
       <div className="container">
         <ul
-          className="nav nav-pills nav flex-column flex-sm-row justify-content-center gap-3 my-5 bg-primary bg-opacity-25 rounded"
+          className="nav nav-pills nav flex-column flex-sm-row justify-content-center align-items-center gap-3 my-5"
           id="pills-tab"
           role="tablist"
           data-aos="fade-up"

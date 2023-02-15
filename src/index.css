@@ -10,9 +10,8 @@
 }
 
 body {
-  /* background: url(backgrounds/background-desktop.svg) fixed center / cover no-repeat; */
+  background: url(background/background.png) fixed center / cover no-repeat;
   font-family: var(--font-primary);
-  font-size: var(--normal-font-size);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   scroll-behavior: smooth !important;
@@ -497,10 +496,6 @@ code {
 }
 
 @media screen and (max-width: 768px) {
-  body {
-    background: url(backgrounds/background-mobile.svg) fixed center / cover no-repeat !important;
-  }
-
   h2 {
     font-size: x-large !important
   }

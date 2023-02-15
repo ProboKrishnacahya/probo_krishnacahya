@@ -237,7 +237,7 @@ export default function Contacts() {
                   name="message"
                   className="form-control border border-2"
                   id="formControlTextarea"
-                  placeholder="Hi, ..."
+                  placeholder="Insert your message here..."
                   rows={5}
                   onChange={(e) => setCount(e.target.value.length)}
                   required

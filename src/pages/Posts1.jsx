@@ -123,7 +123,7 @@ export default function Posts1() {
                 <p className="card-text hstack flex-column flex-sm-row align-items-start text-truncate text-white-50 gap-md-5 gap-2">
                   <div>
                     <i
-                      className="bi bi-stopwatch-fill"
+                      className="bi bi-stopwatch"
                       data-bs-toggle="tooltip"
                       title="Estimated Reading Time"
                     ></i>
@@ -131,7 +131,7 @@ export default function Posts1() {
                   </div>
                   <div>
                     <i
-                      className="bi bi-calendar-date-fill"
+                      className="bi bi-calendar-date"
                       data-bs-toggle="tooltip"
                       title="Uploaded Date"
                     ></i>
@@ -139,7 +139,7 @@ export default function Posts1() {
                   </div>
                   <div className="text-truncate">
                     <i
-                      className="bi bi-tag-fill"
+                      className="bi bi-tag"
                       data-bs-toggle="tooltip"
                       title="Category"
                     ></i>

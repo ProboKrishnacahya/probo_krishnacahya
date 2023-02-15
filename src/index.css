@@ -4,12 +4,13 @@
   --color-tertiary: #0C356A;
   --text-primary: #FFFFFF;
   --text-secondary: #000000;
+  --text-tertiary: #54575B;
   --font-primary: 'Manrope', sans-serif;
   --font-secondary: 'La Belle Aurore', cursive;
 }
 
 body {
-  background: url(backgrounds/background-desktop.svg) fixed center / cover no-repeat;
+  /* background: url(backgrounds/background-desktop.svg) fixed center / cover no-repeat; */
   font-family: var(--font-primary);
   font-size: var(--normal-font-size);
   -webkit-font-smoothing: antialiased;
@@ -224,22 +225,22 @@ section {
   -webkit-backdrop-filter: blur(5px) !important;
 }
 
-.card {
-  padding: 1.5rem;
-  border-radius: 16px !important;
-}
-
 .card,
 .kartu {
+  border-radius: 16px !important;
   border: solid 2px #FFFFFF25 !important;
 }
 
-.kartu,
-.kontak {
-  border-radius: 8px !important;
+.card {
+  padding: 1.5rem;
+}
+
+.kartu {
+  padding: 0 1rem;
 }
 
 .kontak {
+  border-radius: 8px !important;
   border-right: solid 10px var(--color-secondary) !important;
 }
 
@@ -282,7 +283,7 @@ section {
 }
 
 .typeCursor {
-  font-size: xx-large;
+  font-size: 2.25rem;
   font-weight: bolder;
   color: var(--color-secondary);
   animation: blink 1s infinite linear;
@@ -403,7 +404,7 @@ textarea:focus {
 }
 
 #postInput {
-  border: solid 2px var(--text-secondary);
+  border: solid 2px var(--text-tertiary);
   border-radius: 6px !important;
 }
 

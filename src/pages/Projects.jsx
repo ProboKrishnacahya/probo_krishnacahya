@@ -22,7 +22,7 @@ export default function Projects() {
       <Header />
       <div className="container">
         <ul
-          className="nav nav-pills nav-fill flex-column flex-sm-row justify-content-center gap-3 my-5 bg-primary bg-opacity-25 rounded"
+          className="nav nav-pills nav flex-column flex-sm-row justify-content-center gap-3 my-5 bg-primary bg-opacity-25 rounded"
           id="pills-tab"
           role="tablist"
           data-aos="fade-up"
@@ -125,7 +125,7 @@ export default function Projects() {
               </div>
               <div className="text-white-50 mt-3">
                 <i
-                  className="bi bi-clock-fill category-time"
+                  className="bi bi-clock category-time"
                   data-bs-toggle="tooltip"
                   title="Project Execution Time"
                 ></i>
@@ -134,7 +134,7 @@ export default function Projects() {
               <div className="mt-3">
                 <p>
                   <i
-                    className="bi bi-info-circle-fill"
+                    className="bi bi-info-circle"
                     data-bs-toggle="tooltip"
                     title="Project Description"
                   ></i>
@@ -157,7 +157,7 @@ export default function Projects() {
                   <br />
                   <div className="mt-3">
                     <i
-                      className="bi bi-star-fill"
+                      className="bi bi-star"
                       data-bs-toggle="tooltip"
                       title="Benefits of Use"
                     ></i>
@@ -246,7 +246,7 @@ export default function Projects() {
               </div>
               <div className="text-white-50 mt-3">
                 <i
-                  className="bi bi-clock-fill category-time"
+                  className="bi bi-clock category-time"
                   data-bs-toggle="tooltip"
                   title="Project Execution Time"
                 ></i>
@@ -255,7 +255,7 @@ export default function Projects() {
               <div className="mt-3">
                 <p>
                   <i
-                    className="bi bi-info-circle-fill"
+                    className="bi bi-info-circle"
                     data-bs-toggle="tooltip"
                     title="Project Description"
                   ></i>
@@ -335,7 +335,7 @@ export default function Projects() {
               </div>
               <div className="text-white-50 mt-3">
                 <i
-                  className="bi bi-clock-fill category-time"
+                  className="bi bi-clock category-time"
                   data-bs-toggle="tooltip"
                   title="Project Execution Time"
                 ></i>
@@ -344,7 +344,7 @@ export default function Projects() {
               <div className="mt-3">
                 <p>
                   <i
-                    className="bi bi-info-circle-fill"
+                    className="bi bi-info-circle"
                     data-bs-toggle="tooltip"
                     title="Project Description"
                   ></i>
@@ -361,7 +361,7 @@ export default function Projects() {
                   <br />
                   <div className="mt-3">
                     <i
-                      className="bi bi-star-fill"
+                      className="bi bi-star"
                       data-bs-toggle="tooltip"
                       title="Benefits of Use"
                     ></i>
@@ -447,7 +447,7 @@ export default function Projects() {
               </div>
               <div className="text-white-50 mt-3">
                 <i
-                  className="bi bi-clock-fill category-time"
+                  className="bi bi-clock category-time"
                   data-bs-toggle="tooltip"
                   title="Project Execution Time"
                 ></i>
@@ -456,7 +456,7 @@ export default function Projects() {
               <div className="mt-3">
                 <p>
                   <i
-                    className="bi bi-info-circle-fill"
+                    className="bi bi-info-circle"
                     data-bs-toggle="tooltip"
                     title="Project Description"
                   ></i>
@@ -469,7 +469,7 @@ export default function Projects() {
                   <br />
                   <div className="mt-3">
                     <i
-                      className="bi bi-star-fill"
+                      className="bi bi-star"
                       data-bs-toggle="tooltip"
                       title="Benefits of Use"
                     ></i>
@@ -564,7 +564,7 @@ export default function Projects() {
               </div>
               <div className="text-white-50 mt-3">
                 <i
-                  className="bi bi-clock-fill category-time"
+                  className="bi bi-clock category-time"
                   data-bs-toggle="tooltip"
                   title="Project Execution Time"
                 ></i>
@@ -573,7 +573,7 @@ export default function Projects() {
               <div className="mt-3">
                 <p>
                   <i
-                    className="bi bi-info-circle-fill"
+                    className="bi bi-info-circle"
                     data-bs-toggle="tooltip"
                     title="Project Description"
                   ></i>
@@ -590,7 +590,7 @@ export default function Projects() {
                   <br />
                   <div className="mt-3">
                     <i
-                      className="bi bi-star-fill"
+                      className="bi bi-star"
                       data-bs-toggle="tooltip"
                       title="Benefits of Use"
                     ></i>
@@ -683,7 +683,7 @@ export default function Projects() {
               </div>
               <div className="text-white-50 mt-3">
                 <i
-                  className="bi bi-clock-fill category-time"
+                  className="bi bi-clock category-time"
                   data-bs-toggle="tooltip"
                   title="Project Execution Time"
                 ></i>
@@ -692,7 +692,7 @@ export default function Projects() {
               <div className="mt-3">
                 <p>
                   <i
-                    className="bi bi-info-circle-fill"
+                    className="bi bi-info-circle"
                     data-bs-toggle="tooltip"
                     title="Project Description"
                   ></i>
@@ -715,7 +715,7 @@ export default function Projects() {
                   <br />
                   <div className="mt-3">
                     <i
-                      className="bi bi-star-fill"
+                      className="bi bi-star"
                       data-bs-toggle="tooltip"
                       title="Benefits of Use"
                     ></i>
@@ -804,7 +804,7 @@ export default function Projects() {
               </div>
               <div className="text-white-50 mt-3">
                 <i
-                  className="bi bi-clock-fill category-time"
+                  className="bi bi-clock category-time"
                   data-bs-toggle="tooltip"
                   title="Project Execution Time"
                 ></i>
@@ -813,7 +813,7 @@ export default function Projects() {
               <div className="mt-3">
                 <p>
                   <i
-                    className="bi bi-info-circle-fill"
+                    className="bi bi-info-circle"
                     data-bs-toggle="tooltip"
                     title="Project Description"
                   ></i>
@@ -834,7 +834,7 @@ export default function Projects() {
                   detailed information, and also watch trailer.
                   <div className="mt-3">
                     <i
-                      className="bi bi-star-fill"
+                      className="bi bi-star"
                       data-bs-toggle="tooltip"
                       title="Benefits of Use"
                     ></i>
@@ -913,7 +913,7 @@ export default function Projects() {
               </div>
               <div className="text-white-50 mt-3">
                 <i
-                  className="bi bi-clock-fill category-time"
+                  className="bi bi-clock category-time"
                   data-bs-toggle="tooltip"
                   title="Project Execution Time"
                 ></i>
@@ -922,7 +922,7 @@ export default function Projects() {
               <div className="mt-3">
                 <p>
                   <i
-                    className="bi bi-info-circle-fill"
+                    className="bi bi-info-circle"
                     data-bs-toggle="tooltip"
                     title="Project Description"
                   ></i>
@@ -941,7 +941,7 @@ export default function Projects() {
                   <br />
                   <div className="mt-3">
                     <i
-                      className="bi bi-star-fill"
+                      className="bi bi-star"
                       data-bs-toggle="tooltip"
                       title="Benefits of Use"
                     ></i>
@@ -1026,7 +1026,7 @@ export default function Projects() {
               </div>
               <div className="text-white-50 mt-3">
                 <i
-                  className="bi bi-clock-fill category-time"
+                  className="bi bi-clock category-time"
                   data-bs-toggle="tooltip"
                   title="Project Execution Time"
                 ></i>
@@ -1035,7 +1035,7 @@ export default function Projects() {
               <div className="mt-3">
                 <p>
                   <i
-                    className="bi bi-info-circle-fill"
+                    className="bi bi-info-circle"
                     data-bs-toggle="tooltip"
                     title="Project Description"
                   ></i>
@@ -1053,7 +1053,7 @@ export default function Projects() {
                   <br />
                   <div className="mt-3">
                     <i
-                      className="bi bi-star-fill"
+                      className="bi bi-star"
                       data-bs-toggle="tooltip"
                       title="Benefits of Use"
                     ></i>
@@ -1130,7 +1130,7 @@ export default function Projects() {
               </div>
               <div className="text-white-50 mt-3">
                 <i
-                  className="bi bi-clock-fill category-time"
+                  className="bi bi-clock category-time"
                   data-bs-toggle="tooltip"
                   title="Project Execution Time"
                 ></i>
@@ -1139,7 +1139,7 @@ export default function Projects() {
               <div className="mt-3">
                 <p>
                   <i
-                    className="bi bi-info-circle-fill"
+                    className="bi bi-info-circle"
                     data-bs-toggle="tooltip"
                     title="Project Description"
                   ></i>
@@ -1158,7 +1158,7 @@ export default function Projects() {
                   <br />
                   <div className="mt-3">
                     <i
-                      className="bi bi-star-fill"
+                      className="bi bi-star"
                       data-bs-toggle="tooltip"
                       title="Benefits of Use"
                     ></i>
@@ -1236,7 +1236,7 @@ export default function Projects() {
               </div>
               <div className="text-white-50 mt-3">
                 <i
-                  className="bi bi-clock-fill category-time"
+                  className="bi bi-clock category-time"
                   data-bs-toggle="tooltip"
                   title="Project Execution Time"
                 ></i>
@@ -1245,7 +1245,7 @@ export default function Projects() {
               <div className="mt-3">
                 <p>
                   <i
-                    className="bi bi-info-circle-fill"
+                    className="bi bi-info-circle"
                     data-bs-toggle="tooltip"
                     title="Project Description"
                   ></i>
@@ -1267,7 +1267,7 @@ export default function Projects() {
                   .
                   <div className="mt-3">
                     <i
-                      className="bi bi-star-fill"
+                      className="bi bi-star"
                       data-bs-toggle="tooltip"
                       title="Benefits of Use"
                     ></i>
@@ -1332,7 +1332,7 @@ export default function Projects() {
               </div>
               <div className="text-white-50 mt-3">
                 <i
-                  className="bi bi-clock-fill category-time"
+                  className="bi bi-clock category-time"
                   data-bs-toggle="tooltip"
                   title="Project Execution Time"
                 ></i>
@@ -1341,7 +1341,7 @@ export default function Projects() {
               <div className="mt-3">
                 <p>
                   <i
-                    className="bi bi-info-circle-fill"
+                    className="bi bi-info-circle"
                     data-bs-toggle="tooltip"
                     title="Project Description"
                   ></i>
@@ -1359,7 +1359,7 @@ export default function Projects() {
                   <br />
                   <div className="mt-3">
                     <i
-                      className="bi bi-star-fill"
+                      className="bi bi-star"
                       data-bs-toggle="tooltip"
                       title="Benefits of Use"
                     ></i>

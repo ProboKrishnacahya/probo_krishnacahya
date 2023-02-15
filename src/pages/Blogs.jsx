@@ -35,9 +35,9 @@ export default function Blogs() {
     //   id: 2,
     //   image:
     //     "https://images.unsplash.com/photo-1610484826917-0f101a7bf7f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop",
-    //   alt: "Breast Cancer",
+    //   alt: "ComfyPace",
     //   title:
-    //     "Rancang Bangun Prototype Aplikasi Berbasis Website untuk Optimalisasi Proses Pembelajaran dengan Metode Self-Paced Learning di dalam Kelas",
+    //     "Sistem Pendukung Metode Pembelajaran Self-Paced Learning bagi Mahasiswa di dalam Kelas Berbasis Web",
     //   time: "-",
     //   category: "-",
     //   date: "-",
@@ -68,7 +68,7 @@ export default function Blogs() {
                 <p className="card-text hstack flex-column flex-sm-row align-items-start text-truncate text-white-50 gap-md-5 gap-2">
                   <div>
                     <i
-                      className="bi bi-stopwatch-fill"
+                      className="bi bi-stopwatch"
                       data-bs-toggle="tooltip"
                       title="Estimated Reading Time"
                     ></i>
@@ -76,7 +76,7 @@ export default function Blogs() {
                   </div>
                   <div>
                     <i
-                      className="bi bi-calendar-date-fill"
+                      className="bi bi-calendar-date"
                       data-bs-toggle="tooltip"
                       title="Uploaded Date"
                     ></i>
@@ -84,7 +84,7 @@ export default function Blogs() {
                   </div>
                   <div className="text-truncate">
                     <i
-                      className="bi bi-tag-fill"
+                      className="bi bi-tag"
                       data-bs-toggle="tooltip"
                       title="Category"
                     ></i>
@@ -112,9 +112,9 @@ export default function Blogs() {
       id: 1,
       image:
         "https://images.unsplash.com/photo-1610484826917-0f101a7bf7f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop",
-      alt: "Breast Cancer",
+      alt: "ComfyPace",
       title:
-        "Rancang Bangun Prototype Aplikasi Berbasis Website untuk Optimalisasi Proses Pembelajaran dengan Metode Self-Paced Learning di dalam Kelas",
+        "Sistem Pendukung Metode Pembelajaran Self-Paced Learning bagi Mahasiswa di dalam Kelas Berbasis Web",
       time: "-",
       category: "-",
       date: "-",
@@ -145,7 +145,7 @@ export default function Blogs() {
                 <p className="card-text hstack flex-column flex-sm-row align-items-start text-truncate text-white-50 gap-md-5 gap-2">
                   <div>
                     <i
-                      className="bi bi-stopwatch-fill"
+                      className="bi bi-stopwatch"
                       data-bs-toggle="tooltip"
                       title="Estimated Reading Time"
                     ></i>
@@ -153,7 +153,7 @@ export default function Blogs() {
                   </div>
                   <div>
                     <i
-                      className="bi bi-calendar-date-fill"
+                      className="bi bi-calendar-date"
                       data-bs-toggle="tooltip"
                       title="Uploaded Date"
                     ></i>
@@ -161,7 +161,7 @@ export default function Blogs() {
                   </div>
                   <div className="text-truncate">
                     <i
-                      className="bi bi-tag-fill"
+                      className="bi bi-tag"
                       data-bs-toggle="tooltip"
                       title="Category"
                     ></i>

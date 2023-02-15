@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <div className="bg-dark pt-3 pb-2">
+    <div className="bg-black pt-3 pb-2">
       <footer className="navbar d-inline shadow-sm text-center user-select-none mt-auto">
         <div className="mx-auto">
           <div className="container">

@@ -48,19 +48,19 @@ export default function Home() {
     },
     {
       id: 2,
-      icon: "bi bi-geo-alt-fill",
+      icon: "bi bi-geo-alt",
       title: "City of Domicile",
       text: "Surabaya, East Java",
     },
     {
       id: 3,
-      icon: "bi bi-flag-fill",
+      icon: "bi bi-flag",
       title: "Nationality",
       text: "Indonesia",
     },
     {
       id: 4,
-      icon: "bi bi-suit-heart-fill",
+      icon: "bi bi-suit-heart",
       title: "Religion",
       text: "Catholic",
     },
@@ -139,7 +139,7 @@ export default function Home() {
         </p>
         <p className="mb-3">
           <i
-            className="bi bi-info-circle-fill"
+            className="bi bi-info-circle"
             data-bs-toggle="tooltip"
             title="Event Description"
           ></i>
@@ -147,7 +147,7 @@ export default function Home() {
         </p>
         <p className="mb-3">
           <i
-            className="bi bi-diagram-3-fill"
+            className="bi bi-diagram-3"
             data-bs-toggle="tooltip"
             title="Event Position"
           ></i>
@@ -155,7 +155,7 @@ export default function Home() {
         </p>
         <p className="text-white-50">
           <i
-            className="bi bi-clock-fill category-time"
+            className="bi bi-clock category-time"
             data-bs-toggle="tooltip"
             title="Event Time"
           ></i>
@@ -212,7 +212,7 @@ export default function Home() {
         </p>
         <p className="mb-3">
           <i
-            className="bi bi-info-circle-fill"
+            className="bi bi-info-circle"
             data-bs-toggle="tooltip"
             title="Award Description"
           ></i>
@@ -220,7 +220,7 @@ export default function Home() {
         </p>
         <p className="mb-3">
           <i
-            className="bi bi-patch-check-fill"
+            className="bi bi-patch-check"
             data-bs-toggle="tooltip"
             title="Publisher"
           ></i>
@@ -228,7 +228,7 @@ export default function Home() {
         </p>
         <p className="text-white-50">
           <i
-            className="bi bi-clock-fill category-time"
+            className="bi bi-clock category-time"
             data-bs-toggle="tooltip"
             title="Published Date"
           ></i>
@@ -317,16 +317,16 @@ export default function Home() {
       <div className="container">
         <div className="col mt-4" data-aos="fade-up">
           <div className="text-center">
-            <span className="display-3 fw-bold">Probo Krishnacahya</span>
+            <span className="display-2 fw-bold">Probo Krishnacahya</span>
             <br />
-            <p className="display-5" id="typewriting"></p>
+            <p className="display-4" id="typewriting"></p>
             <br />
             <div className="d-grid gap-4 d-md-block justify-content-md-start mt-5">
               <NavLink
                 className="btn btn-primary btn-lg pulse px-4 me-md-2"
                 to="/contacts"
               >
-                <i className="bi bi-person-plus-fill"></i>&emsp;
+                <i className="bi bi-person-plus"></i>&emsp;
                 <strong>Get in touch</strong>
               </NavLink>
               <button
@@ -361,7 +361,7 @@ export default function Home() {
             <div className="modal-content bg-dark">
               <div className="modal-header">
                 <h5 className="modal-title" id="resumeModalLabel">
-                  <i className="bi bi-file-earmark-person-fill"></i>&emsp;Probo
+                  <i className="bi bi-file-earmark-person"></i>&emsp;Probo
                   Krishnacahya&#39;s Resume
                 </h5>
                 <button
@@ -403,8 +403,9 @@ export default function Home() {
             </div>
             <div>
               <p>
-                It's me, Probo Krishnacahya. You can call me Krishna. I was born
-                at Surabaya on November 2<sup>nd</sup>, 2002.
+                Hello everyone &#128075; it's me, Probo Krishnacahya. You can
+                call me Krishna. I was born at Surabaya on November 2
+                <sup>nd</sup>, 2002.
               </p>
               <p>
                 I am able to handle multiple projects based on Critical
@@ -457,7 +458,7 @@ export default function Home() {
               </p>
               <p className="mb-1">
                 <i
-                  className="bi bi-mortarboard-fill"
+                  className="bi bi-mortarboard"
                   data-bs-toggle="tooltip"
                   title="Degree, Field of Study"
                 ></i>
@@ -466,7 +467,7 @@ export default function Home() {
               </p>
               <p className="text-white-50">
                 <i
-                  className="bi bi-clock-fill category-time"
+                  className="bi bi-clock category-time"
                   data-bs-toggle="tooltip"
                   title="Education Time"
                 ></i>
@@ -510,7 +511,7 @@ export default function Home() {
               </p>
               <p className="mb-1">
                 <i
-                  className="bi bi-mortarboard-fill"
+                  className="bi bi-mortarboard"
                   data-bs-toggle="tooltip"
                   title="Major"
                 ></i>
@@ -518,7 +519,7 @@ export default function Home() {
               </p>
               <p className="text-white-50">
                 <i
-                  className="bi bi-clock-fill category-time"
+                  className="bi bi-clock category-time"
                   data-bs-toggle="tooltip"
                   title="Education Time"
                 ></i>
@@ -562,7 +563,7 @@ export default function Home() {
               </p>
               <p className="text-white-50">
                 <i
-                  className="bi bi-clock-fill category-time"
+                  className="bi bi-clock category-time"
                   data-bs-toggle="tooltip"
                   title="Education Time"
                 ></i>
@@ -601,7 +602,7 @@ export default function Home() {
               </p>
               <p className="text-white-50">
                 <i
-                  className="bi bi-clock-fill category-time"
+                  className="bi bi-clock category-time"
                   data-bs-toggle="tooltip"
                   title="Education Time"
                 ></i>
@@ -712,7 +713,7 @@ export default function Home() {
                           data-bs-toggle="modal"
                           data-bs-target="#modalPhotography"
                         >
-                          <i className="bi bi-image-fill"></i>&emsp;
+                          <i className="bi bi-image"></i>&emsp;
                           <strong>Look Photos</strong>
                         </button>
                       </figure>
@@ -863,7 +864,7 @@ export default function Home() {
           <div className="modal-content bg-dark">
             <div className="modal-header text-center">
               <h5 className="modal-title" id="staticBackdropLabel">
-                <i className="bi bi-camera-fill"></i>&emsp;Collection of My
+                <i className="bi bi-camera"></i>&emsp;Collection of My
                 Shoots
               </h5>
               <button
@@ -875,7 +876,7 @@ export default function Home() {
             </div>
             <div className="modal-body">
               <ul
-                className="nav nav-pills nav-fill flex-column flex-sm-row justify-content-center gap-3 mt-2 mb-5 bg-primary bg-opacity-25 rounded"
+                className="nav nav-pills nav flex-column flex-sm-row justify-content-center gap-3 mt-2 mb-5 bg-primary bg-opacity-25 rounded"
                 id="pills-tab"
                 role="tablist"
                 data-aos="fade-up"

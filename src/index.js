@@ -15,7 +15,7 @@ root.render(
       <Route path="*" element={<PageNotFound />} />
       <Route path="/blogs" element={<Blogs />} />
       <Route path="/blogs/klasifikasi-tingkat-keganasan-kanker-payudara-menggunakan-algoritma-k-nearest-neighbors" element={<Posts1 />} />
-      <Route path="/blogs/rancang-bangun-prototype-aplikasi-berbasis-website-untuk-optimalisasi-proses-pembelajaran-dengan-metode-self-paced-learning-di-dalam-kelas" element={<Posts2 />} />
+      <Route path="/blogs/sistem-pendukung-metode-pembelajaran-self-paced-learning-bagi-mahasiswa-di-dalam-kelas-berbasis-web" element={<Posts2 />} />
       <Route path="/contacts" element={<Contacts />} />
       <Route path="/" element={<Home />} />
       <Route path="/projects" element={<Projects />} />
@@ -36,4 +36,5 @@ window.addEventListener('load', function () {
 AOS.init();
 AOS.refreshHard();
 
+//* Measuring performance
 reportWebVitals();

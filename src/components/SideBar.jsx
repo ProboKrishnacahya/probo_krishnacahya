@@ -45,7 +45,7 @@ export default function SideBar() {
           window.history.back();
         }}
       >
-        <i className="bi bi-file-text-fill"></i>&emsp;Read Another Posts
+        <i className="bi bi-file-text"></i>&emsp;Read Another Posts
       </button>
     </div>
   );

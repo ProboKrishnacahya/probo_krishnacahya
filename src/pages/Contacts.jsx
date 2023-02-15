@@ -45,7 +45,7 @@ export default function Contacts() {
       url: "https://discord.com/users/542619130428391434",
       image: "images/contacts/discord.svg",
       title: "Discord",
-      text: "Probo Krishnacahya #0912",
+      text: "ProboKrishnacahya #0912",
     },
     {
       id: 5,
@@ -118,7 +118,7 @@ export default function Contacts() {
           >
             <div className="card pb-4 vstack gap-3">
               <div>
-                <i className="bi bi-envelope-fill"></i>&emsp;
+                <i className="bi bi-envelope"></i>&emsp;
                 <label for="formControlInputEmail" className="form-label">
                   Email Address&#42;
                 </label>
@@ -132,7 +132,7 @@ export default function Contacts() {
                 />
               </div>
               <div>
-                <i className="bi bi-person-fill"></i>&emsp;
+                <i className="bi bi-person"></i>&emsp;
                 <label for="formControlInputFullName" className="form-label">
                   Full Name&#42;
                 </label>
@@ -162,7 +162,7 @@ export default function Contacts() {
                       aria-expanded="false"
                       aria-controls="upload-file"
                     >
-                      <i className="bi bi-info-circle-fill"></i>
+                      <i className="bi bi-info-circle"></i>
                     </a>
                   </div>
                 </div>
@@ -215,7 +215,7 @@ export default function Contacts() {
                 />
               </div>
               <div>
-                <i className="bi bi-calendar-date-fill"></i>&emsp;
+                <i className="bi bi-calendar-date"></i>&emsp;
                 <label for="formControlInputDate" className="form-label">
                   Destined Date&#42;
                 </label>
@@ -249,7 +249,7 @@ export default function Contacts() {
               </small>
             </div>
             <button className="btn btn-primary w-100" type="submit">
-              <i className="bi bi-send-fill"></i>&emsp;
+              <i className="bi bi-send"></i>&emsp;
               <strong>Submit</strong>
             </button>
           </form>

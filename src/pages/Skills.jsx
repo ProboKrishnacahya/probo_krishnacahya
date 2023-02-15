@@ -421,7 +421,7 @@ export default function Skills() {
             alt={techStack5.alt}
           />
           <div className="card-body">
-            <p className="card-title">{techStack5.name}</p>
+            <p className="card-title text-white">{techStack5.name}</p>
           </div>
           <div className="card-footer text-white-50 border-0 bg-transparent pb-0">
             <p>{techStack5.level}</p>
@@ -1037,7 +1037,7 @@ export default function Skills() {
                     <div className="accordion-body">
                       <div className="d-flex mb-3">
                         <i
-                          className="bi bi-star-fill"
+                          className="bi bi-star"
                           data-bs-toggle="tooltip"
                           title="Specialization"
                         ></i>
@@ -1049,7 +1049,7 @@ export default function Skills() {
                       </div>
                       <div className="d-flex my-3">
                         <i
-                          className="bi bi-star-fill"
+                          className="bi bi-star"
                           data-bs-toggle="tooltip"
                           title="Specialization"
                         ></i>
@@ -1061,7 +1061,7 @@ export default function Skills() {
                       </div>
                       <div className="d-flex my-3">
                         <i
-                          className="bi bi-star-fill"
+                          className="bi bi-star"
                           data-bs-toggle="tooltip"
                           title="Specialization"
                         ></i>
@@ -1155,12 +1155,13 @@ export default function Skills() {
             <div className="d-inline">
               <span className="fs-6">Deployed using&ensp;</span>
               <span>
-                <a href="https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/next-netlify-starter">
+                <a href="https://firebase.google.com/products/hosting">
                   <img
-                    src="https://www.netlify.com/img/deploy/button.svg"
-                    alt="Netlify"
+                    src="images/skills/technologies/hosting.svg"
+                    width={256}
+                    alt="Firebase"
                     data-bs-toggle="tooltip"
-                    title="Netlify"
+                    title="Firebase"
                   />
                 </a>
               </span>

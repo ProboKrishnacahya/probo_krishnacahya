@@ -32,7 +32,7 @@ export default function Skills() {
       alt: "Cascading Style Sheets 3",
       name: "Cascading Style Sheets 3",
       url: "http://www.w3.org/TR/CSS/",
-      progress: "90%",
+      progress: "95%",
     },
     {
       id: 3,
@@ -56,7 +56,7 @@ export default function Skills() {
       alt: "Flutter",
       name: "Flutter",
       url: "https://flutter.dev/",
-      progress: "50%",
+      progress: "80%",
     },
     {
       id: 6,
@@ -80,7 +80,23 @@ export default function Skills() {
       alt: "ReactJS",
       name: "ReactJS",
       url: "https://reactjs.org/",
-      progress: "55%",
+      progress: "85%",
+    },
+    {
+      id: 9,
+      image: "images/skills/technologies/swiftui.svg",
+      alt: "SwiftUI",
+      name: "SwiftUI",
+      url: "https://developer.apple.com/xcode/swiftui/",
+      progress: "90%",
+    },
+    {
+      id: 10,
+      image: "images/skills/technologies/tailwindcss.svg",
+      alt: "Tailwind CSS",
+      name: "Tailwind CSS",
+      url: "https://tailwindcss.com/",
+      progress: "75%",
     },
   ];
 
@@ -92,11 +108,11 @@ export default function Skills() {
         <div className="kartu h-100">
           <img
             src={techStack1.image}
-            className="card-img-top mx-auto py-5"
+            className="card-img-top mx-auto py-0"
             alt={techStack1.alt}
             loading="lazy"
           />
-          <div className="card-body">
+          <div className="card-body py-2">
             <a href={techStack1.url} target="_blank" rel="noopener noreferrer">
               <p className="card-title">{techStack1.name}</p>
             </a>
@@ -138,7 +154,7 @@ export default function Skills() {
       alt: "Firebase",
       name: "Firebase",
       url: "https://www.firebase.com/",
-      progress: "40%",
+      progress: "50%",
     },
     {
       id: 3,
@@ -170,7 +186,7 @@ export default function Skills() {
       alt: "MySQL",
       name: "MySQL",
       url: "https://www.mysql.com/",
-      progress: "65%",
+      progress: "70%",
     },
     {
       id: 7,
@@ -178,7 +194,7 @@ export default function Skills() {
       alt: "Python",
       name: "Python",
       url: "https://www.python.org/",
-      progress: "60%",
+      progress: "65%",
     },
     {
       id: 8,
@@ -198,11 +214,11 @@ export default function Skills() {
         <div className="kartu h-100">
           <img
             src={techStack2.image}
-            className="card-img-top mx-auto py-5"
+            className="card-img-top mx-auto py-0"
             alt={techStack2.alt}
             loading="lazy"
           />
-          <div className="card-body">
+          <div className="card-body py-2">
             <a href={techStack2.url} target="_blank" rel="noopener noreferrer">
               <p className="card-title">{techStack2.name}</p>
             </a>
@@ -232,14 +248,30 @@ export default function Skills() {
   const techStacks3 = [
     {
       id: 1,
+      image: "images/skills/technologies/asana.svg",
+      alt: "Asana",
+      name: "Asana",
+      url: "https://asana.com/",
+      progress: "75%",
+    },
+    {
+      id: 2,
       image: "images/skills/technologies/github.svg",
       alt: "GitHub",
       name: "GitHub",
       url: "https://github.com/",
+      progress: "85%",
+    },
+    {
+      id: 3,
+      image: "images/skills/technologies/notion.svg",
+      alt: "Notion",
+      name: "Notion",
+      url: "https://notion.so/",
       progress: "80%",
     },
     {
-      id: 2,
+      id: 4,
       image: "images/skills/technologies/postman.svg",
       alt: "Postman",
       name: "Postman",
@@ -247,12 +279,12 @@ export default function Skills() {
       progress: "50%",
     },
     {
-      id: 3,
+      id: 5,
       image: "images/skills/technologies/trello.svg",
       alt: "Trello",
       name: "Trello",
       url: "https://trello.com/",
-      progress: "85%",
+      progress: "90%",
     },
   ];
 
@@ -264,11 +296,11 @@ export default function Skills() {
         <div className="kartu h-100">
           <img
             src={techStack3.image}
-            className="card-img-top mx-auto py-5"
+            className="card-img-top mx-auto py-0"
             alt={techStack3.alt}
             loading="lazy"
           />
-          <div className="card-body">
+          <div className="card-body py-2">
             <a href={techStack3.url} target="_blank" rel="noopener noreferrer">
               <p className="card-title">{techStack3.name}</p>
             </a>
@@ -298,6 +330,14 @@ export default function Skills() {
   const techStacks4 = [
     {
       id: 1,
+      image: "images/skills/technologies/after-effects.svg",
+      alt: "After Effects",
+      name: "After Effects",
+      url: "https://www.adobe.com/products/aftereffects.html",
+      progress: "35%",
+    },
+    {
+      id: 2,
       image: "images/skills/technologies/figma.svg",
       alt: "Figma",
       name: "Figma",
@@ -305,20 +345,12 @@ export default function Skills() {
       progress: "90%",
     },
     {
-      id: 2,
+      id: 3,
       image: "images/skills/technologies/illustrator.svg",
       alt: "Illustrator",
       name: "Illustrator",
       url: "https://www.adobe.com/products/illustrator.html",
-      progress: "65%",
-    },
-    {
-      id: 3,
-      image: "images/skills/technologies/photoshop.svg",
-      alt: "Photoshop",
-      name: "Photoshop",
-      url: "https://www.adobe.com/products/photoshop.html",
-      progress: "45%",
+      progress: "70%",
     },
     {
       id: 4,
@@ -330,19 +362,19 @@ export default function Skills() {
     },
     {
       id: 5,
+      image: "images/skills/technologies/photoshop.svg",
+      alt: "Photoshop",
+      name: "Photoshop",
+      url: "https://www.adobe.com/products/photoshop.html",
+      progress: "45%",
+    },
+    {
+      id: 6,
       image: "images/skills/technologies/premiere-pro.svg",
       alt: "Premiere Pro",
       name: "Premiere Pro",
       url: "https://www.adobe.com/products/premiere.html",
-      progress: "55%",
-    },
-    {
-      id: 6,
-      image: "images/skills/technologies/after-effects.svg",
-      alt: "After Effects",
-      name: "After Effects",
-      url: "https://www.adobe.com/products/aftereffects.html",
-      progress: "40%",
+      progress: "60%",
     },
   ];
 
@@ -354,11 +386,11 @@ export default function Skills() {
         <div className="kartu h-100">
           <img
             src={techStack4.image}
-            className="card-img-top mx-auto py-5"
+            className="card-img-top mx-auto py-0"
             alt={techStack4.alt}
             loading="lazy"
           />
-          <div className="card-body">
+          <div className="card-body py-2">
             <a href={techStack4.url} target="_blank" rel="noopener noreferrer">
               <p className="card-title">{techStack4.name}</p>
             </a>
@@ -420,7 +452,7 @@ export default function Skills() {
             className="card-img-top mx-auto"
             alt={techStack5.alt}
           />
-          <div className="card-body">
+          <div className="card-body py-2">
             <p className="card-title text-white">{techStack5.name}</p>
           </div>
           <div className="card-footer text-white-50 border-0 bg-transparent pb-0">
@@ -1034,7 +1066,7 @@ export default function Skills() {
                     aria-labelledby="headingOne"
                     data-bs-parent="#accordionSkills"
                   >
-                    <div className="accordion-body">
+                    <div className="accordion-body text-white">
                       <div className="d-flex mb-3">
                         <i
                           className="bi bi-star"
@@ -1101,7 +1133,7 @@ export default function Skills() {
                     aria-labelledby="headingTwo"
                     data-bs-parent="#accordionSkills"
                   >
-                    <div className="accordion-body">
+                    <div className="accordion-body text-white">
                       <div className="row row-cols-1 row-cols-md-4 g-4">
                         {visualDesign}
                       </div>
@@ -1134,7 +1166,7 @@ export default function Skills() {
                       aria-labelledby="headingThree"
                       data-bs-parent="#accordionSkills"
                     >
-                      <div className="accordion-body">
+                      <div className="accordion-body text-white">
                         <div className="row row-cols-1 row-cols-md-4 g-4">
                           {humanLanguages}
                         </div>

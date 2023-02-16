@@ -97,8 +97,7 @@ export default function Home() {
       name: "Bebras Indonesia Computational Thinking Challenge 2022",
       description:
         "Bebras Indonesia Computational Thinking Challenge is an online challenge for Students to educate problem solving skills that contain the concept of Computational Thinking. This activity was divided into 4 categories according to the education level of the participants, namely SiKecil, Siaga, Penggalang, and Penegak. At this event, I am responsible as a member of the committee through data recapitulation of all workshop participants for competition preparation training and uploading competition participant registration data from various Elementary Schools, Junior High Schools, and Senior High Schools in Indonesia to the central information system.",
-      position:
-        "Member of UC Bureau Committee",
+      position: "Member of UC Bureau Committee",
       date: "Nov 2022 - Jan 2023",
     },
     {
@@ -422,19 +421,17 @@ export default function Home() {
             </div>
             <div>
               <p>
-                Hello everyone &#128075; it's me, Probo Krishnacahya. You can
-                call me Krishna. I was born at Surabaya on November 2
-                <sup>nd</sup>, 2002.
-              </p>
-              <p>
-                I am able to handle multiple projects based on Critical
-                Thinking, Analytical Thinking, Creative Thinking, and Divergent
-                Thinking. Along with that, cooperative teamwork and excellent
-                individual are my key points. Focusing on deepening Frontend
-                Development and User Interface - User Experience (UI/UX) Design
-                expertise while grow up Artificial Intelligence (AI) and
-                Development, Security, and Operations (DevSecOps) skills are my
-                goals.
+                I am an Undergraduate Informatics Student at Universitas Ciputra
+                Surabaya with 2+ years of experience in the field of Frontend
+                Development and UI/UX Design expertise with an interest in
+                Machine Learning and DevSecOps. Proficient in using SwiftUI,
+                ReactJS, Flutter, Bootstrap, and Figma to create interactive and
+                aesthetic visual designs that are implemented into Mobile
+                Applications and Web Applications while still prioritizing ease
+                of use and accessibility so as to produce a satisfying user
+                experience. Along with that, Cooperative Teamwork, Proactive,
+                Persistence, Lifelong Learner, and High Sense of Achievement are
+                the key points that define me.
               </p>
             </div>
           </div>

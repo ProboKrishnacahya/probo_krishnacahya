@@ -120,7 +120,7 @@ export default function Contacts() {
               <div>
                 <i className="bi bi-envelope"></i>&emsp;
                 <label for="formControlInputEmail" className="form-label">
-                  Email Address&#42;
+                  Email Address<label className="text-danger">&#42;</label>
                 </label>
                 <input
                   type="email"
@@ -134,7 +134,7 @@ export default function Contacts() {
               <div>
                 <i className="bi bi-person"></i>&emsp;
                 <label for="formControlInputFullName" className="form-label">
-                  Full Name&#42;
+                  Full Name<label className="text-danger">&#42;</label>
                 </label>
                 <input
                   type="text"
@@ -217,7 +217,7 @@ export default function Contacts() {
               <div>
                 <i className="bi bi-calendar-date"></i>&emsp;
                 <label for="formControlInputDate" className="form-label">
-                  Destined Date&#42;
+                  Destined Date<label className="text-danger">&#42;</label>
                 </label>
                 <input
                   type="date"
@@ -231,13 +231,13 @@ export default function Contacts() {
               <div>
                 <i className="bi bi-quote"></i>&emsp;
                 <label for="formControlTextarea" className="form-label">
-                  Message&#42;
+                  Message<label className="text-danger">&#42;</label>
                 </label>
                 <textarea
                   name="message"
                   className="form-control border border-2"
                   id="formControlTextarea"
-                  placeholder="Insert your message here..."
+                  placeholder="Insert your message here.."
                   rows={5}
                   onChange={(e) => setCount(e.target.value.length)}
                   required
@@ -245,7 +245,7 @@ export default function Contacts() {
                 <div className="form-text text-end">{count}</div>
               </div>
               <small className="text-white-50 mt-2">
-                &#42;&#41;&nbsp;Required to fill.
+                <label className="text-danger">&#42;&#41;&nbsp;Required to fill.</label>
               </small>
             </div>
             <button className="btn btn-primary w-100" type="submit">

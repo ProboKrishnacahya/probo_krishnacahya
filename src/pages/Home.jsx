@@ -430,7 +430,7 @@ export default function Home() {
           <br />
           <div className="d-grid justify-content-between gap-4 d-lg-flex">
             <div className="card hstack flex-column flex-sm-row justify-content-between gap-4 col-xl-6">
-              <div className="text-center col-xl-6">
+              <div className="text-center col-lg-6">
                 <img
                   src="images/assets/author-about.svg"
                   className="rounded-circle shadow-sm"
@@ -439,7 +439,7 @@ export default function Home() {
                   loading="lazy"
                 />
               </div>
-              <div className="vstack col-xl-6 justify-content-center gap-3">
+              <div className="vstack col-lg-6 justify-content-center gap-3">
                 {aboutMe}
               </div>
             </div>
@@ -650,7 +650,8 @@ export default function Home() {
               </p>
             </div>
           </div>
-
+          </div>
+          
           <section id="below-the-fold">
             <div className="vstack gap-5">
               <div data-aos="fade-up">
@@ -890,7 +891,6 @@ export default function Home() {
               </button>
             </div>
           </div>
-        </div>
       </div>
       <div
         className="modal fade"

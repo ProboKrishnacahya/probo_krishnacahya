@@ -140,20 +140,22 @@ export default function Projects() {
                   ></i>
                   <strong>&emsp;Project Description:</strong>
                   <br />
-                  SejarahKita is a Web Application that implemented MVC
+                  SejarahKita is a Native Mobile Application based on Android OS
+                  that implemented MVVM Architecture along with Google Material
+                  Design System and created using Java. Integrated using MySQL
+                  and RESTful API with Web Application that implemented MVC
                   Architecture and created using PHP (Laravel), JavaScript,
-                  HTML5, CSS3, and Bootstrap. Integrated using MySQL and RESTful
-                  API with Native Mobile Application based on Android OS that
-                  implemented MVVM Architecture along with Google Material
-                  Design System and created using Java. This Education Game
-                  application in the form of Anagram Word Game is about Sejarah
-                  Indonesia subject for 12<sup>th</sup> Grade of High School
-                  Students that focused to the chapter of "The Struggle of the
-                  Indonesian Nation in Facing the Threat of Disintegration from
-                  Ideology, Interests, and Government Systems" and "The Role and
-                  Values of the Struggle of National Figures and Regional
-                  Leaders in Maintaining the Integrity of the State and
-                  Indonesian Nation in the 1945–1965 Period".
+                  HTML5, CSS3, and Bootstrap. This Education Game application in
+                  the form of Anagram Word Game is about Sejarah Indonesia
+                  subject for 12th Grade of High School Students that focused to
+                  the chapter of "The Struggle of the Indonesian Nation in
+                  Facing the Threat of Disintegration from Ideology, Interests,
+                  and Government Systems" and "The Role and Values of the
+                  Struggle of National Figures and Regional Leaders in
+                  Maintaining the Integrity of the State and Indonesian Nation
+                  in the 1945–1965 Period". The creation of SejarahKita is based
+                  on supporting the Sustainable Development Goals on the 4th
+                  goal about Quality Education.
                   <br />
                   <div className="mt-3">
                     <i
@@ -357,7 +359,10 @@ export default function Projects() {
                   seekers so that they can work together according to project
                   needs. Freelancers can upload their profiles and portfolios so
                   that website visitors can explore them so that clients can
-                  find suitable service providers.
+                  find suitable service providers. The creation of PartnerSeeker
+                  is based on supporting the Sustainable Development Goal on the
+                  8th goal about Decent Work and Economic Growth and 17th goal
+                  about Partnership for the Goals.
                   <br />
                   <div className="mt-3">
                     <i
@@ -466,6 +471,9 @@ export default function Projects() {
                   that created using Figma along with Google Material Design
                   System. This digital product implements digital technology
                   innovations as a means of education about Entrepreneurship.
+                  The creation of Weerausaha is based on supporting the
+                  Sustainable Development Goal on the 4th goal about Quality
+                  Education.
                   <br />
                   <div className="mt-3">
                     <i
@@ -580,13 +588,16 @@ export default function Projects() {
                   <strong>&emsp;Project Description:</strong>
                   <br />
                   Holiyay is a Native Mobile Application based on iOS that
-                  created using Swift along with Apple Human Interface
-                  Guidelines Design System. This Itinerary application aims to
-                  help holiday planning through selecting the tourist
-                  destinations that everyone want to visit and determining the
-                  specific time (day, date, month, and year) of the visit. It
-                  displays an amazing selection of holiday destinations from
-                  various countries and categories.
+                  created using Swift, SwiftUI, and MapKit along with Apple
+                  Human Interface Guidelines Design System. This Itinerary
+                  application aims to help holiday planning through selecting
+                  the tourist destinations that everyone want to visit and
+                  determining the specific time (day, date, month, and year) of
+                  the visit. It displays an amazing selection of holiday
+                  destinations from various countries and categories. The
+                  creation of Holiyay is based on supporting the Sustainable
+                  Development Goals on the 3rd goal about Good Health and
+                  Well-Being.
                   <br />
                   <div className="mt-3">
                     <i
@@ -932,12 +943,14 @@ export default function Projects() {
                   that implemented OOP Paradigm along with Google Material
                   Design System and created using Java, PHP, and MySQL. This
                   Finance application can be a solution for users to perform
-                  calculations while storing employee overtime data. Users can
+                  calculations while storing Employee overtime data. Users can
                   create, update, view the details, and delete such data based
                   on the entered report information. The calculation rules used
                   in LemburanKu are based on applicable regulations from the
                   Ministry of Manpower of the Republic of Indonesia (KEP.
-                  102/MEN/VI/2004 Kemnaker).
+                  102/MEN/VI/2004 Kemnaker). The creation of LemburanKu is based
+                  on supporting the Sustainable Development Goal on the 17th
+                  goal about Partnership for the Goals.
                   <br />
                   <div className="mt-3">
                     <i
@@ -1049,7 +1062,7 @@ export default function Projects() {
                   Printed Circuit Board Design and Circuit Simulator Software
                   and created using Arduino. The other platform version is a Web
                   Application that created using PHP (Laravel), JavaScript,
-                  HTML5, CSS3, and Tailwind CSS.
+                  HTML5, CSS3, Tailwind CSS, Alpine.js, and Livewire.
                   <br />
                   <div className="mt-3">
                     <i
@@ -1148,13 +1161,16 @@ export default function Projects() {
                   Sortrash is a Desktop Application based on a Graphical User
                   Interface that implemented Deep Learning technology with the
                   Convolutional Neural Network Algorithm and created using
-                  Python. The system in Sortrash can provide information in the
-                  form of results (responses) of garbage categories (types)
-                  according to the garbage objects uploaded from files available
-                  in the user's device local disk directory. This Image
-                  Classification application used to detect objects in the form
-                  of waste based on 3 categories (types) of waste, namely
-                  "Organic", "Inorganic Paper Made", and "Non-Paper Inorganic".
+                  Python and PySimpleGUI. The system in Sortrash can provide
+                  information in the form of results (responses) of garbage
+                  categories (types) according to the garbage objects uploaded
+                  from files available in the user's device local disk
+                  directory. This Image Classification application used to
+                  detect objects in the form of waste based on 3 categories
+                  (types) of waste, namely "Organic", "Inorganic Paper Made",
+                  and "Non-Paper Inorganic". The creation of Sortrash is based
+                  on supporting the Sustainable Development Goal on the 12th
+                  goal about Responsible Consumption and Production.
                   <br />
                   <div className="mt-3">
                     <i
@@ -1347,15 +1363,17 @@ export default function Projects() {
                   ></i>
                   <strong>&emsp;Project Description:</strong>
                   <br />
-                  LemburanKu is a Desktop Application that implemented
-                  Procedural Paradigm and created using Java. This Finance
-                  application can be a solution for users to perform
-                  calculations while storing employee overtime data. Users can
+                  LemburanKu is a Desktop Application based on Android OS that
+                  implemented Procedural Paradigm and created using Java. This
+                  Finance application can be a solution for users to perform
+                  calculations while storing Employee overtime data. Users can
                   create, update, view the details, and delete such data based
                   on the entered report information. The calculation rules used
                   in LemburanKu are based on applicable regulations from the
                   Ministry of Manpower of the Republic of Indonesia (KEP.
-                  102/MEN/VI/2004 Kemnaker).
+                  102/MEN/VI/2004 Kemnaker). The creation of LemburanKu is based
+                  on supporting the Sustainable Development Goal on the 17th
+                  goal about Partnership for the Goals.
                   <br />
                   <div className="mt-3">
                     <i

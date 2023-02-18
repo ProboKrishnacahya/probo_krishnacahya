@@ -341,7 +341,7 @@ export default function Home() {
             <br />
             <div className="d-grid gap-4 d-md-block justify-content-md-start mt-5">
               <NavLink
-                className="btn btn-primary btn-lg pulse px-4 me-md-2"
+                className="btn btn-primary btn-lg px-4 me-md-2"
                 to="/contacts"
               >
                 <i className="bi bi-person-plus"></i>&emsp;
@@ -423,7 +423,8 @@ export default function Home() {
               <p>
                 I am an Undergraduate Informatics Student at Universitas Ciputra
                 Surabaya with 2+ years of experience in the field of Frontend
-                Development and UI/UX Design expertise with an interest in DevSecOps and Machine Learning. Proficient in using SwiftUI,
+                Development and UI/UX Design expertise with an interest in
+                DevSecOps and Machine Learning. Proficient in using SwiftUI,
                 ReactJS, Flutter, Bootstrap, and Figma to create interactive and
                 aesthetic visual designs that are implemented into Mobile
                 Applications and Web Applications while still prioritizing ease
@@ -652,7 +653,7 @@ export default function Home() {
             <div
               id="carouselHobbies"
               className="carousel slide"
-              data-bs-ride="carousel"
+              data-bs-ride="false"
               data-bs-interval="false"
             >
               <div className="carousel-indicators">
@@ -890,7 +891,7 @@ export default function Home() {
             </div>
             <div className="modal-body">
               <ul
-                className="nav nav-pills nav flex-column flex-sm-row justify-content-center gap-3 mt-2 mb-5 bg-primary bg-opacity-25 rounded"
+                className="nav nav-pills nav flex-column flex-sm-row justify-content-center gap-3 mt-2 mb-5"
                 id="pills-tab"
                 role="tablist"
                 data-aos="fade-up"
@@ -948,7 +949,7 @@ export default function Home() {
                   <div
                     id="carouselPhotography1"
                     className="carousel slide"
-                    data-bs-ride="carousel"
+                    data-bs-ride="false"
                     data-bs-interval="false"
                   >
                     <div className="carousel-indicators">
@@ -1023,7 +1024,7 @@ export default function Home() {
                   <div
                     id="carouselPhotography2"
                     className="carousel slide"
-                    data-bs-ride="carousel"
+                    data-bs-ride="false"
                     data-bs-interval="false"
                   >
                     <div className="carousel-indicators">
@@ -1125,7 +1126,7 @@ export default function Home() {
                   <div
                     id="carouselPhotography3"
                     className="carousel slide"
-                    data-bs-ride="carousel"
+                    data-bs-ride="false"
                     data-bs-interval="false"
                   >
                     <div className="carousel-indicators">

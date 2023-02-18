@@ -94,7 +94,7 @@ export default function Footer() {
             </h3>
             <div className="text-end mt-5">
               <i
-                className="bi bi-arrow-up-circle-fill fs-1"
+                className="bi bi-arrow-up-circle-fill fs-1 text-link"
                 id="scrollToTop"
                 onClick={(e) => {
                   e.preventDefault();

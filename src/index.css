@@ -39,11 +39,11 @@ body {
 
 a {
   text-decoration: none !important;
-  color: var(--text-primary) !important;
+  color: var(--color-primary) !important;
 }
 
 a:hover {
-  color: var(--color-primary) !important;
+  filter: brightness(125%);
 }
 
 .social-media:hover {
@@ -131,7 +131,7 @@ img {
   -webkit-background-clip: text;
   animation: pk 2s ease-in-out infinite alternate;
   -webkit-animation: pk 2s ease-in-out infinite alternate;
-  -moz-animation: pk 2s ease-in-out infinite alternate
+  -moz-animation: pk 2s ease-in-out infinite alternate;
 }
 
 @keyframes pk {
@@ -144,18 +144,14 @@ img {
   }
 }
 
-.nav-link {
-  color: var(--text-primary) !important;
-}
-
-.nav-link:hover {
-  color: var(--color-primary) !important;
-}
-
 .nav-link.active {
   font-weight: 800 !important;
   color: var(--color-primary) !important;
   border-bottom: solid 2px var(--color-primary);
+}
+
+.nav-link:not(.active) {
+  filter: brightness(75%);
 }
 
 .navbar-toggler.collapsed .btn-close {
@@ -300,24 +296,6 @@ section {
 
   100% {
     opacity: 0;
-  }
-}
-
-.pulse {
-  animation: pulse 3s infinite linear;
-}
-
-@keyframes pulse {
-  0% {
-    box-shadow: 0 0 0 0 var(--color-primary);
-  }
-
-  75% {
-    box-shadow: 0 0 10px .5px var(--color-primary);
-  }
-
-  100% {
-    box-shadow: 0 0 0 0 var(--color-primary);
   }
 }
 
@@ -477,9 +455,8 @@ code {
   font-size: large !important;
 }
 
-#scrollToTop:hover {
+#scrollToTop {
   cursor: pointer;
-  color: var(--color-primary);
 }
 
 #preload {

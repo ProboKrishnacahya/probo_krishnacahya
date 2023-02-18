@@ -1,10 +1,7 @@
 :root {
-  --color-primary: #0A58CA;
-  --color-secondary: #0DCAF0;
-  --color-tertiary: #0C356A;
+  --color-primary: #3D8BFD;
   --text-primary: #FFFFFF;
   --text-secondary: #000000;
-  --text-tertiary: #54575B;
   --font-primary: 'Manrope', sans-serif;
   --font-secondary: 'La Belle Aurore', cursive;
 }
@@ -32,11 +29,11 @@ body {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: var(--color-secondary)
+  background-color: var(--color-primary)
 }
 
 ::selection {
-  background-color: var(--color-secondary);
+  background-color: var(--color-primary);
   color: var(--text-secondary)
 }
 
@@ -46,11 +43,11 @@ a {
 }
 
 a:hover {
-  color: var(--color-secondary) !important;
+  color: var(--color-primary) !important;
 }
 
 .social-media:hover {
-  color: var(--color-secondary);
+  color: var(--color-primary);
 }
 
 .tooltip {
@@ -91,6 +88,10 @@ img {
 
 #assets {
   max-width: 75% !important
+}
+
+.text-link {
+  color: var(--color-primary) !important;
 }
 
 .carousel-inner {
@@ -135,11 +136,11 @@ img {
 
 @keyframes pk {
   from {
-    text-shadow: 0 0 1px var(--color-secondary), 0 0 3px var(--color-secondary)
+    text-shadow: 0 0 1px var(--color-primary), 0 0 3px var(--color-primary)
   }
 
   to {
-    text-shadow: 0 0 3px var(--color-secondary), 0 0 5px var(--color-secondary)
+    text-shadow: 0 0 3px var(--color-primary), 0 0 5px var(--color-primary)
   }
 }
 
@@ -148,13 +149,13 @@ img {
 }
 
 .nav-link:hover {
-  color: var(--color-secondary) !important;
+  color: var(--color-primary) !important;
 }
 
 .nav-link.active {
   font-weight: 800 !important;
-  color: var(--color-secondary) !important;
-  border-bottom: solid 2px var(--color-secondary);
+  color: var(--color-primary) !important;
+  border-bottom: solid 2px var(--color-primary);
 }
 
 .navbar-toggler.collapsed .btn-close {
@@ -190,21 +191,21 @@ span {
 
 .btn-secondary {
   background-color: transparent;
-  border: solid 1.5px var(--color-secondary);
-  color: var(--color-secondary) !important;
+  border: solid 1.5px var(--color-primary);
+  color: var(--color-primary) !important;
 }
 
 .btn-secondary:hover,
 .btn-secondary:focus {
   box-shadow: none !important;
-  border: solid 1.5px var(--color-secondary);
+  border: solid 1.5px var(--color-primary);
   filter: brightness(110%) !important;
   background-color: transparent;
-  color: var(--color-secondary) !important;
+  color: var(--color-primary) !important;
 }
 
 .btn-secondary:active {
-  box-shadow: 0 0 0 2px var(--color-secondary) !important;
+  box-shadow: 0 0 0 2px var(--color-primary) !important;
 }
 
 hr {
@@ -240,7 +241,7 @@ section {
 
 .kontak {
   border-radius: 8px !important;
-  border-right: solid 10px var(--color-secondary) !important;
+  border-right: solid 10px var(--color-primary) !important;
 }
 
 .accordion-button.collapsed::after {
@@ -264,7 +265,7 @@ section {
 #pills-1-tab.nav-link:not(.active),
 #pills-2-tab.nav-link:not(.active),
 #pills-3-tab.nav-link:not(.active) {
-  color: var(--color-secondary) !important;
+  color: var(--color-primary) !important;
 }
 
 .progress-bar {
@@ -284,7 +285,7 @@ section {
 .typeCursor {
   font-size: 2.25rem;
   font-weight: bolder;
-  color: var(--color-secondary);
+  color: var(--color-primary);
   animation: blink 1s infinite linear;
 }
 
@@ -380,31 +381,26 @@ input[type="date"] {
 }
 
 .bi-arrow-up:hover {
-  color: var(--color-secondary) !important;
+  color: var(--color-primary) !important;
 }
 
 input,
 textarea {
   border-radius: 6px !important;
-  caret-color: var(--color-secondary);
+  caret-color: var(--color-primary);
   background-color: transparent !important;
   color: var(--text-primary) !important;
 }
 
 input:focus,
 textarea:focus {
-  border: solid 2px var(--color-secondary) !important;
+  border: solid 2px var(--color-primary) !important;
   background-color: var(--text-secondary) !important;
   box-shadow: none !important;
 }
 
 .caret {
-  caret-color: var(--color-secondary);
-}
-
-#postInput {
-  border: solid 2px var(--text-tertiary);
-  border-radius: 6px !important;
+  caret-color: var(--color-primary);
 }
 
 ::file-selector-button {
@@ -452,8 +448,8 @@ tr:last-child td:last-child {
 }
 
 .list-group-item-action:not(.active) {
-  background-color: var(--color-tertiary);
-  color: var(--color-secondary) !important;
+  background-color: var(--color-primary);
+  color: var(--text-primary) !important;
 }
 
 .list-group-item-action:hover {
@@ -483,7 +479,7 @@ code {
 
 #scrollToTop:hover {
   cursor: pointer;
-  color: var(--color-secondary);
+  color: var(--color-primary);
 }
 
 #preload {

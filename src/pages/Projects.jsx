@@ -184,7 +184,7 @@ export default function Projects() {
                     </ul>
                   </div>
                   <a
-                    className="text-info"
+                    className="text-link"
                     data-bs-toggle="collapse"
                     href="#SejarahKitaWebsite"
                     role="button"
@@ -266,14 +266,14 @@ export default function Projects() {
                     href="https://www.frontendmentor.io"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-info"
+                    className="text-link"
                   >
                     Frontend Mentor
                   </a>
                   . You can see the challenges I have completed through the
                   table listed on the website below.
                   <a
-                    className="text-info"
+                    className="text-link"
                     data-bs-toggle="collapse"
                     href="#FrontendMentor"
                     role="button"
@@ -386,7 +386,7 @@ export default function Projects() {
                     </ul>
                   </div>
                   <a
-                    className="text-info"
+                    className="text-link"
                     data-bs-toggle="collapse"
                     href="#PartnerSeeker"
                     role="button"
@@ -498,7 +498,7 @@ export default function Projects() {
                     </ul>
                   </div>
                   <a
-                    className="text-info"
+                    className="text-link"
                     data-bs-toggle="collapse"
                     href="#Weerausaha"
                     role="button"
@@ -611,7 +611,7 @@ export default function Projects() {
                     </ul>
                   </div>
                   <a
-                    className="text-info"
+                    className="text-link"
                     data-bs-toggle="collapse"
                     href="#Holiyay"
                     role="button"
@@ -742,7 +742,7 @@ export default function Projects() {
                     </ul>
                   </div>
                   <a
-                    className="text-info"
+                    className="text-link"
                     data-bs-toggle="collapse"
                     href="#SejarahKitaMobile"
                     role="button"
@@ -846,7 +846,7 @@ export default function Projects() {
                     producers by increasing the number of viewers.
                   </div>
                   <a
-                    className="text-info"
+                    className="text-link"
                     data-bs-toggle="collapse"
                     href="#TMDBClone"
                     role="button"
@@ -965,7 +965,7 @@ export default function Projects() {
                     </ul>
                   </div>
                   <a
-                    className="text-info"
+                    className="text-link"
                     data-bs-toggle="collapse"
                     href="#LemburanKuMobile"
                     role="button"
@@ -1083,7 +1083,7 @@ export default function Projects() {
                     </ul>
                   </div>
                   <a
-                    className="text-info"
+                    className="text-link"
                     data-bs-toggle="collapse"
                     href="#Faumation"
                     role="button"
@@ -1179,7 +1179,7 @@ export default function Projects() {
                     </ul>
                   </div>
                   <a
-                    className="text-info"
+                    className="text-link"
                     data-bs-toggle="collapse"
                     href="#Sortrash"
                     role="button"
@@ -1285,7 +1285,7 @@ export default function Projects() {
                     </ul>
                   </div>
                   <a
-                    className="text-info"
+                    className="text-link"
                     data-bs-toggle="collapse"
                     href="#DodgeMaster"
                     role="button"
@@ -1383,7 +1383,7 @@ export default function Projects() {
                     </ul>
                   </div>
                   <a
-                    className="text-info"
+                    className="text-link"
                     data-bs-toggle="collapse"
                     href="#LemburanKuDesktop"
                     role="button"

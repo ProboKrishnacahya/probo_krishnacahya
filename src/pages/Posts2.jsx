@@ -27,7 +27,7 @@ export default function Posts2() {
             <div className="hstack justify-content-between mb-2">
               <strong>Table of Contents</strong>
               <a
-                className="text-info"
+                className="text-link"
                 data-bs-toggle="collapse"
                 href="#daftar-isi"
                 role="button"
@@ -164,7 +164,7 @@ export default function Posts2() {
                     href="https://unsplash.com/@nci"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-info"
+                    className="text-link"
                   >
                     National Cancer Institute
                   </a>
@@ -256,7 +256,7 @@ export default function Posts2() {
                         href="https://www.datacamp.com/tutorial/k-nearest-neighbor-classification-scikit-learn"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-info"
+                        className="text-link"
                       >
                         DataCamp
                       </a>
@@ -312,7 +312,7 @@ export default function Posts2() {
                     href="https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data?resource=download"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-info"
+                    className="text-link"
                   >
                     Breast Cancer Wisconsin (Diagnostic) Data Set
                   </a>
@@ -321,7 +321,7 @@ export default function Posts2() {
                     href="https://www.kaggle.com/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-info"
+                    className="text-link"
                   >
                     Kaggle
                   </a>
@@ -385,7 +385,7 @@ export default function Posts2() {
                     href="https://raw.githubusercontent.com/nathanaelabel/Dataset/main/breast-cancer.csv"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-info"
+                    className="text-link"
                   >
                     Raw
                   </a>
@@ -1257,7 +1257,7 @@ export default function Posts2() {
                     href="https://towardsdatascience.com/building-a-simple-machine-learning-model-on-breast-cancer-data-eca4b3b99fa3"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-info"
+                    className="text-link"
                   >
                     https://towardsdatascience.com/building-a-simple-machine-learning-model-on-breast-cancer-data-eca4b3b99fa3
                   </a>
@@ -1269,7 +1269,7 @@ export default function Posts2() {
                     href="https://databoks.katadata.co.id/datapublish/2021/06/29/ini-jenis-kanker-yang-paling-banyak-diderita-penduduk-indonesia"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-info"
+                    className="text-link"
                   >
                     https://databoks.katadata.co.id/datapublish/2021/06/29/ini-jenis-kanker-yang-paling-banyak-diderita-penduduk-indonesia
                   </a>
@@ -1281,7 +1281,7 @@ export default function Posts2() {
                     href="https://www.geeksforgeeks.org/advantages-and-disadvantages-of-different-classification-models/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-info"
+                    className="text-link"
                   >
                     https://www.geeksforgeeks.org/advantages-and-disadvantages-of-different-classification-models/
                   </a>
@@ -1293,7 +1293,7 @@ export default function Posts2() {
                     href="https://repository.unikom.ac.id/67323/1/CV%20-%2011%20Supervised%20Learning.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-info"
+                    className="text-link"
                   >
                     https://repository.unikom.ac.id/67323/1/CV%20-%2011%20Supervised%20Learning.pdf
                   </a>
@@ -1306,7 +1306,7 @@ export default function Posts2() {
                     href="https://colab.research.google.com/drive/1V31XLxbqGf_4YIxiE_6iaS_trZIr4YHb?usp=sharing"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-info"
+                    className="text-link"
                   >
                     Notebook Python Analysis
                   </a>
@@ -1316,7 +1316,7 @@ export default function Posts2() {
                     href="https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data?resource=download"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-info"
+                    className="text-link"
                   >
                     Dataset
                   </a>
@@ -1329,12 +1329,12 @@ export default function Posts2() {
                   href="http://bit.ly/nathanaelabel"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-info"
+                  className="text-link"
                 >
                   Nathanael Abel Arianto
                 </a>
                 ,&nbsp;
-                <NavLink to="/" className="text-info">
+                <NavLink to="/" className="text-link">
                   Probo Krishnacahya
                 </NavLink>
                 .

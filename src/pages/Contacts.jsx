@@ -125,7 +125,7 @@ export default function Contacts() {
                 <input
                   type="email"
                   name="email"
-                  className="form-control border border-2"
+                  className="form-control border border-2 border-secondary"
                   id="formControlInputEmail"
                   placeholder="johndoe@email.com"
                   required
@@ -139,7 +139,7 @@ export default function Contacts() {
                 <input
                   type="text"
                   name="full-name"
-                  className="form-control border border-2"
+                  className="form-control border border-2 border-secondary"
                   id="formControlInputFullName"
                   placeholder="John Doe"
                   required
@@ -155,7 +155,7 @@ export default function Contacts() {
                   </div>
                   <div>
                     <a
-                      className="text-info"
+                      className="text-link"
                       data-bs-toggle="collapse"
                       href="#upload-file"
                       role="button"
@@ -169,7 +169,7 @@ export default function Contacts() {
                 <input
                   type="file"
                   name="upload-file"
-                  className="form-control border border-2"
+                  className="form-control border border-2 border-secondary"
                   id="formFileMultiple"
                   multiple
                 />
@@ -202,13 +202,14 @@ export default function Contacts() {
                 </div>
               </div>
               <div>
+                <i class="bi bi-link-45deg"></i>&emsp;
                 <label for="formControlURL" className="form-label">
                   Uniform Resource Locator (URL)
                 </label>
                 <input
                   type="url"
                   name="url"
-                  className="form-control border border-2"
+                  className="form-control border border-2 border-secondary"
                   id="formControlURL"
                   placeholder="https://url.com/"
                   aria-describedby="form-addon"
@@ -222,7 +223,7 @@ export default function Contacts() {
                 <input
                   type="date"
                   name="date"
-                  className="form-control border border-2"
+                  className="form-control border border-2 border-secondary"
                   id="formControlDatePicker"
                   min={new Date().toISOString().split("T")[0]}
                   required
@@ -235,7 +236,7 @@ export default function Contacts() {
                 </label>
                 <textarea
                   name="message"
-                  className="form-control border border-2"
+                  className="form-control border border-2 border-secondary"
                   id="formControlTextarea"
                   placeholder="Insert your message here.."
                   rows={5}
@@ -245,7 +246,9 @@ export default function Contacts() {
                 <div className="form-text text-end">{count}</div>
               </div>
               <small className="text-white-50 mt-2">
-                <label className="text-danger">&#42;&#41;&nbsp;Required to fill.</label>
+                <label className="text-danger">
+                  &#42;&#41;&nbsp;Required to fill.
+                </label>
               </small>
             </div>
             <button className="btn btn-primary w-100" type="submit">

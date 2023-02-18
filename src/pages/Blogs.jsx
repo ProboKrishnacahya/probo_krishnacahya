@@ -189,7 +189,7 @@ export default function Blogs() {
       <Header />
       <div className="container my-5" data-aos="fade-up">
         <SearchBar />
-
+        
         {/* Data tidak ditemukan */}
         <div className="postNotFound text-center">
           <img src="images/assets/no_result.svg" alt="No Result" />

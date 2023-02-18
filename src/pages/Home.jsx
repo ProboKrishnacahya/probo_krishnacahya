@@ -140,7 +140,7 @@ export default function Home() {
             href={event.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-info"
+            className="text-link"
           >
             <h3 className="text-center">{event.name}</h3>
           </a>
@@ -222,7 +222,7 @@ export default function Home() {
             href={achievement.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-info"
+            className="text-link"
           >
             <h3 className="text-center">{achievement.name}</h3>
           </a>
@@ -409,7 +409,7 @@ export default function Home() {
               <div className="text-center col-xl-6">
                 <img
                   src="images/assets/author-about.svg"
-                  className="border border-2 border-info rounded-circle shadow-sm"
+                  className="rounded-circle shadow-sm"
                   id="assets"
                   alt="Probo Krishnacahya"
                   loading="lazy"
@@ -423,8 +423,7 @@ export default function Home() {
               <p>
                 I am an Undergraduate Informatics Student at Universitas Ciputra
                 Surabaya with 2+ years of experience in the field of Frontend
-                Development and UI/UX Design expertise with an interest in
-                Machine Learning and DevSecOps. Proficient in using SwiftUI,
+                Development and UI/UX Design expertise with an interest in DevSecOps and Machine Learning. Proficient in using SwiftUI,
                 ReactJS, Flutter, Bootstrap, and Figma to create interactive and
                 aesthetic visual designs that are implemented into Mobile
                 Applications and Web Applications while still prioritizing ease
@@ -467,7 +466,7 @@ export default function Home() {
                   href="https://www.uc.ac.id/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-info"
+                  className="text-link"
                 >
                   <strong>Universitas Ciputra Surabaya</strong>
                 </a>
@@ -518,7 +517,7 @@ export default function Home() {
                   href="https://dm.sch.id/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-info"
+                  className="text-link"
                 >
                   <strong>
                     Sekolah Menengah Atas Kristen Dharma Mulya Surabaya
@@ -570,7 +569,7 @@ export default function Home() {
                   href="https://dm.sch.id/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-info"
+                  className="text-link"
                 >
                   <strong>
                     Sekolah Menengah Pertama Kristen Dharma Mulya Surabaya
@@ -611,7 +610,7 @@ export default function Home() {
                   href="https://dm.sch.id/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-info"
+                  className="text-link"
                 >
                   <strong>Sekolah Dasar Kristen Dharma Mulya Surabaya</strong>
                 </a>

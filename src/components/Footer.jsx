@@ -10,7 +10,7 @@ export default function Footer() {
             <span className="text-footer">Hand-Coded by</span>
             <NavLink to="/">
               &nbsp;
-              <span className="text-footer text-info">Probo Krishnacahya</span>
+              <span className="text-footer text-link">Probo Krishnacahya</span>
             </NavLink>
             <hr />
             <h3 className="d-flex justify-content-center gap-4">

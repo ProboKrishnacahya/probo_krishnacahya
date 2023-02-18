@@ -17,8 +17,8 @@ export default function SideBar() {
         id="copyToClipboard"
         onClick={copyToClipboard}
       >
-        <span className="text-info fs-6">
-          <i className="bi bi-link-45deg"></i>&emsp;Copy to Clipboard
+        <span className="text-link fs-6">
+          <i className="bi bi-link-45deg"></i>&emsp;Copy URL
         </span>
         <div
           className="toast align-items-center bg-dark"
@@ -28,7 +28,7 @@ export default function SideBar() {
           aria-atomic="true"
         >
           <div className="d-flex">
-            <div className="toast-body">Copied to Clipboard.</div>
+            <div className="toast-body">URL Copied to Clipboard.</div>
             <button
               type="button"
               className="btn-close btn-close-white me-2 m-auto"
@@ -39,14 +39,11 @@ export default function SideBar() {
         </div>
       </div>
 
-      <button
-        className="btn btn-primary w-100"
-        onClick={() => {
-          window.history.back();
-        }}
-      >
-        <i className="bi bi-file-text"></i>&emsp;Read Another Posts
-      </button>
+      <a href="/blogs">
+        <button className="btn btn-primary w-100">
+          <i className="bi bi-file-text"></i>&emsp;Read Another Posts
+        </button>
+      </a>
     </div>
   );
 }

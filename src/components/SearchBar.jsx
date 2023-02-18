@@ -25,18 +25,17 @@ export default function SearchBar() {
   });
 
   return (
-    <div className="input-group flex-nowrap gap-2 mb-5" data-aos="fade-up">
+    <div class="input-group mb-3 position-relative">
+      <div class=" position-absolute">
+        <span class="input-group-text bg-transparent border-0 text-muted">
+          <i class="bi bi-search"></i>&emsp;Search Title
+        </span>
+      </div>
       <input
-        id="postInput"
         type="text"
-        className="form-control rounded bg-dark"
-        placeholder="Type to search.."
-        aria-label="Search"
-        aria-describedby="addon-wrapping"
+        id="postInput"
+        class="form-control border border-2 border-secondary"
       />
-      <button className="btn btn-primary" type="submit">
-        <i className="bi bi-search"></i>
-      </button>
     </div>
   );
 }

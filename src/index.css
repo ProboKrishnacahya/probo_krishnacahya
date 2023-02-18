@@ -28,13 +28,9 @@ body {
   background-color: var(--color-primary)
 }
 
-::-webkit-scrollbar-thumb:hover {
-  background-color: var(--color-primary)
-}
-
 ::selection {
   background-color: var(--color-primary);
-  color: var(--text-secondary)
+  color: var(--text-primary)
 }
 
 a {
@@ -54,8 +50,8 @@ a:hover {
   font-family: var(--font-primary) !important;
 }
 
-img,
 a,
+img,
 .nav-link,
 .page-link {
   -webkit-user-drag: none;
@@ -252,7 +248,8 @@ section {
 
 #pills-1-tab.active,
 #pills-2-tab.active,
-#pills-3-tab.active {
+#pills-3-tab.active,
+#pills-4-tab.active {
   border-bottom: none;
   background-color: var(--color-primary);
   color: var(--text-primary) !important;
@@ -260,7 +257,9 @@ section {
 
 #pills-1-tab.nav-link:not(.active),
 #pills-2-tab.nav-link:not(.active),
-#pills-3-tab.nav-link:not(.active) {
+#pills-3-tab.nav-link:not(.active),
+#pills-4-tab.nav-link:not(.active) {
+  font-weight: 600 !important;
   color: var(--color-primary) !important;
 }
 
@@ -485,7 +484,7 @@ code {
     transform: none !important
   }
 
-  span {
+  span:not(.Typewriter__wrapper):not(.typeCursor) {
     font-size: large !important
   }
 

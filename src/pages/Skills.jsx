@@ -500,7 +500,7 @@ export default function Skills() {
 
   for (const technology of technologies) {
     personalWebsite.push(
-      <div className="d-inline me-1">
+      <div className="d-inline mx-2">
         <span>
           <a href={technology.url} target="_blank" rel="noopener noreferrer">
             <i
@@ -509,7 +509,6 @@ export default function Skills() {
               title={technology.title}
             ></i>
           </a>
-          &ensp;
         </span>
       </div>
     );
@@ -1036,7 +1035,7 @@ export default function Skills() {
           <section id="content" data-aos="fade-up">
             <div className="container text-center p-0">
               <h4 className="text-center section-title">
-                &#128640;&ensp;Technology Stack
+                &#128640;&ensp;Tech Stack
               </h4>
               {/* Information of Technology */}
               <div className="accordion" id="accordionSkills">

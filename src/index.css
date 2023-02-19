@@ -3,7 +3,8 @@
   --text-primary: #FFFFFF;
   --text-secondary: #000000;
   --font-primary: 'Manrope', sans-serif;
-  --font-secondary: 'La Belle Aurore', cursive;
+  --font-secondary: 'IBM Plex Mono', monospace;
+  --font-tertiary: 'La Belle Aurore', cursive;
 }
 
 body {
@@ -109,11 +110,15 @@ img {
   max-width: 5% !important;
 }
 
-#logo {
+#fullName {
   font-family: var(--font-secondary);
 }
 
-.font-secondary {
+#logo {
+  font-family: var(--font-tertiary);
+}
+
+.font-tertiary {
   max-width: 3rem !important
 }
 

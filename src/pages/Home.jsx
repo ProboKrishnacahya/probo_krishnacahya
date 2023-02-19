@@ -363,7 +363,9 @@ export default function Home() {
       <Header />
       <div className="container">
         <div className="text-center my-5" data-aos="fade-up">
-          <p className="display-2 fw-bold">Probo Krishnacahya</p>
+          <p className="display-2 fw-bold" id="fullName">
+            &lt;Probo Krishnacahya&nbsp;&#47;&gt;
+          </p>
           <br />
           <p className="display-4" id="typewriting"></p>
           <br />
@@ -650,247 +652,245 @@ export default function Home() {
               </p>
             </div>
           </div>
-          </div>
-          
-          <section id="below-the-fold">
-            <div className="vstack gap-5">
-              <div data-aos="fade-up">
-                <h4 className="text-center section-title">
-                  &#128293;&ensp;Volunteering Experiences
-                </h4>
-                <br />
-                {volunteeringExperiences}
-              </div>
+        </div>
 
-              <div data-aos="fade-up">
-                <h4 className="text-center section-title">
-                  &#127942;&ensp;Awards
-                </h4>
-                <br />
-                {awards}
+        <section id="below-the-fold">
+          <div className="vstack gap-5">
+            <div data-aos="fade-up">
+              <h4 className="text-center section-title">
+                &#128293;&ensp;Volunteering Experiences
+              </h4>
+              <br />
+              {volunteeringExperiences}
+            </div>
+
+            <div data-aos="fade-up">
+              <h4 className="text-center section-title">
+                &#127942;&ensp;Awards
+              </h4>
+              <br />
+              {awards}
+            </div>
+          </div>
+        </section>
+
+        <div className="container mb-5" data-aos="fade-up">
+          <h4 className="text-center section-title">&#10024;&ensp;Hobbies</h4>
+          <br />
+          <div
+            id="carouselHobbies"
+            className="carousel slide"
+            data-bs-ride="false"
+            data-bs-interval="false"
+          >
+            <div className="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselHobbies"
+                data-bs-slide-to="0"
+                data-bs-toggle="tooltip"
+                title="Photography"
+                className="active"
+                aria-current="true"
+                aria-label="Photography"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselHobbies"
+                data-bs-slide-to="1"
+                data-bs-toggle="tooltip"
+                title="Sports"
+                aria-label="Sports"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselHobbies"
+                data-bs-slide-to="2"
+                data-bs-toggle="tooltip"
+                title="Cooking"
+                aria-label="Cooking"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselHobbies"
+                data-bs-slide-to="3"
+                data-bs-toggle="tooltip"
+                title="Watch Movies and Series"
+                aria-label="Watch Movies and Series"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselHobbies"
+                data-bs-slide-to="4"
+                data-bs-toggle="tooltip"
+                title="Listen to Songs"
+                aria-label="Listen to Songs"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselHobbies"
+                data-bs-slide-to="5"
+                data-bs-toggle="tooltip"
+                title="Playing Games"
+                aria-label="Playing Games"
+              ></button>
+            </div>
+            <div className="carousel-inner text-center mx-auto">
+              <div className="carousel-item active">
+                <div className="col">
+                  <div className="kartu h-100">
+                    <figure className="figure d-block mx-auto">
+                      <img
+                        src="images/home/hobbies/photography.svg"
+                        className="card-img-top mx-auto pt-5 pb-3"
+                        alt="Photography"
+                        loading="lazy"
+                      />
+                      <figcaption className="figure-caption text-white-50">
+                        Landscape Genre
+                      </figcaption>
+                      <p className="card-title mb-3">Photography</p>
+                      <button
+                        type="button"
+                        className="btn btn-primary mb-5"
+                        data-bs-toggle="modal"
+                        data-bs-target="#modalPhotography"
+                      >
+                        <i className="bi bi-image"></i>&emsp;
+                        <strong>Look Photos</strong>
+                      </button>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+              <div className="carousel-item">
+                <div className="col">
+                  <div className="kartu h-100">
+                    <figure className="figure d-block mx-auto">
+                      <a
+                        href="https://storyset.com/illustration/jiu-jitsu/rafiki"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <img
+                          src="images/home/hobbies/sports.svg"
+                          className="card-img-top mx-auto py-3"
+                          alt="Sports"
+                          loading="lazy"
+                        />
+                      </a>
+                      <figcaption className="figure-caption text-white-50">
+                        Martial Arts
+                      </figcaption>
+                      <p className="card-title mb-5">Sports</p>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+              <div className="carousel-item">
+                <div className="col">
+                  <div className="kartu h-100">
+                    <figure className="figure d-block mx-auto">
+                      <img
+                        src="images/home/hobbies/cooking.svg"
+                        className="card-img-top mx-auto py-3"
+                        alt="Cooking"
+                        loading="lazy"
+                      />
+                      <figcaption className="figure-caption text-white-50">
+                        Main Course and Dessert
+                      </figcaption>
+                      <p className="card-title mb-5">Cooking</p>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+              <div className="carousel-item">
+                <div className="col">
+                  <div className="kartu h-100">
+                    <figure className="figure d-block mx-auto">
+                      <img
+                        src="images/home/hobbies/watch-movies-and-series.svg"
+                        className="card-img-top mx-auto py-3"
+                        alt="Watch Movies and Series"
+                        loading="lazy"
+                      />
+                      <figcaption className="figure-caption text-white-50">
+                        Action and Science Fiction Genres
+                      </figcaption>
+                      <p className="card-title mb-5">Watch Movies and Series</p>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+              <div className="carousel-item">
+                <div className="col">
+                  <div className="kartu h-100">
+                    <figure className="figure d-block mx-auto">
+                      <img
+                        src="images/home/hobbies/listen-to-songs.svg"
+                        className="card-img-top mx-auto pt-5 pb-3"
+                        alt="Listen to Songs"
+                        loading="lazy"
+                      />
+                      <figcaption className="figure-caption ">
+                        Pop Genre
+                      </figcaption>
+                      <p className="card-title mb-5">Listen to Songs</p>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+              <div className="carousel-item">
+                <div className="col">
+                  <div className="kartu h-100">
+                    <figure className="figure d-block mx-auto">
+                      <img
+                        src="images/home/hobbies/playing-games.svg"
+                        className="card-img-top mx-auto pt-5 pb-3"
+                        alt="Playing Games"
+                        loading="lazy"
+                      />
+                      <figcaption className="figure-caption text-white-50">
+                        Action, Racing, Sports, Third Person Shooter, and Open
+                        World Genres
+                      </figcaption>
+                      <p className="card-title mb-5">Playing Games</p>
+                    </figure>
+                  </div>
+                </div>
               </div>
             </div>
-          </section>
-
-          <div className="container mb-5" data-aos="fade-up">
-            <h4 className="text-center section-title">&#10024;&ensp;Hobbies</h4>
-            <br />
-            <div
-              id="carouselHobbies"
-              className="carousel slide"
-              data-bs-ride="false"
-              data-bs-interval="false"
+            <button
+              className="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselHobbies"
+              data-bs-slide="prev"
             >
-              <div className="carousel-indicators">
-                <button
-                  type="button"
-                  data-bs-target="#carouselHobbies"
-                  data-bs-slide-to="0"
-                  data-bs-toggle="tooltip"
-                  title="Photography"
-                  className="active"
-                  aria-current="true"
-                  aria-label="Photography"
-                ></button>
-                <button
-                  type="button"
-                  data-bs-target="#carouselHobbies"
-                  data-bs-slide-to="1"
-                  data-bs-toggle="tooltip"
-                  title="Sports"
-                  aria-label="Sports"
-                ></button>
-                <button
-                  type="button"
-                  data-bs-target="#carouselHobbies"
-                  data-bs-slide-to="2"
-                  data-bs-toggle="tooltip"
-                  title="Cooking"
-                  aria-label="Cooking"
-                ></button>
-                <button
-                  type="button"
-                  data-bs-target="#carouselHobbies"
-                  data-bs-slide-to="3"
-                  data-bs-toggle="tooltip"
-                  title="Watch Movies and Series"
-                  aria-label="Watch Movies and Series"
-                ></button>
-                <button
-                  type="button"
-                  data-bs-target="#carouselHobbies"
-                  data-bs-slide-to="4"
-                  data-bs-toggle="tooltip"
-                  title="Listen to Songs"
-                  aria-label="Listen to Songs"
-                ></button>
-                <button
-                  type="button"
-                  data-bs-target="#carouselHobbies"
-                  data-bs-slide-to="5"
-                  data-bs-toggle="tooltip"
-                  title="Playing Games"
-                  aria-label="Playing Games"
-                ></button>
-              </div>
-              <div className="carousel-inner text-center mx-auto">
-                <div className="carousel-item active">
-                  <div className="col">
-                    <div className="kartu h-100">
-                      <figure className="figure d-block mx-auto">
-                        <img
-                          src="images/home/hobbies/photography.svg"
-                          className="card-img-top mx-auto pt-5 pb-3"
-                          alt="Photography"
-                          loading="lazy"
-                        />
-                        <figcaption className="figure-caption text-white-50">
-                          Landscape Genre
-                        </figcaption>
-                        <p className="card-title mb-3">Photography</p>
-                        <button
-                          type="button"
-                          className="btn btn-primary mb-5"
-                          data-bs-toggle="modal"
-                          data-bs-target="#modalPhotography"
-                        >
-                          <i className="bi bi-image"></i>&emsp;
-                          <strong>Look Photos</strong>
-                        </button>
-                      </figure>
-                    </div>
-                  </div>
-                </div>
-                <div className="carousel-item">
-                  <div className="col">
-                    <div className="kartu h-100">
-                      <figure className="figure d-block mx-auto">
-                        <a
-                          href="https://storyset.com/illustration/jiu-jitsu/rafiki"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <img
-                            src="images/home/hobbies/sports.svg"
-                            className="card-img-top mx-auto py-3"
-                            alt="Sports"
-                            loading="lazy"
-                          />
-                        </a>
-                        <figcaption className="figure-caption text-white-50">
-                          Martial Arts
-                        </figcaption>
-                        <p className="card-title mb-5">Sports</p>
-                      </figure>
-                    </div>
-                  </div>
-                </div>
-                <div className="carousel-item">
-                  <div className="col">
-                    <div className="kartu h-100">
-                      <figure className="figure d-block mx-auto">
-                        <img
-                          src="images/home/hobbies/cooking.svg"
-                          className="card-img-top mx-auto py-3"
-                          alt="Cooking"
-                          loading="lazy"
-                        />
-                        <figcaption className="figure-caption text-white-50">
-                          Main Course and Dessert
-                        </figcaption>
-                        <p className="card-title mb-5">Cooking</p>
-                      </figure>
-                    </div>
-                  </div>
-                </div>
-                <div className="carousel-item">
-                  <div className="col">
-                    <div className="kartu h-100">
-                      <figure className="figure d-block mx-auto">
-                        <img
-                          src="images/home/hobbies/watch-movies-and-series.svg"
-                          className="card-img-top mx-auto py-3"
-                          alt="Watch Movies and Series"
-                          loading="lazy"
-                        />
-                        <figcaption className="figure-caption text-white-50">
-                          Action and Science Fiction Genres
-                        </figcaption>
-                        <p className="card-title mb-5">
-                          Watch Movies and Series
-                        </p>
-                      </figure>
-                    </div>
-                  </div>
-                </div>
-                <div className="carousel-item">
-                  <div className="col">
-                    <div className="kartu h-100">
-                      <figure className="figure d-block mx-auto">
-                        <img
-                          src="images/home/hobbies/listen-to-songs.svg"
-                          className="card-img-top mx-auto pt-5 pb-3"
-                          alt="Listen to Songs"
-                          loading="lazy"
-                        />
-                        <figcaption className="figure-caption ">
-                          Pop Genre
-                        </figcaption>
-                        <p className="card-title mb-5">Listen to Songs</p>
-                      </figure>
-                    </div>
-                  </div>
-                </div>
-                <div className="carousel-item">
-                  <div className="col">
-                    <div className="kartu h-100">
-                      <figure className="figure d-block mx-auto">
-                        <img
-                          src="images/home/hobbies/playing-games.svg"
-                          className="card-img-top mx-auto pt-5 pb-3"
-                          alt="Playing Games"
-                          loading="lazy"
-                        />
-                        <figcaption className="figure-caption text-white-50">
-                          Action, Racing, Sports, Third Person Shooter, and Open
-                          World Genres
-                        </figcaption>
-                        <p className="card-title mb-5">Playing Games</p>
-                      </figure>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <button
-                className="carousel-control-prev"
-                type="button"
-                data-bs-target="#carouselHobbies"
-                data-bs-slide="prev"
-              >
-                <span
-                  className="carousel-control-prev-icon"
-                  aria-hidden="true"
-                  data-bs-toggle="tooltip"
-                  title="Previous"
-                ></span>
-                <span className="visually-hidden">Previous</span>
-              </button>
-              <button
-                className="carousel-control-next"
-                type="button"
-                data-bs-target="#carouselHobbies"
-                data-bs-slide="next"
-              >
-                <span
-                  className="carousel-control-next-icon"
-                  aria-hidden="true"
-                  data-bs-toggle="tooltip"
-                  title="Next"
-                ></span>
-                <span className="visually-hidden">Next</span>
-              </button>
-            </div>
+              <span
+                className="carousel-control-prev-icon"
+                aria-hidden="true"
+                data-bs-toggle="tooltip"
+                title="Previous"
+              ></span>
+              <span className="visually-hidden">Previous</span>
+            </button>
+            <button
+              className="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselHobbies"
+              data-bs-slide="next"
+            >
+              <span
+                className="carousel-control-next-icon"
+                aria-hidden="true"
+                data-bs-toggle="tooltip"
+                title="Next"
+              ></span>
+              <span className="visually-hidden">Next</span>
+            </button>
           </div>
+        </div>
       </div>
       <div
         className="modal fade"
@@ -922,7 +922,7 @@ export default function Home() {
               >
                 <li className="nav-item" role="presentation">
                   <button
-                    className="nav-link px-5"
+                    className="nav-link active px-5"
                     id="pills-1-tab"
                     data-bs-toggle="pill"
                     data-bs-target="#pills-1"
@@ -950,7 +950,7 @@ export default function Home() {
                 </li>
                 <li className="nav-item" role="presentation">
                   <button
-                    className="nav-link active px-5"
+                    className="nav-link px-5"
                     id="pills-3-tab"
                     data-bs-toggle="pill"
                     data-bs-target="#pills-3"
@@ -1117,7 +1117,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div
-                  className="tab-pane fade show active"
+                  className="tab-pane fade show"
                   id="pills-3"
                   role="tabpanel"
                   aria-labelledby="pills-3-tab"

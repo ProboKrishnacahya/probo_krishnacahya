@@ -25,16 +25,16 @@ export default function SearchBar() {
   });
 
   return (
-    <div class="input-group mb-3 position-relative">
-      <div class=" position-absolute">
-        <span class="input-group-text bg-transparent border-0 text-muted">
-          <i class="bi bi-search"></i>&emsp;Search Title
+    <div className="input-group position-relative">
+      <div className="position-absolute">
+        <span className="input-group-text bg-transparent border-0 text-muted">
+          <i className="bi bi-search"></i>&emsp;Search Title
         </span>
       </div>
       <input
         type="text"
         id="postInput"
-        class="form-control border border-2 border-secondary"
+        className="form-control border border-2 border-secondary"
       />
     </div>
   );

@@ -187,7 +187,7 @@ export default function Blogs() {
   return (
     <div className="blogs">
       <Header />
-      <div className="container my-5" data-aos="fade-up">
+      <div className="container d-grid gap-5 my-5" data-aos="fade-up">
         <SearchBar />
         
         {/* Data tidak ditemukan */}
@@ -198,8 +198,10 @@ export default function Blogs() {
         </div>
 
         {/* Data ditemukan */}
+        <div>
         <div>{blogsReadMore}</div>
         <div>{blogsComingSoon}</div>
+        </div>
       </div>
       <Footer />
     </div>

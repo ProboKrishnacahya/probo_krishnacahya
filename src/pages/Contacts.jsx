@@ -202,7 +202,7 @@ export default function Contacts() {
                 </div>
               </div>
               <div>
-                <i class="bi bi-link-45deg"></i>&emsp;
+                <i className="bi bi-link-45deg"></i>&emsp;
                 <label for="formControlURL" className="form-label">
                   Uniform Resource Locator (URL)
                 </label>

@@ -83,47 +83,107 @@ export default function Projects() {
           aria-labelledby="pills-1-tab"
         >
           <div className="container">
-            <div className="card" data-aos="fade-up">
+            <div className="card my-4" data-aos="fade-up">
+              <h3 className="text-center">D'Orphan</h3>
+              <hr />
+              <div className="text-white-50">
+                <i
+                  className="bi bi-clock category-time"
+                  data-bs-toggle="tooltip"
+                  title="Project Execution Time"
+                ></i>
+                &emsp;Oct 2022 - Jan 2023
+              </div>
+              <div className="mt-3">
+                <p>
+                  <i
+                    className="bi bi-info-circle"
+                    data-bs-toggle="tooltip"
+                    title="Project Description"
+                  ></i>
+                  <strong>&emsp;Project Description:</strong>
+                  <br />
+                  D'Orphan is a Web Application that implemented MVC
+                  Architecture and created using PHP (Laravel), JavaScript,
+                  HTML5, CSS3, Tailwind CSS, Alpine.js, Livewire, and Midtrans.
+                  The other platform version is a Native Mobile Application
+                  based on Android OS that implemented MVVM Architecture along
+                  with Google Material Design System and created using Java.
+                  This Educational Application is designed in the form of a
+                  Talents and Interests Development Course for Orphanage
+                  Children so that they have qualified expertise with priority
+                  according to their talents and interests. The creation of
+                  D'Orphan is based on supporting the Sustainable Development
+                  Goals on the 4th goal about Quality Education and 8th goal
+                  about Decent Work and Economic Growth.
+                  <br />
+                  <div className="mt-3">
+                    <i
+                      className="bi bi-stars"
+                      data-bs-toggle="tooltip"
+                      title="Benefits of Use"
+                    ></i>
+                    <strong>&emsp;Benefits of Use:</strong>
+                    <br />
+                    <ul className="benefits">
+                      <li>
+                        &ensp;Publication of Orphanage and Tutor Profiles.
+                      </li>
+                      <li>&ensp;Find Tutors for Course Sessions.</li>
+                      <li>&ensp;Manage Course Session Requests.</li>
+                      <li>&ensp;Competition Recommendations.</li>
+                      <li>
+                        &ensp;Facilitate the process of donating from Donors to
+                        Orphanages.
+                      </li>
+                    </ul>
+                  </div>
+                  <details>
+                    <summary className="text-link my-1">
+                      <strong>Documentation</strong>
+                    </summary>
+                    <div className="d-grid gap-2">
+                      <div>
+                        <img
+                          src="images/projects/Website/DOrphan.svg"
+                          className="d-block mx-auto"
+                          alt="Project"
+                          loading="lazy"
+                        />
+                      </div>
+                      <div>
+                        <iframe
+                          loading="lazy"
+                          src="https://www.canva.com/design/DAFVFKLOzrU/view?embed"
+                          allowfullscreen="allowfullscreen"
+                          allow="fullscreen"
+                          title="Canva DOrphan"
+                          className="rounded w-100 vh-100"
+                        ></iframe>
+                      </div>
+                    </div>
+                  </details>
+                </p>
+              </div>
+              <br />
+              <div className="d-grid justify-content-center">
+                <a
+                  href="https://dorphan.archotech.site/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="btn btn-primary">
+                    <i className="bi bi-box-arrow-up-right"></i>&emsp;
+                    <strong>Visit Project</strong>
+                  </button>
+                </a>
+              </div>
+            </div>
+
+            <div className="card my-4" data-aos="fade-up">
               <h3 className="text-center">SejarahKita</h3>
               <hr />
-              <div className="d-flex justify-content-center gap-3 mt-2">
-                <i
-                  className="fa-brands fa-php fa-2x"
-                  data-bs-toggle="tooltip"
-                  title="Hypertext Preprocessor"
-                ></i>
-                <i
-                  className="fa-solid fa-database fa-2x"
-                  data-bs-toggle="tooltip"
-                  title="MySQL"
-                ></i>
-                <i
-                  className="fa-brands fa-js-square fa-2x"
-                  data-bs-toggle="tooltip"
-                  title="JavaScript"
-                ></i>
-                <i
-                  className="fa-brands fa-html5 fa-2x"
-                  data-bs-toggle="tooltip"
-                  title="HyperText Markup Language 5"
-                ></i>
-                <i
-                  className="fa-brands fa-css3-alt fa-2x"
-                  data-bs-toggle="tooltip"
-                  title="Cascading Style Sheets 3"
-                ></i>
-                <i
-                  className="fa-brands fa-laravel fa-2x"
-                  data-bs-toggle="tooltip"
-                  title="Laravel"
-                ></i>
-                <i
-                  className="fa-brands fa-bootstrap fa-2x"
-                  data-bs-toggle="tooltip"
-                  title="Bootstrap"
-                ></i>
-              </div>
-              <div className="text-white-50 mt-3">
+              <div className="text-white-50">
                 <i
                   className="bi bi-clock category-time"
                   data-bs-toggle="tooltip"
@@ -140,18 +200,18 @@ export default function Projects() {
                   ></i>
                   <strong>&emsp;Project Description:</strong>
                   <br />
-                  SejarahKita is a Native Mobile Application based on Android OS
-                  that implemented MVVM Architecture along with Google Material
-                  Design System and created using Java. Integrated using MySQL
-                  and RESTful API with Web Application that implemented MVC
+                  SejarahKita is a Web Application that implemented MVC
                   Architecture and created using PHP (Laravel), JavaScript,
-                  HTML5, CSS3, and Bootstrap. This Education Game application in
-                  the form of Anagram Word Game is about Sejarah Indonesia
-                  subject for 12th Grade of High School Students that focused to
-                  the chapter of "The Struggle of the Indonesian Nation in
-                  Facing the Threat of Disintegration from Ideology, Interests,
-                  and Government Systems" and "The Role and Values of the
-                  Struggle of National Figures and Regional Leaders in
+                  HTML5, CSS3, and Bootstrap. Integrated using MySQL and RESTful
+                  API with Native Mobile Application based on Android OS that
+                  implemented MVVM Architecture along with Google Material
+                  Design System and created using Java. This Education Game
+                  application in the form of Anagram Word Game is about Sejarah
+                  Indonesia subject for 12th Grade of High School Students that
+                  focused to the chapter of "The Struggle of the Indonesian
+                  Nation in Facing the Threat of Disintegration from Ideology,
+                  Interests, and Government Systems" and "The Role and Values of
+                  the Struggle of National Figures and Regional Leaders in
                   Maintaining the Integrity of the State and Indonesian Nation
                   in the 1945–1965 Period". The creation of SejarahKita is based
                   on supporting the Sustainable Development Goals on the 4th
@@ -159,7 +219,7 @@ export default function Projects() {
                   <br />
                   <div className="mt-3">
                     <i
-                      className="bi bi-star"
+                      className="bi bi-stars"
                       data-bs-toggle="tooltip"
                       title="Benefits of Use"
                     ></i>
@@ -185,25 +245,32 @@ export default function Projects() {
                       </li>
                     </ul>
                   </div>
-                  <a
-                    className="text-link"
-                    data-bs-toggle="collapse"
-                    href="#SejarahKitaWebsite"
-                    role="button"
-                    aria-expanded="false"
-                    aria-controls="SejarahKitaWebsite"
-                  >
-                    <br />
-                    <strong>Load More..</strong>
-                  </a>
-                  <div className="collapse mt-3" id="SejarahKitaWebsite">
-                    <img
-                      src="images/projects/Website/SejarahKita Website.svg"
-                      className="d-block mx-auto"
-                      alt="Project"
-                      loading="lazy"
-                    />
-                  </div>
+                  <details>
+                    <summary className="text-link my-1">
+                      <strong>Documentation</strong>
+                    </summary>
+                    <div className="d-grid gap-2">
+                      <div>
+                        <img
+                          src="images/projects/Website/SejarahKita Website.svg"
+                          className="d-block mx-auto"
+                          alt="Project"
+                          loading="lazy"
+                        />
+                      </div>
+                      <div>
+                        <iframe
+                          src="https://docs.google.com/presentation/d/e/2PACX-1vRMUrJJCVHJSytcg5RyEWQkzDott6Vjs4tahWfCMBA8BEueFa9mwxQoXPuxDJKOexf6_wjvNPFvBuBg/embed?start=false&loop=false&delayms=60000"
+                          frameborder="0"
+                          allowfullscreen="true"
+                          mozallowfullscreen="true"
+                          webkitallowfullscreen="true"
+                          title="Google Slide SejarahKita Website"
+                          className="rounded w-100 vh-100"
+                        ></iframe>
+                      </div>
+                    </div>
+                  </details>
                 </p>
               </div>
               <br />
@@ -221,32 +288,10 @@ export default function Projects() {
               </div>
             </div>
 
-            <div className="card my-4" data-aos="fade-up">
+            {/* <div className="card my-4" data-aos="fade-up">
               <h3 className="text-center">Frontend Mentor Challenges</h3>
               <hr />
-              <div className="d-flex justify-content-center gap-3 mt-2">
-                <i
-                  className="fa-brands fa-html5 fa-2x"
-                  data-bs-toggle="tooltip"
-                  title="HyperText Markup Language 5"
-                ></i>
-                <i
-                  className="fa-brands fa-css3-alt fa-2x"
-                  data-bs-toggle="tooltip"
-                  title="Cascading Style Sheets 3"
-                ></i>
-                <i
-                  className="fa-brands fa-js-square fa-2x"
-                  data-bs-toggle="tooltip"
-                  title="JavaScript"
-                ></i>
-                <i
-                  className="fa-brands fa-bootstrap fa-2x"
-                  data-bs-toggle="tooltip"
-                  title="Bootstrap"
-                ></i>
-              </div>
-              <div className="text-white-50 mt-3">
+              <div className="text-white-50">
                 <i
                   className="bi bi-clock category-time"
                   data-bs-toggle="tooltip"
@@ -268,31 +313,23 @@ export default function Projects() {
                     href="https://www.frontendmentor.io"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-link"
+                    className="text-link my-1"
                   >
                     Frontend Mentor
                   </a>
                   . You can see the challenges I have completed through the
                   table listed on the website below.
-                  <a
-                    className="text-link"
-                    data-bs-toggle="collapse"
-                    href="#FrontendMentor"
-                    role="button"
-                    aria-expanded="false"
-                    aria-controls="FrontendMentor"
-                  >
-                    <br />
-                    <strong>Load More..</strong>
-                  </a>
-                  <div className="collapse mt-3" id="FrontendMentor">
+                  <details>
+                    <summary className="text-link my-1">
+                      <strong>Documentation</strong>
+                    </summary>
                     <img
                       src="images/projects/Website/Frontend Mentor.svg"
                       className="d-block mx-auto"
                       alt="Project"
                       loading="lazy"
                     />
-                  </div>
+                  </details>
                 </p>
               </div>
               <br />
@@ -308,34 +345,12 @@ export default function Projects() {
                   </button>
                 </a>
               </div>
-            </div>
+            </div> */}
 
             <div className="card my-4" data-aos="fade-up">
               <h3 className="text-center">PartnerSeeker</h3>
               <hr />
-              <div className="d-flex justify-content-center gap-3 mt-2">
-                <i
-                  className="fa-brands fa-php fa-2x"
-                  data-bs-toggle="tooltip"
-                  title="Hypertext Preprocessor"
-                ></i>
-                <i
-                  className="fa-solid fa-database fa-2x"
-                  data-bs-toggle="tooltip"
-                  title="MySQL"
-                ></i>
-                <i
-                  className="fa-brands fa-html5 fa-2x"
-                  data-bs-toggle="tooltip"
-                  title="HyperText Markup Language 5"
-                ></i>
-                <i
-                  className="fa-brands fa-css3-alt fa-2x"
-                  data-bs-toggle="tooltip"
-                  title="Cascading Style Sheets 3"
-                ></i>
-              </div>
-              <div className="text-white-50 mt-3">
+              <div className="text-white-50">
                 <i
                   className="bi bi-clock category-time"
                   data-bs-toggle="tooltip"
@@ -366,7 +381,7 @@ export default function Projects() {
                   <br />
                   <div className="mt-3">
                     <i
-                      className="bi bi-star"
+                      className="bi bi-stars"
                       data-bs-toggle="tooltip"
                       title="Benefits of Use"
                     ></i>
@@ -390,25 +405,17 @@ export default function Projects() {
                       </li>
                     </ul>
                   </div>
-                  <a
-                    className="text-link"
-                    data-bs-toggle="collapse"
-                    href="#PartnerSeeker"
-                    role="button"
-                    aria-expanded="false"
-                    aria-controls="PartnerSeeker"
-                  >
-                    <br />
-                    <strong>Load More..</strong>
-                  </a>
-                  <div className="collapse mt-3" id="PartnerSeeker">
+                  <details>
+                    <summary className="text-link my-1">
+                      <strong>Documentation</strong>
+                    </summary>
                     <img
                       src="images/projects/Website/PartnerSeeker.svg"
                       className="d-block mx-auto"
                       alt="Project"
                       loading="lazy"
                     />
-                  </div>
+                  </details>
                 </p>
               </div>
               <br />
@@ -438,19 +445,7 @@ export default function Projects() {
             <div className="card my-4" data-aos="fade-up">
               <h3 className="text-center">Weerausaha</h3>
               <hr />
-              <div className="d-flex justify-content-center gap-3 mt-2">
-                <i
-                  className="fa-brands fa-figma fa-2x"
-                  data-bs-toggle="tooltip"
-                  title="Figma"
-                ></i>
-                <i
-                  className="fa-brands fa-google fa-2x"
-                  data-bs-toggle="tooltip"
-                  title="Google Material Design System"
-                ></i>
-              </div>
-              <div className="text-white-50 mt-3">
+              <div className="text-white-50">
                 <i
                   className="bi bi-clock category-time"
                   data-bs-toggle="tooltip"
@@ -477,7 +472,7 @@ export default function Projects() {
                   <br />
                   <div className="mt-3">
                     <i
-                      className="bi bi-star"
+                      className="bi bi-stars"
                       data-bs-toggle="tooltip"
                       title="Benefits of Use"
                     ></i>
@@ -505,40 +500,38 @@ export default function Projects() {
                       </li>
                     </ul>
                   </div>
-                  <a
-                    className="text-link"
-                    data-bs-toggle="collapse"
-                    href="#Weerausaha"
-                    role="button"
-                    aria-expanded="false"
-                    aria-controls="Weerausaha"
-                  >
-                    <br />
-                    <strong>Load More..</strong>
-                  </a>
-                  <div className="collapse mt-3" id="Weerausaha">
-                    <iframe
-                      src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FINHbc8MFw9AL6Jtll9VNqi%2FWeerausaha%3Fpage-id%3D0%253A1%26node-id%3D67%253A7426%26starting-point-node-id%3D67%253A7406%26scaling%3Dscale-down%26show-proto-sidebar%3D1"
-                      allowfullscreen
-                      title="Figma Weerausaha"
-                      className="rounded w-100 vh-100"
-                    ></iframe>
-                    <iframe
-                      src="https://docs.google.com/presentation/d/e/2PACX-1vSQKnbXZBFOg0qbyRMzd-fGYo-HeR9L0sX7e43mYX8yIABmVrSBCQ2k8MEkPkNzMHmprleZ_MXLqGLX/embed?start=false&loop=false&delayms=60000"
-                      frameborder="0"
-                      allowfullscreen="true"
-                      mozallowfullscreen="true"
-                      webkitallowfullscreen="true"
-                      title="Google Slide Weerausaha"
-                      className="rounded w-100 vh-100"
-                    ></iframe>
-                  </div>
+                  <details>
+                    <summary className="text-link my-1">
+                      <strong>Documentation</strong>
+                    </summary>
+                    <div className="d-grid gap-2">
+                      <div>
+                        <iframe
+                          src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FINHbc8MFw9AL6Jtll9VNqi%2FWeerausaha%3Fpage-id%3D0%253A1%26node-id%3D67%253A7426%26starsting-point-node-id%3D67%253A7406%26scaling%3Dscale-down%26show-proto-sidebar%3D1"
+                          allowfullscreen
+                          title="Figma Weerausaha"
+                          className="rounded w-100 vh-100"
+                        ></iframe>
+                      </div>
+                      <div>
+                        <iframe
+                          src="https://docs.google.com/presentation/d/e/2PACX-1vSQKnbXZBFOg0qbyRMzd-fGYo-HeR9L0sX7e43mYX8yIABmVrSBCQ2k8MEkPkNzMHmprleZ_MXLqGLX/embed?start=false&loop=false&delayms=60000"
+                          frameborder="0"
+                          allowfullscreen="true"
+                          mozallowfullscreen="true"
+                          webkitallowfullscreen="true"
+                          title="Google Slide Weerausaha"
+                          className="rounded w-100 vh-100"
+                        ></iframe>
+                      </div>
+                    </div>
+                  </details>
                 </p>
               </div>
               <br />
               <div className="d-grid justify-content-center">
                 <a
-                  href="https://www.figma.com/proto/INHbc8MFw9AL6Jtll9VNqi/Weerausaha?page-id=0%3A1&node-id=67%3A7426&starting-point-node-id=67%3A7406&scaling=scale-down&show-proto-sidebar=1"
+                  href="https://www.figma.com/proto/INHbc8MFw9AL6Jtll9VNqi/Weerausaha?page-id=0%3A1&node-id=67%3A7426&starsting-point-node-id=67%3A7406&scaling=scale-down&show-proto-sidebar=1"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -553,24 +546,7 @@ export default function Projects() {
             <div className="card my-4" data-aos="fade-up">
               <h3 className="text-center">Holiyay</h3>
               <hr />
-              <div className="d-flex justify-content-center gap-3 mt-2">
-                <i
-                  className="fa-brands fa-swift fa-2x"
-                  data-bs-toggle="tooltip"
-                  title="Swift"
-                ></i>
-                <i
-                  className="fa-solid fa-mobile-button fa-2x"
-                  data-bs-toggle="tooltip"
-                  title="iOS"
-                ></i>
-                <i
-                  className="fa-brands fa-apple fa-2x"
-                  data-bs-toggle="tooltip"
-                  title="Apple Human Interface Guidelines Design System"
-                ></i>
-              </div>
-              <div className="text-white-50 mt-3">
+              <div className="text-white-50">
                 <i
                   className="bi bi-clock category-time"
                   data-bs-toggle="tooltip"
@@ -601,7 +577,7 @@ export default function Projects() {
                   <br />
                   <div className="mt-3">
                     <i
-                      className="bi bi-star"
+                      className="bi bi-stars"
                       data-bs-toggle="tooltip"
                       title="Benefits of Use"
                     ></i>
@@ -621,25 +597,26 @@ export default function Projects() {
                       </li>
                     </ul>
                   </div>
-                  <a
-                    className="text-link"
-                    data-bs-toggle="collapse"
-                    href="#Holiyay"
-                    role="button"
-                    aria-expanded="false"
-                    aria-controls="Holiyay"
-                  >
-                    <br />
-                    <strong>Load More..</strong>
-                  </a>
-                  <div className="collapse mt-3" id="Holiyay">
+                  <details>
+                    <summary className="text-link my-1">
+                      <strong>Documentation</strong>
+                    </summary>
                     <img
                       src="images/projects/Mobile/Holiyay.svg"
                       className="w-75 h-75 d-block mx-auto"
                       alt="Project"
                       loading="lazy"
                     />
-                  </div>
+                    <iframe
+                      src="https://docs.google.com/presentation/d/e/2PACX-1vTMYlcLaMqVFJOjRQVi6HlG7Im5lHpI4tX1Z8436Xnjfie6moTwW9dxoZ3gPrMI1o0BEKIuUH3UXRnP/embed?start=false&loop=false&delayms=60000"
+                      frameborder="0"
+                      allowfullscreen="true"
+                      mozallowfullscreen="true"
+                      webkitallowfullscreen="true"
+                      title="Google Slide Holiyay"
+                      className="rounded w-100 vh-100"
+                    ></iframe>
+                  </details>
                 </p>
               </div>
               <br />
@@ -660,39 +637,7 @@ export default function Projects() {
             <div className="card" data-aos="fade-up">
               <h3 className="text-center">SejarahKita</h3>
               <hr />
-              <div className="d-flex justify-content-center gap-3 mt-2">
-                <i
-                  className="fa-brands fa-java fa-2x"
-                  data-bs-toggle="tooltip"
-                  title="Java"
-                ></i>
-                <i
-                  className="fa-brands fa-php fa-2x"
-                  data-bs-toggle="tooltip"
-                  title="Hypertext Preprocessor"
-                ></i>
-                <i
-                  className="fa-solid fa-database fa-2x"
-                  data-bs-toggle="tooltip"
-                  title="MySQL"
-                ></i>
-                <i
-                  className="fa-brands fa-laravel fa-2x"
-                  data-bs-toggle="tooltip"
-                  title="Laravel"
-                ></i>
-                <i
-                  className="fa-brands fa-android fa-2x"
-                  data-bs-toggle="tooltip"
-                  title="Android"
-                ></i>
-                <i
-                  className="fa-brands fa-google fa-2x"
-                  data-bs-toggle="tooltip"
-                  title="Google Material Design System"
-                ></i>
-              </div>
-              <div className="text-white-50 mt-3">
+              <div className="text-white-50">
                 <i
                   className="bi bi-clock category-time"
                   data-bs-toggle="tooltip"
@@ -726,7 +671,7 @@ export default function Projects() {
                   <br />
                   <div className="mt-3">
                     <i
-                      className="bi bi-star"
+                      className="bi bi-stars"
                       data-bs-toggle="tooltip"
                       title="Benefits of Use"
                     ></i>
@@ -752,25 +697,17 @@ export default function Projects() {
                       </li>
                     </ul>
                   </div>
-                  <a
-                    className="text-link"
-                    data-bs-toggle="collapse"
-                    href="#SejarahKitaMobile"
-                    role="button"
-                    aria-expanded="false"
-                    aria-controls="SejarahKitaMobile"
-                  >
-                    <br />
-                    <strong>Load More..</strong>
-                  </a>
-                  <div className="collapse mt-3" id="SejarahKitaMobile">
+                  <details>
+                    <summary className="text-link my-1">
+                      <strong>Documentation</strong>
+                    </summary>
                     <img
                       src="images/projects/Mobile/SejarahKita Mobile.svg"
                       className="w-75 h-75 d-block mx-auto"
                       alt="Project"
                       loading="lazy"
                     />
-                  </div>
+                  </details>
                 </p>
               </div>
               <br />
@@ -791,29 +728,7 @@ export default function Projects() {
             <div className="card my-4" data-aos="fade-up">
               <h3 className="text-center">The Movie Database (TMDB) Clone</h3>
               <hr />
-              <div className="d-flex justify-content-center gap-3 mt-2">
-                <i
-                  className="fa-brands fa-java fa-2x"
-                  data-bs-toggle="tooltip"
-                  title="Java"
-                ></i>
-                <i
-                  className="fa-solid fa-file-code fa-2x"
-                  data-bs-toggle="tooltip"
-                  title="The Movie Database's Application Programming Interface"
-                ></i>
-                <i
-                  className="fa-brands fa-android fa-2x"
-                  data-bs-toggle="tooltip"
-                  title="Android"
-                ></i>
-                <i
-                  className="fa-brands fa-google fa-2x"
-                  data-bs-toggle="tooltip"
-                  title="Google Material Design System"
-                ></i>
-              </div>
-              <div className="text-white-50 mt-3">
+              <div className="text-white-50">
                 <i
                   className="bi bi-clock category-time"
                   data-bs-toggle="tooltip"
@@ -845,7 +760,7 @@ export default function Projects() {
                   detailed information, and also watch trailer.
                   <div className="mt-3">
                     <i
-                      className="bi bi-star"
+                      className="bi bi-stars"
                       data-bs-toggle="tooltip"
                       title="Benefits of Use"
                     ></i>
@@ -856,26 +771,18 @@ export default function Projects() {
                     watching so that it can increase the income of film
                     producers by increasing the number of viewers.
                   </div>
-                  <a
-                    className="text-link"
-                    data-bs-toggle="collapse"
-                    href="#TMDBClone"
-                    role="button"
-                    aria-expanded="false"
-                    aria-controls="TMDBClone"
-                  >
-                    <br />
-                    <strong>Load More..</strong>
-                  </a>
-                  <div className="collapse mt-3" id="TMDBClone">
-                    <img
-                      src="images/projects/Mobile/TMDB Clone.svg"
-                      className="w-75 h-75 d-block mx-auto"
-                      alt="Project"
-                      loading="lazy"
-                    />
-                  </div>
                 </p>
+                <details>
+                  <summary className="text-link my-1">
+                    <strong>Documentation</strong>
+                  </summary>
+                  <img
+                    src="images/projects/Mobile/TMDB Clone.svg"
+                    className="w-75 h-75 d-block mx-auto"
+                    alt="Project"
+                    loading="lazy"
+                  />
+                </details>
               </div>
               <br />
               <div className="d-grid justify-content-center">
@@ -895,34 +802,7 @@ export default function Projects() {
             <div className="card my-4" data-aos="fade-up">
               <h3 className="text-center">LemburanKu</h3>
               <hr />
-              <div className="d-flex justify-content-center gap-3 mt-2">
-                <i
-                  className="fa-brands fa-java fa-2x"
-                  data-bs-toggle="tooltip"
-                  title="Java"
-                ></i>
-                <i
-                  className="fa-brands fa-php fa-2x"
-                  data-bs-toggle="tooltip"
-                  title="Hypertext Preprocessor"
-                ></i>
-                <i
-                  className="fa-solid fa-database fa-2x"
-                  data-bs-toggle="tooltip"
-                  title="MySQL"
-                ></i>
-                <i
-                  className="fa-brands fa-android fa-2x"
-                  data-bs-toggle="tooltip"
-                  title="Android"
-                ></i>
-                <i
-                  className="fa-brands fa-google fa-2x"
-                  data-bs-toggle="tooltip"
-                  title="Google Material Design System"
-                ></i>
-              </div>
-              <div className="text-white-50 mt-3">
+              <div className="text-white-50">
                 <i
                   className="bi bi-clock category-time"
                   data-bs-toggle="tooltip"
@@ -954,7 +834,7 @@ export default function Projects() {
                   <br />
                   <div className="mt-3">
                     <i
-                      className="bi bi-star"
+                      className="bi bi-stars"
                       data-bs-toggle="tooltip"
                       title="Benefits of Use"
                     ></i>
@@ -977,25 +857,17 @@ export default function Projects() {
                       </li>
                     </ul>
                   </div>
-                  <a
-                    className="text-link"
-                    data-bs-toggle="collapse"
-                    href="#LemburanKuMobile"
-                    role="button"
-                    aria-expanded="false"
-                    aria-controls="LemburanKuMobile"
-                  >
-                    <br />
-                    <strong>Load More..</strong>
-                  </a>
-                  <div className="collapse mt-3" id="LemburanKuMobile">
+                  <details>
+                    <summary className="text-link my-1">
+                      <strong>Documentation</strong>
+                    </summary>
                     <img
                       src="images/projects/Mobile/LemburanKu Mobile.svg"
                       className="w-75 h-75 d-block mx-auto"
                       alt="Project"
                       loading="lazy"
                     />
-                  </div>
+                  </details>
                 </p>
               </div>
               <br />
@@ -1025,19 +897,7 @@ export default function Projects() {
             <div className="card my-4" data-aos="fade-up">
               <h3 className="text-center">Faumation</h3>
               <hr />
-              <div className="d-flex justify-content-center gap-3 mt-2">
-                <i
-                  className="fa-solid fa-microchip fa-2x"
-                  data-bs-toggle="tooltip"
-                  title="Arduino"
-                ></i>
-                <i
-                  className="fa-solid fa-memory fa-2x"
-                  data-bs-toggle="tooltip"
-                  title="Proteus"
-                ></i>
-              </div>
-              <div className="text-white-50 mt-3">
+              <div className="text-white-50">
                 <i
                   className="bi bi-clock category-time"
                   data-bs-toggle="tooltip"
@@ -1066,7 +926,7 @@ export default function Projects() {
                   <br />
                   <div className="mt-3">
                     <i
-                      className="bi bi-star"
+                      className="bi bi-stars"
                       data-bs-toggle="tooltip"
                       title="Benefits of Use"
                     ></i>
@@ -1095,25 +955,17 @@ export default function Projects() {
                       </li>
                     </ul>
                   </div>
-                  <a
-                    className="text-link"
-                    data-bs-toggle="collapse"
-                    href="#Faumation"
-                    role="button"
-                    aria-expanded="false"
-                    aria-controls="Faumation"
-                  >
-                    <br />
-                    <strong>Load More..</strong>
-                  </a>
-                  <div className="collapse mt-3" id="Faumation">
+                  <details>
+                    <summary className="text-link my-1">
+                      <strong>Documentation</strong>
+                    </summary>
                     <img
                       src="images/projects/Desktop/Faumation.svg"
                       className="w-50 h-50 d-block mx-auto rounded"
                       alt="Project"
                       loading="lazy"
                     />
-                  </div>
+                  </details>
                 </p>
               </div>
               <br />
@@ -1134,14 +986,7 @@ export default function Projects() {
             <div className="card my-4" data-aos="fade-up">
               <h3 className="text-center">Sortrash</h3>
               <hr />
-              <div className="d-flex justify-content-center mt-2">
-                <i
-                  className="fa-brands fa-python fa-2x"
-                  data-bs-toggle="tooltip"
-                  title="Python"
-                ></i>
-              </div>
-              <div className="text-white-50 mt-3">
+              <div className="text-white-50">
                 <i
                   className="bi bi-clock category-time"
                   data-bs-toggle="tooltip"
@@ -1174,7 +1019,7 @@ export default function Projects() {
                   <br />
                   <div className="mt-3">
                     <i
-                      className="bi bi-star"
+                      className="bi bi-stars"
                       data-bs-toggle="tooltip"
                       title="Benefits of Use"
                     ></i>
@@ -1194,25 +1039,17 @@ export default function Projects() {
                       </li>
                     </ul>
                   </div>
-                  <a
-                    className="text-link"
-                    data-bs-toggle="collapse"
-                    href="#Sortrash"
-                    role="button"
-                    aria-expanded="false"
-                    aria-controls="Sortrash"
-                  >
-                    <br />
-                    <strong>Load More..</strong>
-                  </a>
-                  <div className="collapse mt-3" id="Sortrash">
+                  <details>
+                    <summary className="text-link my-1">
+                      <strong>Documentation</strong>
+                    </summary>
                     <img
                       src="images/projects/Desktop/Sortrash.svg"
                       className="w-50 h-50 d-block mx-auto"
                       alt="Project"
                       loading="lazy"
                     />
-                  </div>
+                  </details>
                 </p>
               </div>
               <br />
@@ -1233,24 +1070,7 @@ export default function Projects() {
             <div className="card my-4" data-aos="fade-up">
               <h3 className="text-center">Dodge Master</h3>
               <hr />
-              <div className="d-flex justify-content-center mt-2">
-                <i
-                  className="fa-brands fa-c fa-2x"
-                  data-bs-toggle="tooltip"
-                  title="C#"
-                ></i>
-                <i
-                  className="fa-solid fa-hashtag me-3"
-                  data-bs-toggle="tooltip"
-                  title="C#"
-                ></i>
-                <i
-                  className="fa-brands fa-unity fa-2x"
-                  data-bs-toggle="tooltip"
-                  title="Unity"
-                ></i>
-              </div>
-              <div className="text-white-50 mt-3">
+              <div className="text-white-50">
                 <i
                   className="bi bi-clock category-time"
                   data-bs-toggle="tooltip"
@@ -1283,7 +1103,7 @@ export default function Projects() {
                   .
                   <div className="mt-3">
                     <i
-                      className="bi bi-star"
+                      className="bi bi-stars"
                       data-bs-toggle="tooltip"
                       title="Benefits of Use"
                     ></i>
@@ -1300,25 +1120,17 @@ export default function Projects() {
                       </li>
                     </ul>
                   </div>
-                  <a
-                    className="text-link"
-                    data-bs-toggle="collapse"
-                    href="#DodgeMaster"
-                    role="button"
-                    aria-expanded="false"
-                    aria-controls="DodgeMaster"
-                  >
-                    <br />
-                    <strong>Load More..</strong>
-                  </a>
-                  <div className="collapse mt-3" id="DodgeMaster">
+                  <details>
+                    <summary className="text-link my-1">
+                      <strong>Documentation</strong>
+                    </summary>
                     <img
                       src="images/projects/Desktop/Dodge Master.svg"
                       className="w-50 h-50 d-block mx-auto"
                       alt="Project"
                       loading="lazy"
                     />
-                  </div>
+                  </details>
                 </p>
               </div>
               <br />
@@ -1339,14 +1151,7 @@ export default function Projects() {
             <div className="card my-4" data-aos="fade-up">
               <h3 className="text-center">LemburanKu</h3>
               <hr />
-              <div className="d-flex justify-content-center gap-3 mt-2">
-                <i
-                  className="fa-brands fa-java fa-2x"
-                  data-bs-toggle="tooltip"
-                  title="Java"
-                ></i>
-              </div>
-              <div className="text-white-50 mt-3">
+              <div className="text-white-50">
                 <i
                   className="bi bi-clock category-time"
                   data-bs-toggle="tooltip"
@@ -1377,7 +1182,7 @@ export default function Projects() {
                   <br />
                   <div className="mt-3">
                     <i
-                      className="bi bi-star"
+                      className="bi bi-stars"
                       data-bs-toggle="tooltip"
                       title="Benefits of Use"
                     ></i>
@@ -1400,25 +1205,17 @@ export default function Projects() {
                       </li>
                     </ul>
                   </div>
-                  <a
-                    className="text-link"
-                    data-bs-toggle="collapse"
-                    href="#LemburanKuDesktop"
-                    role="button"
-                    aria-expanded="false"
-                    aria-controls="LemburanKuDesktop"
-                  >
-                    <br />
-                    <strong>Load More..</strong>
-                  </a>
-                  <div className="collapse mt-3" id="LemburanKuDesktop">
+                  <details>
+                    <summary className="text-link my-1">
+                      <strong>Documentation</strong>
+                    </summary>
                     <img
                       src="images/projects/Desktop/LemburanKu Desktop.svg"
                       className="w-50 h-50 d-block mx-auto"
                       alt="Project"
                       loading="lazy"
                     />
-                  </div>
+                  </details>
                 </p>
               </div>
               <br />

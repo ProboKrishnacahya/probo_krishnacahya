@@ -89,7 +89,82 @@ export default function Home() {
     );
   }
 
-  //* Volunteering Experiences
+  //* Professional Experiences
+  const works = [
+    {
+      id: 1,
+      url: "https://appledeveloperacademy.uc.ac.id/#academy-experience",
+      name: "iOS Developer Intern 2023 Cohort",
+      description:
+        "10 months Internship program on Apple Developer Academy @ UC to forge oneself into world-class developer via Industry Leading Frameworks including Challenge Based Learning, Design Thinking, and Project Management that combined with T-Shaped Curriculum Model to become a well-rounded professional.",
+      type: "Internship - Onsite",
+      date: "Mar 2022 - present",
+    },
+    {
+      id: 2,
+      url: "https://www.uc.ac.id/ejourney/entrepreneurship-cluster/",
+      name: "Student Assistant",
+      description:
+        "Digital Entrepreneurship and Innovation class which is under the management of Faculty of Entrepreneurship and Humanities is intended for Students to be able to create innovative business models in the technology/digital industry that are validated through a process of exploration and exploitation opportunities, resource mobilization, and process validation using the Business Model Canvas. At this assistance, I am responsible to manage E-Learning contents, preparing presentation slides as a learning module, and guiding students in the practice of working on projects as assignments of class participants.",
+      type: "Contract - Onsite",
+      date: "Feb 2022 - present",
+    },
+    {
+      id: 3,
+      url: "https://comfypace.com/",
+      name: "Lecturer Research Assistant",
+      description:
+        "ComfyPace is a Web Application that implemented MVC Architecture and created using PHP (Laravel), JavaScript, HTML5, CSS3, Tailwind CSS, Alpine.js, and Livewire. This Education application can be used by Teachers to monitor and find out the progress of Students' understanding during the learning process. By obtaining an overview of Students' understanding progress, the Teachers can determine a suitable learning scheme. ComfyPace is intended to help increase the effectiveness and quality of Students' understanding of the learning process in the classroom through a system designed so that all material can be studied according to each Student's learning style and learning speed. As for, the output of this Research entitled 'Sistem Pendukung Metode Pembelajaran Self-Paced Learning bagi Mahasiswa di dalam Kelas Berbasis Web' is a Website Application Prototype and Scientific Article which will be published in the form of a Scientific Journal. At this assistance, I am responsible to conducting surveys (Requirement Testing and User Acceptance Testing) to manage its data into presentation slides and preparing image documents (Entity Relationship Diagram and Use Case Diagram) for Scientific Journal writing purposes.",
+      type: "Contract - Remote",
+      date: "Aug 2022 - Jan 2023",
+    },
+  ];
+
+  const professional = [];
+
+  for (const work of works) {
+    professional.push(
+      <div className="card mb-4 pt-4 pb-2">
+        <p className="mb-0">
+          <a
+            href={work.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-link"
+          >
+            <h3 className="text-center">{work.name}</h3>
+          </a>
+          <hr />
+        </p>
+        <p className="mb-3">
+          <i
+            className="bi bi-info-circle"
+            data-bs-toggle="tooltip"
+            title="Professional Experience Description"
+          ></i>
+          &emsp;{work.description}
+        </p>
+        <p className="mb-3">
+          <i
+            className="bi bi-diagram-3"
+            data-bs-toggle="tooltip"
+            title="Professional Experience Employment Type"
+          ></i>
+          &emsp;{work.type}
+        </p>
+        <p className="text-white-50">
+          <i
+            className="bi bi-clock category-time"
+            data-bs-toggle="tooltip"
+            title="Professional Experience Time"
+          ></i>
+          &emsp;{work.date}
+        </p>
+      </div>
+    );
+  }
+
+  //* Volunteering
   const events = [
     {
       id: 1,
@@ -130,10 +205,10 @@ export default function Home() {
     },
   ];
 
-  const volunteeringExperiences = [];
+  const volunteering = [];
 
   for (const event of events) {
-    volunteeringExperiences.push(
+    volunteering.push(
       <div className="card mb-4 pt-4 pb-2">
         <p className="mb-0">
           <a
@@ -180,7 +255,7 @@ export default function Home() {
       id: 1,
       url: "https://informatika.uc.ac.id/id/2022/11/prestasi-nasional-team-informatika-uc-juara-lo-kreatif-2022/",
       name: "2nd Place in Lomba Nasional Kreativitas Mahasiswa 2022 - Web/Mobile Application Category",
-      description: `Lomba Nasional Kreativitas Mahasiswa (LO Kreatif) 2022 is a national scale competition in the form of 9 categories that organized by Asosiasi Perguruan Tinggi Swasta Indonesia Wilayah VII Jawa Timur. Archotech Team representing Universitas Ciputra Surabaya in the Web/Mobile Application competition category with the competition theme "Mewujudkan Inovasi Kreatif Anak Bangsa Untuk Merdeka Belajar" managed to win by occupying the Runner up.`,
+      description: `Lomba Nasional Kreativitas Mahasiswa (LO Kreatif) 2022 is a national scale competition in the form of 9 categories that organized by Asosiasi Perguruan Tinggi Swasta Indonesia Wilayah VII Jawa Timur. Archotech Team representing Universitas Ciputra Surabaya in the Web/Mobile Application competition category with the competition theme "Mewujudkan Inovasi Kreatif Anak Bangsa Untuk Merdeka Belajar" managed to win by occupying the Runner up. At this competition, I am responsible as a Frontend Developer and UI/UX Designer.`,
       publisher:
         "Asosiasi Perguruan Tinggi Swasta Indonesia Wilayah VII Jawa Timur",
       date: "Nov 2022",
@@ -189,7 +264,7 @@ export default function Home() {
       id: 2,
       url: "https://informatika.uc.ac.id/id/2022/08/juara-2-ui-ux-design-competition-national-informatic-fun-competition-2022/",
       name: "2nd Place in National Informatic Fun Competition 2K22 - UI/UX Design Category",
-      description: `National Informatic Fun Competition (NIFC) 2K22 is a national scale activity in the form of 8 categories of Competition, Workshop, Webinars, and Bazaars organized by HIMA Teknik Informatika Universitas Muhammadiyah Riau. Weerausaha Team representing Universitas Ciputra Surabaya in the User Interface - User Experience (UI/UX) Design competition category with the competition theme "The Role of Digital Technology in the Development of Educational Ideas and Innovation" along with the sub-theme "Education" managed to win by occupying the Runner up.`,
+      description: `National Informatic Fun Competition (NIFC) 2K22 is a national scale activity in the form of 8 categories of Competition, Workshop, Webinars, and Bazaars organized by HIMA Teknik Informatika Universitas Muhammadiyah Riau. Weerausaha Team representing Universitas Ciputra Surabaya in the User Interface - User Experience (UI/UX) Design competition category with the competition theme "The Role of Digital Technology in the Development of Educational Ideas and Innovation" along with the sub-theme "Education" managed to win by occupying the Runner up. At this competition, I am responsible as a UI/UX Designer Lead.`,
       publisher: "Universitas Muhammadiyah Riau",
       date: "Aug 2022",
     },
@@ -197,7 +272,7 @@ export default function Home() {
       id: 3,
       url: "https://informatika.uc.ac.id/id/2022/08/prestasi-fit-competition-2022-juara-1-harapan-2-dan-ide-terbaik/",
       name: "9th Place in Faculty of Information Technology Competition 2022 - Web Developer Category",
-      description: `Faculty of Information Technology (FIT) Competition 2022 is a national scale competition in the field of information technology held by Himpunan Mahasiswa S1 Teknik Informatika Fakultas Teknologi Informasi Universitas Kristen Satya Wacana. This competition aims to foster a competitive spirit and spur students to realize creative and innovative ideas in the field of Informatics Engineering that have technology-based business values ​​(mobile and website applications) and are beneficial to the community. SK Team representing Universitas Ciputra Surabaya in the Web Developer category with the competition theme "Innovation For a Better World" managed to rank 9th as a finalist.`,
+      description: `Faculty of Information Technology (FIT) Competition 2022 is a national scale competition in the field of information technology held by Himpunan Mahasiswa S1 Teknik Informatika Fakultas Teknologi Informasi Universitas Kristen Satya Wacana. This competition aims to foster a competitive spirit and spur students to realize creative and innovative ideas in the field of Informatics Engineering that have technology-based business values ​​(mobile and website applications) and are beneficial to the community. SK Team representing Universitas Ciputra Surabaya in the Web Developer category with the competition theme "Innovation For a Better World" managed to rank 9th as a finalist. At this competition, I am responsible as a Full Stack Web Developer Lead.`,
       publisher: "Universitas Kristen Satya Wacana Salatiga",
       date: "Aug 2022",
     },
@@ -463,205 +538,217 @@ export default function Home() {
           </div>
         </section>
 
-        <div className="container" data-aos="fade-up">
-          <h4 className="text-center section-title">
-            &#127979;&ensp;Educations
-          </h4>
-          <br />
-          <div className="row">
-            <div className="col-auto text-center flex-column d-flex">
-              <div className="row h-50"></div>
-              <input
-                type="radio"
-                name="timeline1"
-                id="timeline1"
-                checked="checked"
-              />
-              <div className="row h-50">
-                <div className="timeline-lines bg-white p-0 mx-auto"></div>
-              </div>
-            </div>
-            <div className="col pb-2">
-              <p className="mb-1">
-                <i
-                  className="bi bi-building"
-                  data-bs-toggle="tooltip"
-                  title="University"
-                ></i>
-                &emsp;
-                <a
-                  href="https://www.uc.ac.id/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-link"
-                >
-                  <strong>Universitas Ciputra Surabaya</strong>
-                </a>
-              </p>
-              <p className="mb-1">
-                <i
-                  className="bi bi-mortarboard"
-                  data-bs-toggle="tooltip"
-                  title="Degree, Field of Study"
-                ></i>
-                &emsp;Sarjana Komputer (Fakultas Teknologi Informasi - Program
-                Studi Informatika)
-              </p>
-              <p className="text-white-50">
-                <i
-                  className="bi bi-clock category-time"
-                  data-bs-toggle="tooltip"
-                  title="Education Time"
-                ></i>
-                &emsp;2020 - 2024
-              </p>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-auto text-center flex-column d-flex">
-              <div className="row h-50">
-                <div className="timeline-lines bg-white p-0 mx-auto"></div>
-              </div>
-              <input
-                type="radio"
-                name="timeline2"
-                id="timeline2"
-                checked="checked"
-              />
-              <div className="row h-50">
-                <div className="timeline-lines bg-white p-0 mx-auto"></div>
-              </div>
-            </div>
-            <div className="col py-2">
-              <p className="mb-1">
-                <i
-                  className="bi bi-building"
-                  data-bs-toggle="tooltip"
-                  title="Senior High School"
-                ></i>
-                &emsp;
-                <a
-                  href="https://dm.sch.id/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-link"
-                >
-                  <strong>
-                    Sekolah Menengah Atas Kristen Dharma Mulya Surabaya
-                  </strong>
-                </a>
-              </p>
-              <p className="mb-1">
-                <i
-                  className="bi bi-mortarboard"
-                  data-bs-toggle="tooltip"
-                  title="Major"
-                ></i>
-                &emsp;Ilmu Pengetahuan Sosial
-              </p>
-              <p className="text-white-50">
-                <i
-                  className="bi bi-clock category-time"
-                  data-bs-toggle="tooltip"
-                  title="Education Time"
-                ></i>
-                &emsp;2017 - 2020
-              </p>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-auto text-center flex-column d-flex">
-              <div className="row h-50">
-                <div className="timeline-lines bg-white p-0 mx-auto"></div>
-              </div>
-              <input
-                type="radio"
-                name="timeline3"
-                id="timeline3"
-                checked="checked"
-              />
-              <div className="row h-50">
-                <div className="timeline-lines bg-white p-0 mx-auto"></div>
-              </div>
-            </div>
-            <div className="col py-2">
-              <p className="mb-1">
-                <i
-                  className="bi bi-building"
-                  data-bs-toggle="tooltip"
-                  title="Junior High School"
-                ></i>
-                &emsp;
-                <a
-                  href="https://dm.sch.id/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-link"
-                >
-                  <strong>
-                    Sekolah Menengah Pertama Kristen Dharma Mulya Surabaya
-                  </strong>
-                </a>
-              </p>
-              <p className="text-white-50">
-                <i
-                  className="bi bi-clock category-time"
-                  data-bs-toggle="tooltip"
-                  title="Education Time"
-                ></i>
-                &emsp;2014 - 2017
-              </p>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-auto text-center flex-column d-flex">
-              <div className="row h-25">
-                <div className="timeline-lines bg-white p-0 mx-auto"></div>
-              </div>
-              <input
-                type="radio"
-                name="timeline4"
-                id="timeline4"
-                checked="checked"
-              />
-            </div>
-            <div className="col py-2">
-              <p className="mb-1">
-                <i
-                  className="bi bi-building"
-                  data-bs-toggle="tooltip"
-                  title="Elementary School"
-                ></i>
-                &emsp;
-                <a
-                  href="https://dm.sch.id/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-link"
-                >
-                  <strong>Sekolah Dasar Kristen Dharma Mulya Surabaya</strong>
-                </a>
-              </p>
-              <p className="text-white-50">
-                <i
-                  className="bi bi-clock category-time"
-                  data-bs-toggle="tooltip"
-                  title="Education Time"
-                ></i>
-                &emsp;2008 - 2014
-              </p>
-            </div>
-          </div>
-        </div>
-
         <section id="below-the-fold">
+          <div className="container vstack gap-5 mb-5">
+            <div data-aos="fade-up">
+              <h4 className="text-center section-title">
+                &#127979;&ensp;Educations
+              </h4>
+              <br />
+              <div className="row">
+                <div className="col-auto text-center flex-column d-flex">
+                  <div className="row h-50"></div>
+                  <input
+                    type="radio"
+                    name="timeline1"
+                    id="timeline1"
+                    checked="checked"
+                  />
+                  <div className="row h-50">
+                    <div className="timeline-lines bg-white p-0 mx-auto"></div>
+                  </div>
+                </div>
+                <div className="col pb-2">
+                  <p className="mb-1">
+                    <i
+                      className="bi bi-building"
+                      data-bs-toggle="tooltip"
+                      title="University"
+                    ></i>
+                    &emsp;
+                    <a
+                      href="https://www.uc.ac.id/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-link"
+                    >
+                      <strong>Universitas Ciputra Surabaya</strong>
+                    </a>
+                  </p>
+                  <p className="mb-1">
+                    <i
+                      className="bi bi-mortarboard"
+                      data-bs-toggle="tooltip"
+                      title="Degree, Field of Study"
+                    ></i>
+                    &emsp;Sarjana Komputer (Fakultas Teknologi Informasi -
+                    Program Studi Informatika)
+                  </p>
+                  <p className="text-white-50">
+                    <i
+                      className="bi bi-clock category-time"
+                      data-bs-toggle="tooltip"
+                      title="Education Time"
+                    ></i>
+                    &emsp;2020 - 2024
+                  </p>
+                </div>
+              </div>
+              <div className="row">
+                <div className="col-auto text-center flex-column d-flex">
+                  <div className="row h-50">
+                    <div className="timeline-lines bg-white p-0 mx-auto"></div>
+                  </div>
+                  <input
+                    type="radio"
+                    name="timeline2"
+                    id="timeline2"
+                    checked="checked"
+                  />
+                  <div className="row h-50">
+                    <div className="timeline-lines bg-white p-0 mx-auto"></div>
+                  </div>
+                </div>
+                <div className="col py-2">
+                  <p className="mb-1">
+                    <i
+                      className="bi bi-building"
+                      data-bs-toggle="tooltip"
+                      title="Senior High School"
+                    ></i>
+                    &emsp;
+                    <a
+                      href="https://dm.sch.id/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-link"
+                    >
+                      <strong>
+                        Sekolah Menengah Atas Kristen Dharma Mulya Surabaya
+                      </strong>
+                    </a>
+                  </p>
+                  <p className="mb-1">
+                    <i
+                      className="bi bi-mortarboard"
+                      data-bs-toggle="tooltip"
+                      title="Major"
+                    ></i>
+                    &emsp;Ilmu Pengetahuan Sosial
+                  </p>
+                  <p className="text-white-50">
+                    <i
+                      className="bi bi-clock category-time"
+                      data-bs-toggle="tooltip"
+                      title="Education Time"
+                    ></i>
+                    &emsp;2017 - 2020
+                  </p>
+                </div>
+              </div>
+              <div className="row">
+                <div className="col-auto text-center flex-column d-flex">
+                  <div className="row h-50">
+                    <div className="timeline-lines bg-white p-0 mx-auto"></div>
+                  </div>
+                  <input
+                    type="radio"
+                    name="timeline3"
+                    id="timeline3"
+                    checked="checked"
+                  />
+                  <div className="row h-50">
+                    <div className="timeline-lines bg-white p-0 mx-auto"></div>
+                  </div>
+                </div>
+                <div className="col py-2">
+                  <p className="mb-1">
+                    <i
+                      className="bi bi-building"
+                      data-bs-toggle="tooltip"
+                      title="Junior High School"
+                    ></i>
+                    &emsp;
+                    <a
+                      href="https://dm.sch.id/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-link"
+                    >
+                      <strong>
+                        Sekolah Menengah Pertama Kristen Dharma Mulya Surabaya
+                      </strong>
+                    </a>
+                  </p>
+                  <p className="text-white-50">
+                    <i
+                      className="bi bi-clock category-time"
+                      data-bs-toggle="tooltip"
+                      title="Education Time"
+                    ></i>
+                    &emsp;2014 - 2017
+                  </p>
+                </div>
+              </div>
+              <div className="row">
+                <div className="col-auto text-center flex-column d-flex">
+                  <div className="row h-25">
+                    <div className="timeline-lines bg-white p-0 mx-auto"></div>
+                  </div>
+                  <input
+                    type="radio"
+                    name="timeline4"
+                    id="timeline4"
+                    checked="checked"
+                  />
+                </div>
+                <div className="col py-2">
+                  <p className="mb-1">
+                    <i
+                      className="bi bi-building"
+                      data-bs-toggle="tooltip"
+                      title="Elementary School"
+                    ></i>
+                    &emsp;
+                    <a
+                      href="https://dm.sch.id/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-link"
+                    >
+                      <strong>
+                        Sekolah Dasar Kristen Dharma Mulya Surabaya
+                      </strong>
+                    </a>
+                  </p>
+                  <p className="text-white-50">
+                    <i
+                      className="bi bi-clock category-time"
+                      data-bs-toggle="tooltip"
+                      title="Education Time"
+                    ></i>
+                    &emsp;2008 - 2014
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div data-aos="fade-up">
+              <h4 className="text-center section-title">
+                &#128188;&ensp;Professional Experiences
+              </h4>
+              <br />
+              {professional}
+            </div>
+          </div>
+
           <div className="vstack gap-5">
             <div data-aos="fade-up">
               <h4 className="text-center section-title">
-                &#128293;&ensp;Volunteering Experiences
+                &#128293;&ensp;Volunteering
               </h4>
               <br />
-              {volunteeringExperiences}
+              {volunteering}
             </div>
 
             <div data-aos="fade-up">

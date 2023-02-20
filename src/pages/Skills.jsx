@@ -467,31 +467,31 @@ export default function Skills() {
     {
       id: 1,
       url: "http://www.w3.org/TR/html5/",
-      icon: "fa-brands fa-html5",
+      image: "images/skills/technologies/hyperText-markup-language-5.svg",
       title: "HyperText Markup Language 5",
     },
     {
       id: 2,
       url: "http://www.w3.org/TR/CSS/",
-      icon: "fa-brands fa-css3-alt",
+      image: "images/skills/technologies/cascading-style-sheets-3.svg",
       title: "Cascading Style Sheets 3",
     },
     {
       id: 3,
       url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-      icon: "fa-brands fa-js-square",
+      image: "images/skills/technologies/javascript.svg",
       title: "JavaScript",
     },
     {
       id: 4,
       url: "https://reactjs.org/",
-      icon: "fa-brands fa-react",
+      image: "images/skills/technologies/reactjs.svg",
       title: "ReactJS",
     },
     {
       id: 5,
       url: "https://getbootstrap.com/",
-      icon: "fa-brands fa-bootstrap",
+      image: "images/skills/technologies/bootstrap.svg",
       title: "Bootstrap",
     },
   ];
@@ -500,16 +500,16 @@ export default function Skills() {
 
   for (const technology of technologies) {
     personalWebsite.push(
-      <div className="d-inline mx-2">
-        <span>
-          <a href={technology.url} target="_blank" rel="noopener noreferrer">
-            <i
-              className={technology.icon}
-              data-bs-toggle="tooltip"
-              title={technology.title}
-            ></i>
-          </a>
-        </span>
+      <div>
+        <a href={technology.url} target="_blank" rel="noopener noreferrer">
+          <img
+            src={technology.image}
+            width={48}
+            alt={technology.title}
+            data-bs-toggle="tooltip"
+            title={technology.title}
+          />
+        </a>
       </div>
     );
   }
@@ -517,6 +517,151 @@ export default function Skills() {
   return (
     <div className="skills">
       <Header />
+      <section id="content" data-aos="fade-up">
+        <div className="container text-center p-0">
+          <h4 className="text-center section-title">
+            &#128640;&ensp;Tech Stack
+          </h4>
+          {/* Information of Technology */}
+          <div className="accordion" id="accordionSkills">
+            <div className="accordion-item border-0 bg-transparent">
+              <h2 className="accordion-header" id="headingOne">
+                <button
+                  className="accordion-button border-0 bg-transparent text-white"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  <h5>
+                    <i
+                      className="bi bi-code-slash"
+                      data-bs-toggle="tooltip"
+                      title="Category"
+                    ></i>
+                    &emsp;Information of Technology
+                  </h5>
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                className="accordion-collapse collapse show"
+                aria-labelledby="headingOne"
+                data-bs-parent="#accordionSkills"
+              >
+                <div className="accordion-body text-white">
+                  <div className="d-flex mb-3">
+                    <i
+                      className="bi bi-star"
+                      data-bs-toggle="tooltip"
+                      title="Specialization"
+                    ></i>
+                    &emsp;
+                    <strong>Frontend Development</strong>
+                  </div>
+                  <div className="row row-cols-1 row-cols-md-4 g-4">
+                    {frontend}
+                  </div>
+                  <div className="d-flex my-3">
+                    <i
+                      className="bi bi-star"
+                      data-bs-toggle="tooltip"
+                      title="Specialization"
+                    ></i>
+                    &emsp;
+                    <strong>Backend Development</strong>
+                  </div>
+                  <div className="row row-cols-1 row-cols-md-4 g-4">
+                    {backend}
+                  </div>
+                  <div className="d-flex my-3">
+                    <i
+                      className="bi bi-star"
+                      data-bs-toggle="tooltip"
+                      title="Specialization"
+                    ></i>
+                    &emsp;
+                    <strong>Others</strong>
+                  </div>
+                  <div className="row row-cols-1 row-cols-md-4 g-4">
+                    {others}
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* Visual Design */}
+            <div className="accordion-item border-0 bg-transparent">
+              <h2 className="accordion-header" id="headingTwo">
+                <button
+                  className="accordion-button collapsed border-0 bg-transparent text-white"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  <h5>
+                    <i
+                      className="bi bi-vector-pen"
+                      data-bs-toggle="tooltip"
+                      title="Category"
+                    ></i>
+                    &emsp;Visual Design
+                  </h5>
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                className="accordion-collapse collapse"
+                aria-labelledby="headingTwo"
+                data-bs-parent="#accordionSkills"
+              >
+                <div className="accordion-body text-white">
+                  <div className="row row-cols-1 row-cols-md-4 g-4">
+                    {visualDesign}
+                  </div>
+                </div>
+              </div>
+              {/* Human Languages */}
+              <div className="accordion-item border-0 bg-transparent">
+                <h2 className="accordion-header" id="headingThree">
+                  <button
+                    className="accordion-button collapsed border-0 bg-transparent text-white"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    <h5>
+                      <i
+                        className="bi bi-translate"
+                        data-bs-toggle="tooltip"
+                        title="Category"
+                      ></i>
+                      &emsp;Human Languages
+                    </h5>
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  className="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionSkills"
+                >
+                  <div className="accordion-body text-white">
+                    <div className="row row-cols-1 row-cols-md-4 g-4">
+                      {humanLanguages}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <div className="container">
         <div className="mt-5" data-aos="fade-up">
           <h4 className="text-center section-title">
@@ -535,6 +680,32 @@ export default function Skills() {
               </tr>
             </thead>
             <tbody>
+              <tr>
+                <td>
+                  <a
+                    href="https://www.dicoding.com/certificates/JMZVNOORJPN9"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Belajar Dasar-Dasar DevOps
+                  </a>
+                </td>
+                <td>Dicoding Indonesia</td>
+                <td>Feb 2023 - Feb 2026</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="https://www.dicoding.com/certificates/1OP85JMYLPQK"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Memulai Pemrograman Dengan Swift
+                  </a>
+                </td>
+                <td>Dicoding Indonesia</td>
+                <td>Jan 2023 - Jan 2026</td>
+              </tr>
               <tr>
                 <td>
                   <a
@@ -1032,157 +1203,13 @@ export default function Skills() {
             </tbody>
           </table>
 
-          <section id="content" data-aos="fade-up">
-            <div className="container text-center p-0">
-              <h4 className="text-center section-title">
-                &#128640;&ensp;Tech Stack
-              </h4>
-              {/* Information of Technology */}
-              <div className="accordion" id="accordionSkills">
-                <div className="accordion-item border-0 bg-transparent">
-                  <h2 className="accordion-header" id="headingOne">
-                    <button
-                      className="accordion-button border-0 bg-transparent text-white"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapseOne"
-                      aria-expanded="true"
-                      aria-controls="collapseOne"
-                    >
-                      <h5>
-                        <i
-                          className="bi bi-code-slash"
-                          data-bs-toggle="tooltip"
-                          title="Category"
-                        ></i>
-                        &emsp;Information of Technology
-                      </h5>
-                    </button>
-                  </h2>
-                  <div
-                    id="collapseOne"
-                    className="accordion-collapse collapse show"
-                    aria-labelledby="headingOne"
-                    data-bs-parent="#accordionSkills"
-                  >
-                    <div className="accordion-body text-white">
-                      <div className="d-flex mb-3">
-                        <i
-                          className="bi bi-star"
-                          data-bs-toggle="tooltip"
-                          title="Specialization"
-                        ></i>
-                        &emsp;
-                        <strong>Frontend Development</strong>
-                      </div>
-                      <div className="row row-cols-1 row-cols-md-4 g-4">
-                        {frontend}
-                      </div>
-                      <div className="d-flex my-3">
-                        <i
-                          className="bi bi-star"
-                          data-bs-toggle="tooltip"
-                          title="Specialization"
-                        ></i>
-                        &emsp;
-                        <strong>Backend Development</strong>
-                      </div>
-                      <div className="row row-cols-1 row-cols-md-4 g-4">
-                        {backend}
-                      </div>
-                      <div className="d-flex my-3">
-                        <i
-                          className="bi bi-star"
-                          data-bs-toggle="tooltip"
-                          title="Specialization"
-                        ></i>
-                        &emsp;
-                        <strong>Others</strong>
-                      </div>
-                      <div className="row row-cols-1 row-cols-md-4 g-4">
-                        {others}
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                {/* Visual Design */}
-                <div className="accordion-item border-0 bg-transparent">
-                  <h2 className="accordion-header" id="headingTwo">
-                    <button
-                      className="accordion-button collapsed border-0 bg-transparent text-white"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapseTwo"
-                      aria-expanded="false"
-                      aria-controls="collapseTwo"
-                    >
-                      <h5>
-                        <i
-                          className="bi bi-vector-pen"
-                          data-bs-toggle="tooltip"
-                          title="Category"
-                        ></i>
-                        &emsp;Visual Design
-                      </h5>
-                    </button>
-                  </h2>
-                  <div
-                    id="collapseTwo"
-                    className="accordion-collapse collapse"
-                    aria-labelledby="headingTwo"
-                    data-bs-parent="#accordionSkills"
-                  >
-                    <div className="accordion-body text-white">
-                      <div className="row row-cols-1 row-cols-md-4 g-4">
-                        {visualDesign}
-                      </div>
-                    </div>
-                  </div>
-                  {/* Human Languages */}
-                  <div className="accordion-item border-0 bg-transparent">
-                    <h2 className="accordion-header" id="headingThree">
-                      <button
-                        className="accordion-button collapsed border-0 bg-transparent text-white"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#collapseThree"
-                        aria-expanded="false"
-                        aria-controls="collapseThree"
-                      >
-                        <h5>
-                          <i
-                            className="bi bi-translate"
-                            data-bs-toggle="tooltip"
-                            title="Category"
-                          ></i>
-                          &emsp;Human Languages
-                        </h5>
-                      </button>
-                    </h2>
-                    <div
-                      id="collapseThree"
-                      className="accordion-collapse collapse"
-                      aria-labelledby="headingThree"
-                      data-bs-parent="#accordionSkills"
-                    >
-                      <div className="accordion-body text-white">
-                        <div className="row row-cols-1 row-cols-md-4 g-4">
-                          {humanLanguages}
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          <div className="container text-center mb-5">
+          <div className="container text-center mt-5">
             <span className="fs-6">Built with&ensp;</span>
-            {personalWebsite}
+            <div className="hstack gap-4 justify-content-center">
+              {personalWebsite}
+            </div>
+            <br />
 
-            <br />
-            <br />
             <div className="d-inline">
               <span className="fs-6">Deployed using&ensp;</span>
               <span>

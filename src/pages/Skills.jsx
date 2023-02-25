@@ -517,8 +517,551 @@ export default function Skills() {
   return (
     <div className="skills">
       <Header />
-      <section id="content" data-aos="fade-up">
-        <div className="container text-center p-0">
+      <section id="content">
+        <div className="container">
+          <div className="mb-5" data-aos="fade-up">
+            <h4 className="text-center section-title">
+              &#128220;&ensp;Certifications
+            </h4>
+            <br />
+            <table
+              className="table table-responsive table-dark table-striped table-hover"
+              id="certificationList"
+            >
+              <thead>
+                <tr>
+                  <th scope="col">Subject</th>
+                  <th scope="col">Publisher</th>
+                  <th scope="col">Date Achieved</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <a
+                      href="https://www.dicoding.com/certificates/JMZVNOORJPN9"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Belajar Dasar-Dasar DevOps
+                    </a>
+                  </td>
+                  <td>Dicoding Indonesia</td>
+                  <td>Feb 2023 - Feb 2026</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      href="https://www.dicoding.com/certificates/1OP85JMYLPQK"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Memulai Pemrograman Dengan Swift
+                    </a>
+                  </td>
+                  <td>Dicoding Indonesia</td>
+                  <td>Jan 2023 - Jan 2026</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      href="https://app.testdome.com/cert/46085a635bee467f8eb95925916f9250"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Android
+                    </a>
+                  </td>
+                  <td>TestDome</td>
+                  <td>Jun 2022</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      href="https://app.testdome.com/cert/7834a499fcfd4123b947002eea0a63df"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      DevOps
+                    </a>
+                  </td>
+                  <td>TestDome</td>
+                  <td>May 2022</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      href="https://app.testdome.com/cert/7e5b2f29a59f48efa71e8b0bc72b0bcc"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Flutter
+                    </a>
+                  </td>
+                  <td>TestDome</td>
+                  <td>May 2022</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      href="https://app.testdome.com/cert/575f7de7f7634b73892a42e4ac2d3e49"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Abstract Reasoning
+                    </a>
+                  </td>
+                  <td>TestDome</td>
+                  <td>Mar 2022</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      href="https://www.hackerrank.com/certificates/e33caa399655"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      CSS
+                    </a>
+                  </td>
+                  <td>HackerRank</td>
+                  <td>Mar 2022</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      href="https://app.testdome.com/cert/949b8c4448564bca9b03a05ab6ca4ef2"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      English Comprehension and Communication
+                    </a>
+                  </td>
+                  <td>TestDome</td>
+                  <td>Mar 2022</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      href="https://www.studysection.com/users/socialMedia/NTExODI0/cHJvYm8ua3Jpc2huYWNhaHlhQGdtYWlsLmNvbQ=="
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Graphic Design (Advanced)
+                    </a>
+                  </td>
+                  <td>StudySection</td>
+                  <td>Mar 2022</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      href="https://app.testdome.com/cert/2d5ba222fb1142928e0bd04e5cd29639"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Growth Marketing
+                    </a>
+                  </td>
+                  <td>TestDome</td>
+                  <td>Mar 2022</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      href="https://www.studysection.com/users/socialMedia/NTEwMTY5/cHJvYm8ua3Jpc2huYWNhaHlhQGdtYWlsLmNvbQ=="
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      JavaScript Programming (Advanced)
+                    </a>
+                  </td>
+                  <td>StudySection</td>
+                  <td>Mar 2022</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      href="https://app.testdome.com/cert/b5e61587a6ef4e65afda2ac3d79c804f"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Laravel
+                    </a>
+                  </td>
+                  <td>TestDome</td>
+                  <td>Mar 2022</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      href="https://app.testdome.com/cert/cc07de34412f4285a13180659b712405"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Numerical Reasoning
+                    </a>
+                  </td>
+                  <td>TestDome</td>
+                  <td>Mar 2022</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      href="https://www.studysection.com/users/socialMedia/NTExODM5/cHJvYm8ua3Jpc2huYWNhaHlhQGdtYWlsLmNvbQ=="
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      React 16.X (Advanced)
+                    </a>
+                  </td>
+                  <td>StudySection</td>
+                  <td>Mar 2022</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      href="https://app.testdome.com/cert/d9cf9e4ff8d44090ac27560f0fc59836"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Scrum Master
+                    </a>
+                  </td>
+                  <td>TestDome</td>
+                  <td>Mar 2022</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      href="https://app.testdome.com/cert/b1c99a672cf848c78adba23062f749b8"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Software Engineering
+                    </a>
+                  </td>
+                  <td>TestDome</td>
+                  <td>Mar 2022</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      href="https://www.studysection.com/users/socialMedia/NTEwMTYy/cHJvYm8ua3Jpc2huYWNhaHlhQGdtYWlsLmNvbQ=="
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Static Site Development (Advanced)
+                    </a>
+                  </td>
+                  <td>StudySection</td>
+                  <td>Mar 2022</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      href="https://www.studysection.com/users/socialMedia/NTEyMDQ0/cHJvYm8ua3Jpc2huYWNhaHlhQGdtYWlsLmNvbQ=="
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Swift for iOS (Advanced)
+                    </a>
+                  </td>
+                  <td>StudySection</td>
+                  <td>Mar 2022</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      href="https://app.testdome.com/cert/87b38d51c20f4f8bae38a87af9d50d8b"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Verbal Reasoning
+                    </a>
+                  </td>
+                  <td>TestDome</td>
+                  <td>Mar 2022</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      href="https://app.testdome.com/cert/3e9554be3c624302a0975eb37fa4029a"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      iOS and Swift
+                    </a>
+                  </td>
+                  <td>TestDome</td>
+                  <td>Mar 2022</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      href="https://app.testdome.com/cert/36ac75bae42c460db610f9625f83b675"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      A/B Testing
+                    </a>
+                  </td>
+                  <td>TestDome</td>
+                  <td>Feb 2022</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      href="https://app.testdome.com/cert/39a6f5d3441848a1b334b761fffd645c"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Attention to Detail and Time Management
+                    </a>
+                  </td>
+                  <td>TestDome</td>
+                  <td>Feb 2022</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      href="https://www.studysection.com/users/socialMedia/NDk4ODgz/cHJvYm8ua3Jpc2huYWNhaHlhQGdtYWlsLmNvbQ%3D%3D/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Bootstrap 4.x (Advanced)
+                    </a>
+                  </td>
+                  <td>StudySection</td>
+                  <td>Feb 2022</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      href="https://www.studysection.com/users/socialMedia/NDk4ODky/cHJvYm8ua3Jpc2huYWNhaHlhQGdtYWlsLmNvbQ%3D%3D/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      CSS 3 (Advanced)
+                    </a>
+                  </td>
+                  <td>StudySection</td>
+                  <td>Feb 2022</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      href="https://olympus1.mygreatlearning.com/course_certificate/APMQPGOB"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Front End Development - CSS
+                    </a>
+                  </td>
+                  <td>Great Learning</td>
+                  <td>Feb 2022</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      href="https://olympus1.mygreatlearning.com/course_certificate/QYUKBBAP"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Front End Development - HTML
+                    </a>
+                  </td>
+                  <td>Great Learning</td>
+                  <td>Feb 2022</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      href="https://app.testdome.com/cert/3b309305da0f40fda44e5dcfd2d49ec8"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Git
+                    </a>
+                  </td>
+                  <td>TestDome</td>
+                  <td>Feb 2022</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      href="https://app.testdome.com/cert/2f62fb3b168e4066bf09e61d6ce201c4"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      HTML/CSS and Bootstrap
+                    </a>
+                  </td>
+                  <td>TestDome</td>
+                  <td>Feb 2022</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      href="https://app.testdome.com/cert/7c434b03589e4a71ac9f84c6b206fc74"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      HTML/CSS, JavaScript with jQuery, and Bootstrap
+                    </a>
+                  </td>
+                  <td>TestDome</td>
+                  <td>Feb 2022</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      href="https://app.testdome.com/cert/e532dc2f33464be081f9c27a9506d72c"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      HTML/CSS, JavaScript, and React
+                    </a>
+                  </td>
+                  <td>TestDome</td>
+                  <td>Feb 2022</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      href="https://www.studysection.com/Users/socialMedia/NDk4NjQ1/cHJvYm8ua3Jpc2huYWNhaHlhQGdtYWlsLmNvbQ%3D%3D"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      HTML5 (Advanced)
+                    </a>
+                  </td>
+                  <td>StudySection</td>
+                  <td>Feb 2022</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      href="https://app.testdome.com/cert/98ca9d68e3a0477e9fc9b36335ce3142"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Logical Reasoning
+                    </a>
+                  </td>
+                  <td>TestDome</td>
+                  <td>Feb 2022</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      href="https://app.testdome.com/cert/a8b39c082f744f08a12dde0dd41569ba"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Marketing Analytics
+                    </a>
+                  </td>
+                  <td>TestDome</td>
+                  <td>Feb 2022</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      href="https://app.testdome.com/cert/528a68cf0ef742f8b89f17825e13e06d"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Project Management and Time Management
+                    </a>
+                  </td>
+                  <td>TestDome</td>
+                  <td>Feb 2022</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      href="https://www.kaggle.com/learn/certification/probokrishnacahya/python"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Python
+                    </a>
+                  </td>
+                  <td>Kaggle</td>
+                  <td>Feb 2022</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      href="https://www.agunacourse.com/cek-sertifikat?search=AC-455-97841590-53"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Python Fundamental
+                    </a>
+                  </td>
+                  <td>Aguna Course</td>
+                  <td>Feb 2022</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      href="https://www.studysection.com/users/socialMedia/NTAyMjAx/cHJvYm8ua3Jpc2huYWNhaHlhQGdtYWlsLmNvbQ%3D%3D/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      UI/UX Developer (Advanced)
+                    </a>
+                  </td>
+                  <td>StudySection</td>
+                  <td>Feb 2022</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      href="https://www.studysection.com/users/socialMedia/NTAyMjEx/cHJvYm8ua3Jpc2huYWNhaHlhQGdtYWlsLmNvbQ=="
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Web Designing (Advanced)
+                    </a>
+                  </td>
+                  <td>StudySection</td>
+                  <td>Feb 2022</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      href="https://www.dicoding.com/certificates/07Z6RDEGYPQR"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Memulai Pemrograman Dengan Dart
+                    </a>
+                  </td>
+                  <td>Dicoding Indonesia</td>
+                  <td>Aug 2022 - Aug 2025</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      href="https://www.dicoding.com/certificates/N9ZOE9E18XG5"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Belajar Prinsip Pemrograman SOLID
+                    </a>
+                  </td>
+                  <td>Dicoding Indonesia</td>
+                  <td>Sep 2021 - Sep 2024</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div className="container text-center p-0" data-aos="fade-up">
           <h4 className="text-center section-title">
             &#128640;&ensp;Tech Stack
           </h4>
@@ -660,573 +1203,30 @@ export default function Skills() {
             </div>
           </div>
         </div>
+
+        <div className="container text-center mt-5">
+              <span className="fs-6">Built with&ensp;</span>
+              <div className="hstack gap-4 justify-content-center">
+                {personalWebsite}
+              </div>
+              <br />
+
+              <div className="d-inline">
+                <span className="fs-6">Deployed using&ensp;</span>
+                <span>
+                  <a href="https://firebase.google.com/products/hosting">
+                    <img
+                      src="images/skills/technologies/hosting.svg"
+                      width={256}
+                      alt="Firebase"
+                      data-bs-toggle="tooltip"
+                      title="Firebase"
+                    />
+                  </a>
+                </span>
+              </div>
+            </div>
       </section>
-
-      <div className="container">
-        <div className="mt-5" data-aos="fade-up">
-          <h4 className="text-center section-title">
-            &#128220;&ensp;Certifications
-          </h4>
-          <br />
-          <table
-            className="table table-responsive table-dark table-striped table-hover"
-            id="certificationList"
-          >
-            <thead>
-              <tr>
-                <th scope="col">Subject</th>
-                <th scope="col">Publisher Organization</th>
-                <th scope="col">Date Achieved</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>
-                  <a
-                    href="https://www.dicoding.com/certificates/JMZVNOORJPN9"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Belajar Dasar-Dasar DevOps
-                  </a>
-                </td>
-                <td>Dicoding Indonesia</td>
-                <td>Feb 2023 - Feb 2026</td>
-              </tr>
-              <tr>
-                <td>
-                  <a
-                    href="https://www.dicoding.com/certificates/1OP85JMYLPQK"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Memulai Pemrograman Dengan Swift
-                  </a>
-                </td>
-                <td>Dicoding Indonesia</td>
-                <td>Jan 2023 - Jan 2026</td>
-              </tr>
-              <tr>
-                <td>
-                  <a
-                    href="https://app.testdome.com/cert/46085a635bee467f8eb95925916f9250"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Android
-                  </a>
-                </td>
-                <td>TestDome</td>
-                <td>Jun 2022</td>
-              </tr>
-              <tr>
-                <td>
-                  <a
-                    href="https://app.testdome.com/cert/7834a499fcfd4123b947002eea0a63df"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    DevOps
-                  </a>
-                </td>
-                <td>TestDome</td>
-                <td>May 2022</td>
-              </tr>
-              <tr>
-                <td>
-                  <a
-                    href="https://app.testdome.com/cert/7e5b2f29a59f48efa71e8b0bc72b0bcc"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Flutter
-                  </a>
-                </td>
-                <td>TestDome</td>
-                <td>May 2022</td>
-              </tr>
-              <tr>
-                <td>
-                  <a
-                    href="https://app.testdome.com/cert/575f7de7f7634b73892a42e4ac2d3e49"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Abstract Reasoning
-                  </a>
-                </td>
-                <td>TestDome</td>
-                <td>Mar 2022</td>
-              </tr>
-              <tr>
-                <td>
-                  <a
-                    href="https://www.hackerrank.com/certificates/e33caa399655"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    CSS
-                  </a>
-                </td>
-                <td>HackerRank</td>
-                <td>Mar 2022</td>
-              </tr>
-              <tr>
-                <td>
-                  <a
-                    href="https://app.testdome.com/cert/949b8c4448564bca9b03a05ab6ca4ef2"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    English Comprehension and Communication
-                  </a>
-                </td>
-                <td>TestDome</td>
-                <td>Mar 2022</td>
-              </tr>
-              <tr>
-                <td>
-                  <a
-                    href="https://www.studysection.com/users/socialMedia/NTExODI0/cHJvYm8ua3Jpc2huYWNhaHlhQGdtYWlsLmNvbQ=="
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Graphic Design (Advanced)
-                  </a>
-                </td>
-                <td>StudySection</td>
-                <td>Mar 2022</td>
-              </tr>
-              <tr>
-                <td>
-                  <a
-                    href="https://app.testdome.com/cert/2d5ba222fb1142928e0bd04e5cd29639"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Growth Marketing
-                  </a>
-                </td>
-                <td>TestDome</td>
-                <td>Mar 2022</td>
-              </tr>
-              <tr>
-                <td>
-                  <a
-                    href="https://www.studysection.com/users/socialMedia/NTEwMTY5/cHJvYm8ua3Jpc2huYWNhaHlhQGdtYWlsLmNvbQ=="
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    JavaScript Programming (Advanced)
-                  </a>
-                </td>
-                <td>StudySection</td>
-                <td>Mar 2022</td>
-              </tr>
-              <tr>
-                <td>
-                  <a
-                    href="https://app.testdome.com/cert/b5e61587a6ef4e65afda2ac3d79c804f"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Laravel
-                  </a>
-                </td>
-                <td>TestDome</td>
-                <td>Mar 2022</td>
-              </tr>
-              <tr>
-                <td>
-                  <a
-                    href="https://app.testdome.com/cert/cc07de34412f4285a13180659b712405"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Numerical Reasoning
-                  </a>
-                </td>
-                <td>TestDome</td>
-                <td>Mar 2022</td>
-              </tr>
-              <tr>
-                <td>
-                  <a
-                    href="https://www.studysection.com/users/socialMedia/NTExODM5/cHJvYm8ua3Jpc2huYWNhaHlhQGdtYWlsLmNvbQ=="
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    React 16.X (Advanced)
-                  </a>
-                </td>
-                <td>StudySection</td>
-                <td>Mar 2022</td>
-              </tr>
-              <tr>
-                <td>
-                  <a
-                    href="https://app.testdome.com/cert/d9cf9e4ff8d44090ac27560f0fc59836"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Scrum Master
-                  </a>
-                </td>
-                <td>TestDome</td>
-                <td>Mar 2022</td>
-              </tr>
-              <tr>
-                <td>
-                  <a
-                    href="https://app.testdome.com/cert/b1c99a672cf848c78adba23062f749b8"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Software Engineering
-                  </a>
-                </td>
-                <td>TestDome</td>
-                <td>Mar 2022</td>
-              </tr>
-              <tr>
-                <td>
-                  <a
-                    href="https://www.studysection.com/users/socialMedia/NTEwMTYy/cHJvYm8ua3Jpc2huYWNhaHlhQGdtYWlsLmNvbQ=="
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Static Site Development (Advanced)
-                  </a>
-                </td>
-                <td>StudySection</td>
-                <td>Mar 2022</td>
-              </tr>
-              <tr>
-                <td>
-                  <a
-                    href="https://www.studysection.com/users/socialMedia/NTEyMDQ0/cHJvYm8ua3Jpc2huYWNhaHlhQGdtYWlsLmNvbQ=="
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Swift for iOS (Advanced)
-                  </a>
-                </td>
-                <td>StudySection</td>
-                <td>Mar 2022</td>
-              </tr>
-              <tr>
-                <td>
-                  <a
-                    href="https://app.testdome.com/cert/87b38d51c20f4f8bae38a87af9d50d8b"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Verbal Reasoning
-                  </a>
-                </td>
-                <td>TestDome</td>
-                <td>Mar 2022</td>
-              </tr>
-              <tr>
-                <td>
-                  <a
-                    href="https://app.testdome.com/cert/3e9554be3c624302a0975eb37fa4029a"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    iOS and Swift
-                  </a>
-                </td>
-                <td>TestDome</td>
-                <td>Mar 2022</td>
-              </tr>
-              <tr>
-                <td>
-                  <a
-                    href="https://app.testdome.com/cert/36ac75bae42c460db610f9625f83b675"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    A/B Testing
-                  </a>
-                </td>
-                <td>TestDome</td>
-                <td>Feb 2022</td>
-              </tr>
-              <tr>
-                <td>
-                  <a
-                    href="https://app.testdome.com/cert/39a6f5d3441848a1b334b761fffd645c"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Attention to Detail and Time Management
-                  </a>
-                </td>
-                <td>TestDome</td>
-                <td>Feb 2022</td>
-              </tr>
-              <tr>
-                <td>
-                  <a
-                    href="https://www.studysection.com/users/socialMedia/NDk4ODgz/cHJvYm8ua3Jpc2huYWNhaHlhQGdtYWlsLmNvbQ%3D%3D/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Bootstrap 4.x (Advanced)
-                  </a>
-                </td>
-                <td>StudySection</td>
-                <td>Feb 2022</td>
-              </tr>
-              <tr>
-                <td>
-                  <a
-                    href="https://www.studysection.com/users/socialMedia/NDk4ODky/cHJvYm8ua3Jpc2huYWNhaHlhQGdtYWlsLmNvbQ%3D%3D/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    CSS 3 (Advanced)
-                  </a>
-                </td>
-                <td>StudySection</td>
-                <td>Feb 2022</td>
-              </tr>
-              <tr>
-                <td>
-                  <a
-                    href="https://olympus1.mygreatlearning.com/course_certificate/APMQPGOB"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Front End Development - CSS
-                  </a>
-                </td>
-                <td>Great Learning</td>
-                <td>Feb 2022</td>
-              </tr>
-              <tr>
-                <td>
-                  <a
-                    href="https://olympus1.mygreatlearning.com/course_certificate/QYUKBBAP"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Front End Development - HTML
-                  </a>
-                </td>
-                <td>Great Learning</td>
-                <td>Feb 2022</td>
-              </tr>
-              <tr>
-                <td>
-                  <a
-                    href="https://app.testdome.com/cert/3b309305da0f40fda44e5dcfd2d49ec8"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Git
-                  </a>
-                </td>
-                <td>TestDome</td>
-                <td>Feb 2022</td>
-              </tr>
-              <tr>
-                <td>
-                  <a
-                    href="https://app.testdome.com/cert/2f62fb3b168e4066bf09e61d6ce201c4"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    HTML/CSS and Bootstrap
-                  </a>
-                </td>
-                <td>TestDome</td>
-                <td>Feb 2022</td>
-              </tr>
-              <tr>
-                <td>
-                  <a
-                    href="https://app.testdome.com/cert/7c434b03589e4a71ac9f84c6b206fc74"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    HTML/CSS, JavaScript with jQuery, and Bootstrap
-                  </a>
-                </td>
-                <td>TestDome</td>
-                <td>Feb 2022</td>
-              </tr>
-              <tr>
-                <td>
-                  <a
-                    href="https://app.testdome.com/cert/e532dc2f33464be081f9c27a9506d72c"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    HTML/CSS, JavaScript, and React
-                  </a>
-                </td>
-                <td>TestDome</td>
-                <td>Feb 2022</td>
-              </tr>
-              <tr>
-                <td>
-                  <a
-                    href="https://www.studysection.com/Users/socialMedia/NDk4NjQ1/cHJvYm8ua3Jpc2huYWNhaHlhQGdtYWlsLmNvbQ%3D%3D"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    HTML5 (Advanced)
-                  </a>
-                </td>
-                <td>StudySection</td>
-                <td>Feb 2022</td>
-              </tr>
-              <tr>
-                <td>
-                  <a
-                    href="https://app.testdome.com/cert/98ca9d68e3a0477e9fc9b36335ce3142"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Logical Reasoning
-                  </a>
-                </td>
-                <td>TestDome</td>
-                <td>Feb 2022</td>
-              </tr>
-              <tr>
-                <td>
-                  <a
-                    href="https://app.testdome.com/cert/a8b39c082f744f08a12dde0dd41569ba"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Marketing Analytics
-                  </a>
-                </td>
-                <td>TestDome</td>
-                <td>Feb 2022</td>
-              </tr>
-              <tr>
-                <td>
-                  <a
-                    href="https://app.testdome.com/cert/528a68cf0ef742f8b89f17825e13e06d"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Project Management and Time Management
-                  </a>
-                </td>
-                <td>TestDome</td>
-                <td>Feb 2022</td>
-              </tr>
-              <tr>
-                <td>
-                  <a
-                    href="https://www.kaggle.com/learn/certification/probokrishnacahya/python"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Python
-                  </a>
-                </td>
-                <td>Kaggle</td>
-                <td>Feb 2022</td>
-              </tr>
-              <tr>
-                <td>
-                  <a
-                    href="https://www.agunacourse.com/cek-sertifikat?search=AC-455-97841590-53"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Python Fundamental
-                  </a>
-                </td>
-                <td>Aguna Course</td>
-                <td>Feb 2022</td>
-              </tr>
-              <tr>
-                <td>
-                  <a
-                    href="https://www.studysection.com/users/socialMedia/NTAyMjAx/cHJvYm8ua3Jpc2huYWNhaHlhQGdtYWlsLmNvbQ%3D%3D/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    UI/UX Developer (Advanced)
-                  </a>
-                </td>
-                <td>StudySection</td>
-                <td>Feb 2022</td>
-              </tr>
-              <tr>
-                <td>
-                  <a
-                    href="https://www.studysection.com/users/socialMedia/NTAyMjEx/cHJvYm8ua3Jpc2huYWNhaHlhQGdtYWlsLmNvbQ=="
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Web Designing (Advanced)
-                  </a>
-                </td>
-                <td>StudySection</td>
-                <td>Feb 2022</td>
-              </tr>
-              <tr>
-                <td>
-                  <a
-                    href="https://www.dicoding.com/certificates/07Z6RDEGYPQR"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Memulai Pemrograman Dengan Dart
-                  </a>
-                </td>
-                <td>Dicoding Indonesia</td>
-                <td>Aug 2022 - Aug 2025</td>
-              </tr>
-              <tr>
-                <td>
-                  <a
-                    href="https://www.dicoding.com/certificates/N9ZOE9E18XG5"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Belajar Prinsip Pemrograman SOLID
-                  </a>
-                </td>
-                <td>Dicoding Indonesia</td>
-                <td>Sep 2021 - Sep 2024</td>
-              </tr>
-            </tbody>
-          </table>
-
-          <div className="container text-center mt-5">
-            <span className="fs-6">Built with&ensp;</span>
-            <div className="hstack gap-4 justify-content-center">
-              {personalWebsite}
-            </div>
-            <br />
-
-            <div className="d-inline">
-              <span className="fs-6">Deployed using&ensp;</span>
-              <span>
-                <a href="https://firebase.google.com/products/hosting">
-                  <img
-                    src="images/skills/technologies/hosting.svg"
-                    width={256}
-                    alt="Firebase"
-                    data-bs-toggle="tooltip"
-                    title="Firebase"
-                  />
-                </a>
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
       <Footer />
     </div>
   );

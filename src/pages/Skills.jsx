@@ -44,7 +44,7 @@ export default function Skills() {
     },
     {
       id: 4,
-      image: "images/skills/technologies/hyperText-markup-language-5.svg",
+      image: "images/skills/technologies/hypertext-markup-language-5.svg",
       alt: "HyperText Markup Language 5",
       name: "HyperText Markup Language 5",
       url: "http://www.w3.org/TR/html5/",
@@ -467,7 +467,7 @@ export default function Skills() {
     {
       id: 1,
       url: "http://www.w3.org/TR/html5/",
-      image: "images/skills/technologies/hyperText-markup-language-5.svg",
+      image: "images/skills/technologies/hypertext-markup-language-5.svg",
       title: "HyperText Markup Language 5",
     },
     {

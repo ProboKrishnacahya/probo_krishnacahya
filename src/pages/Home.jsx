@@ -105,7 +105,7 @@ export default function Home() {
       url: "https://www.uc.ac.id/ejourney/entrepreneurship-cluster/",
       name: "Student Assistant",
       description:
-        "Digital Entrepreneurship and Innovation class which is under the management of Faculty of Entrepreneurship and Humanities is intended for Students to be able to create innovative business models in the technology/digital industry that are validated through a process of exploration and exploitation opportunities, resource mobilization, and process validation using the Business Model Canvas. At this assistance, I am responsible to manage E-Learning contents, preparing presentation slides as a learning module, and guiding students in the practice of working on projects as assignments of class participants.",
+        "Digital Entrepreneurship and Innovation class which is under the management of Faculty of Entrepreneurship and Humanities is intended for Students to be able to create innovative business models in the technology/digital industry that are validated through a process of exploration and exploitation opportunities, resource mobilization, and process validation using the Business Model Canvas. At this assistance, I am responsible to manage E-Learning contents using Moodle LMS, preparing presentation slides as a learning module, and guiding Students in the practice of working on projects as assignments of class participants.",
       type: "Contract - Onsite",
       date: "Feb 2022 - present",
     },

@@ -39,7 +39,7 @@ export default function Projects() {
               aria-selected="true"
             >
               <i className="bi bi-globe2"></i>
-              &emsp;Website
+              &emsp;Web
             </button>
           </li>
           <li className="nav-item" role="presentation">
@@ -145,7 +145,7 @@ export default function Projects() {
                     <div className="d-grid gap-2">
                       <div>
                         <img
-                          src="images/projects/Website/DOrphan.svg"
+                          src="images/projects/Web/DOrphan.svg"
                           className="d-block mx-auto"
                           alt="Project"
                           loading="lazy"
@@ -252,7 +252,7 @@ export default function Projects() {
                     <div className="d-grid gap-2">
                       <div>
                         <img
-                          src="images/projects/Website/SejarahKita Website.svg"
+                          src="images/projects/Web/SejarahKita Web.svg"
                           className="d-block mx-auto"
                           alt="Project"
                           loading="lazy"
@@ -265,7 +265,7 @@ export default function Projects() {
                           allowfullscreen="true"
                           mozallowfullscreen="true"
                           webkitallowfullscreen="true"
-                          title="Google Slide SejarahKita Website"
+                          title="Google Slide SejarahKita Web"
                           className="rounded w-100 vh-100"
                         ></iframe>
                       </div>
@@ -324,7 +324,7 @@ export default function Projects() {
                       <strong>Documentation</strong>
                     </summary>
                     <img
-                      src="images/projects/Website/Frontend Mentor.svg"
+                      src="images/projects/Web/Frontend Mentor.svg"
                       className="d-block mx-auto"
                       alt="Project"
                       loading="lazy"
@@ -367,7 +367,7 @@ export default function Projects() {
                   ></i>
                   <strong>&emsp;Project Description:</strong>
                   <br />
-                  PartnerSeeker is a Dynamic Website that implemented Procedural
+                  PartnerSeeker is a Dynamic Web that implemented Procedural
                   Paradigm and created using PHP, MySQL, HTML5, and CSS3. This
                   Business Oriented Social Networking website bridges between
                   freelancers and clients, namely recruiters or freelancer
@@ -410,7 +410,7 @@ export default function Projects() {
                       <strong>Documentation</strong>
                     </summary>
                     <img
-                      src="images/projects/Website/PartnerSeeker.svg"
+                      src="images/projects/Web/PartnerSeeker.svg"
                       className="d-block mx-auto"
                       alt="Project"
                       loading="lazy"

@@ -40,7 +40,8 @@ a {
 }
 
 a:hover,
-.nav-link:hover, #scrollToTop:hover {
+.nav-link:hover,
+#scrollToTop:hover {
   filter: brightness(125%) !important;
 }
 
@@ -198,7 +199,7 @@ span {
   box-shadow: none !important;
   border: solid 1.5px var(--color-primary);
   filter: brightness(110%) !important;
-  background-color: transparent;
+  background-color: transparent !important;
   color: var(--color-primary) !important;
 }
 

@@ -39,8 +39,9 @@ a {
   color: var(--color-primary) !important;
 }
 
-a:hover {
-  filter: brightness(125%);
+a:hover,
+.nav-link:hover, #scrollToTop:hover {
+  filter: brightness(125%) !important;
 }
 
 .social-media:hover {

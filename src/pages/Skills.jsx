@@ -523,7 +523,7 @@ export default function Skills() {
             &#128640;&ensp;Tech Stack
           </h4>
           {/* Information of Technology */}
-          <div className="accordion" id="accordionSkills">
+          <div className="accordion mt-3" id="accordionSkills">
             <div className="accordion-item border-0 bg-transparent">
               <h2 className="accordion-header" id="headingOne">
                 <button

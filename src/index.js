@@ -1,12 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import reportWebVitals from './reportWebVitals';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import './index.css';
-import { Blogs, Posts1, Posts2, Contacts, Home, Projects, Resume, Skills, PageNotFound } from "./script/export";
+import reportWebVitals from './reportWebVitals';
+import { Blogs, Contacts, Home, PageNotFound, Posts1, Posts2, Projects, Resume, Skills } from "./script/export";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -25,7 +26,7 @@ root.render(
   </Router>
 );
 
-//* Website Preload
+//* Web Preload
 const preload = document.querySelector('#preload');
 
 window.addEventListener('load', function () {

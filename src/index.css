@@ -1,14 +1,14 @@
 :root {
-  --color-primary: #3D8BFD;
-  --text-primary: #FFFFFF;
+  --color-primary: #3d8bfd;
+  --text-primary: #ffffff;
   --text-secondary: #000000;
-  --font-primary: 'Manrope', sans-serif;
-  --font-secondary: 'IBM Plex Mono', monospace;
-  --font-tertiary: 'La Belle Aurore', cursive;
+  --font-primary: "Manrope", sans-serif;
+  --font-secondary: "IBM Plex Mono", monospace;
+  --font-tertiary: "La Belle Aurore", cursive;
 }
 
 body {
-  background: url(background/background.png) fixed center / cover no-repeat;
+  background: url(background/desktop.png) fixed center / cover no-repeat;
   font-family: var(--font-primary);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -16,7 +16,7 @@ body {
 }
 
 ::-webkit-scrollbar {
-  height: 10px
+  height: 10px;
 }
 
 ::-webkit-scrollbar-track {
@@ -26,12 +26,12 @@ body {
 ::-webkit-scrollbar-thumb {
   border-radius: 10px;
   border: solid 4px var(--text-secondary);
-  background-color: var(--color-primary)
+  background-color: var(--color-primary);
 }
 
 ::selection {
   background-color: var(--color-primary);
-  color: var(--text-primary)
+  color: var(--text-primary);
 }
 
 a {
@@ -82,11 +82,11 @@ footer {
 img {
   max-width: 100% !important;
   -webkit-user-drag: none !important;
-  user-select: none !important
+  user-select: none !important;
 }
 
 #assets {
-  max-width: 75% !important
+  max-width: 75% !important;
 }
 
 .text-link {
@@ -94,7 +94,7 @@ img {
 }
 
 .carousel-inner {
-  max-width: 50% !important
+  max-width: 50% !important;
 }
 
 .card-img-top:not(.post-thumbnail) {
@@ -121,12 +121,12 @@ img {
 }
 
 .font-tertiary {
-  max-width: 3rem !important
+  max-width: 3rem !important;
 }
 
 .pk {
   font-size: 1.5rem;
-  border-bottom: transparent !important
+  border-bottom: transparent !important;
 }
 
 .pk:hover {
@@ -139,11 +139,11 @@ img {
 
 @keyframes pk {
   from {
-    text-shadow: 0 0 1px var(--color-primary), 0 0 3px var(--color-primary)
+    text-shadow: 0 0 1px var(--color-primary), 0 0 3px var(--color-primary);
   }
 
   to {
-    text-shadow: 0 0 3px var(--color-primary), 0 0 5px var(--color-primary)
+    text-shadow: 0 0 3px var(--color-primary), 0 0 5px var(--color-primary);
   }
 }
 
@@ -165,14 +165,18 @@ img {
   display: inline;
 }
 
+.navbar-brand:hover {
+  filter: none !important;
+}
+
 span {
   font-size: xx-large;
 }
 
 .btn {
   border-radius: 8px !important;
-  padding: .75rem 1rem !important;
-  color: var(--text-primary) !important
+  padding: 0.75rem 1rem !important;
+  color: var(--text-primary) !important;
 }
 
 .btn:hover {
@@ -180,7 +184,7 @@ span {
 }
 
 .btn:active {
-  transform: scale(.9);
+  transform: scale(0.9);
 }
 
 .btn-primary {
@@ -209,17 +213,17 @@ span {
 
 hr {
   height: 2px !important;
-  border-radius: 50px !important
+  border-radius: 50px !important;
 }
 
 section {
-  padding: 3rem 0 !important
+  padding: 3rem 0 !important;
 }
 
 .card,
 .kartu,
 .kontak {
-  background: #FFFFFF1A !important;
+  background: #ffffff1a !important;
   backdrop-filter: blur(5px) !important;
   -webkit-backdrop-filter: blur(5px) !important;
 }
@@ -227,7 +231,7 @@ section {
 .card,
 .kartu {
   border-radius: 16px !important;
-  border: solid 2px #FFFFFF25 !important;
+  border: solid 2px #ffffff25 !important;
 }
 
 .card {
@@ -334,7 +338,7 @@ section {
 .section-title:after {
   display: block;
   margin: 0 auto;
-  padding-top: .75rem;
+  padding-top: 0.75rem;
   width: 5%;
   content: "";
   border-bottom: 2px solid var(--text-primary);
@@ -419,7 +423,7 @@ tr:last-child td:last-child {
 }
 
 .benefits {
-  list-style-type: '\2713';
+  list-style-type: "\2713";
 }
 
 #side {
@@ -476,23 +480,23 @@ code {
 
 @media screen and (max-width: 768px) {
   h2 {
-    font-size: x-large !important
+    font-size: x-large !important;
   }
 
   h4 {
-    font-size: larger !important
+    font-size: larger !important;
   }
 
   .navbar-toggler-icon {
-    font-size: x-large !important
+    font-size: x-large !important;
   }
 
   .nav-link:hover {
-    transform: none !important
+    transform: none !important;
   }
 
   span:not(.Typewriter__wrapper):not(.typeCursor) {
-    font-size: large !important
+    font-size: large !important;
   }
 
   .hero-img {
@@ -500,7 +504,7 @@ code {
   }
 
   .carousel-inner {
-    max-width: 100% !important
+    max-width: 100% !important;
   }
 
   .card-img-top {

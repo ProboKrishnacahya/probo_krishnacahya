@@ -94,9 +94,9 @@ export default function Home() {
     {
       id: 1,
       url: "https://appledeveloperacademy.uc.ac.id/#academy-experience",
-      name: "iOS Developer Intern 2023 Cohort",
+      name: "Tech (Coder) Intern Cohort 2023",
       description:
-        "10 months Internship program on Apple Developer Academy @ UC to forge oneself into world-class developer via Industry Leading Frameworks including Challenge Based Learning, Design Thinking, and Project Management that combined with T-Shaped Curriculum Model to become a well-rounded professional.",
+        "The 10 months Internship at Apple Developer Academy @ UC is a program to forge oneself into a World-Class Developer via Industry Leading Frameworks including Challenge Based Learning, Design Thinking, and Project Management that combined with a T-Shaped Curriculum Model to become a well-rounded professional.",
       type: "Internship - Onsite",
       date: "Mar 2022 - present",
     },

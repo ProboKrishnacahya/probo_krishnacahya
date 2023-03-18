@@ -7,9 +7,11 @@ export default function Header() {
       <nav className="navbar navbar-expand-lg navbar-dark user-select-none py-3">
         <div className="container">
           <NavLink className="navbar-brand" to="/">
-            <strong className="pk">
-              <span id="logo">PK</span>
-            </strong>
+            <img
+              src="images/assets/pk.svg"
+              alt="Probo Krishnacahya"
+              width={32}
+            />
           </NavLink>
           <button
             className="navbar-toggler collapsed border border-2 border-secondary bg-dark"

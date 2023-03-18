@@ -358,7 +358,7 @@ export default function Skills() {
       alt: "Lightroom",
       name: "Lightroom",
       url: "https://www.adobe.com/products/photoshop-lightroom.html",
-      progress: "85%",
+      progress: "90%",
     },
     {
       id: 5,
@@ -374,7 +374,7 @@ export default function Skills() {
       alt: "Premiere Pro",
       name: "Premiere Pro",
       url: "https://www.adobe.com/products/premiere.html",
-      progress: "60%",
+      progress: "55%",
     },
   ];
 

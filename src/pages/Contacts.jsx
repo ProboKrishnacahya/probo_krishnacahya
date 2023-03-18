@@ -54,15 +54,15 @@ export default function Contacts() {
       title: "Instagram",
       text: "probo_krishnacahya",
     },
+    // {
+    //   id: 6,
+    //   url: "https://t.me/cahyaa02",
+    //   image: "images/contacts/telegram.svg",
+    //   title: "Telegram",
+    //   text: "cahyaa02",
+    // },
     {
       id: 6,
-      url: "https://t.me/cahyaa02",
-      image: "images/contacts/telegram.svg",
-      title: "Telegram",
-      text: "cahyaa02",
-    },
-    {
-      id: 7,
       url: "https://github.com/ProboKrishnacahya",
       image: "images/contacts/github.svg",
       title: "GitHub",

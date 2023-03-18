@@ -58,7 +58,7 @@ export default function Footer() {
                   title="Discord"
                 ></i>
               </a>
-              <a
+              {/* <a
                 href="https://t.me/cahyaa02"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -68,7 +68,7 @@ export default function Footer() {
                   data-bs-toggle="tooltip"
                   title="Telegram"
                 ></i>
-              </a>
+              </a> */}
               <a
                 href="https://www.instagram.com/probo_krishnacahya/"
                 target="_blank"

@@ -5,10 +5,10 @@ import Footer from "./../components/Footer";
 
 export default function Projects() {
   useEffect(() => {
-    //* Tab Page Title
+    // * Tab Page Title
     document.title = "Projects";
 
-    //* Enable Bootstrap's Tooltip Everywhere
+    // * Enable Bootstrap's Tooltip Everywhere
     var tooltipElList = [].slice.call(
       document.querySelectorAll('[data-bs-toggle="tooltip"]')
     );

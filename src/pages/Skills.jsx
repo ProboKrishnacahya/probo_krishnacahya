@@ -5,10 +5,10 @@ import Footer from "./../components/Footer";
 
 export default function Skills() {
   useEffect(() => {
-    //* Tab Page Title
+    // * Tab Page Title
     document.title = "Skills";
 
-    //* Enable Bootstrap's Tooltip Everywhere
+    // * Enable Bootstrap's Tooltip Everywhere
     var tooltipElList = [].slice.call(
       document.querySelectorAll('[data-bs-toggle="tooltip"]')
     );

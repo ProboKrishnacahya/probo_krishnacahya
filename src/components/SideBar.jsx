@@ -3,7 +3,7 @@ import { Toast } from "bootstrap";
 
 export default function SideBar() {
   useEffect(() => {
-    //* Enable Bootstrap's Toast
+    // * Enable Bootstrap's Toast
     var toastElList = [].slice.call(document.querySelectorAll(".toast"));
     toastElList.map(function (toastEl) {
       return new Toast(toastEl);

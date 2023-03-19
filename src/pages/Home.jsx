@@ -2,15 +2,16 @@ import React, { useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import { Tooltip } from "bootstrap";
 import Typewriter from "typewriter-effect/dist/core";
+import $ from "jquery";
 import Header from "./../components/Header";
 import Footer from "./../components/Footer";
 
 export default function Home() {
   useEffect(() => {
-    //* Tab Page Title
+    // * Tab Page Title
     document.title = "Probo Krishnacahya";
 
-    //* Enable Bootstrap's Tooltip Everywhere
+    // * Enable Bootstrap's Tooltip Everywhere
     var tooltipElList = [].slice.call(
       document.querySelectorAll('[data-bs-toggle="tooltip"]')
     );
@@ -18,7 +19,28 @@ export default function Home() {
       return new Tooltip(tooltipEl);
     });
 
-    //* Setup TypewriterJS (Typewriting Effect)
+    // * Dropdown Filter Locations for Photography
+    $(document).ready(function () {
+      $("select")
+        .change(function () {
+          $(this)
+            .find("option:selected")
+            .each(function () {
+              var optionValue = $(this).attr("value");
+              if (optionValue) {
+                $(".photos")
+                  .not("." + optionValue)
+                  .hide();
+                $("." + optionValue).show();
+              } else {
+                $(".photos").hide();
+              }
+            });
+        })
+        .change();
+    });
+
+    // * Setup TypewriterJS (Typewriting Effect)
     var typewriting = document.getElementById("typewriting");
     var typewriter = new Typewriter(typewriting, {
       delay: 50,
@@ -38,7 +60,7 @@ export default function Home() {
       .start();
   }, []);
 
-  //* About Me
+  // * About Me
   const profiles = [
     {
       id: 1,
@@ -83,13 +105,13 @@ export default function Home() {
             data-bs-toggle="tooltip"
             title={profile.title}
           ></i>
-          &emsp; {profile.text}
+          &emsp;{profile.text}
         </div>
       </div>
     );
   }
 
-  //* Professional Experiences
+  // * Professional Experiences
   const works = [
     {
       id: 1,
@@ -164,7 +186,7 @@ export default function Home() {
     );
   }
 
-  //* Volunteering
+  // * Volunteering
   const events = [
     {
       id: 1,
@@ -180,7 +202,7 @@ export default function Home() {
       url: "https://sites.google.com/ciputra.ac.id/ct-for-educators/",
       name: "Best Practices on Computational Thinking for Future Educators Workshop",
       description:
-        "Best Practices on Computational Thinking for Future Educators Workshop is a special program designed by Universitas Ciputra Techno Center for Teachers to train Computational Thinking successfully. This program empowers Educators to become Experts in embedding Computational Thinking in their teaching strategies. Workshop topics include Introduction to Computational Thinking, Computational Thinking in Class & Developing Computational Thinking Tasks, and Computational Thinking Tools. At this event, I am responsible as a member of the Module (Presentation Slides) Division through designing the layout of the content and making illustrations of the material that has been prepared by the Trainer.",
+        "Best Practices on Computational Thinking for Future Educators Workshop is a special program designed by Universitas Ciputra Techno Center for Teachers to train Computational Thinking successfully. This program empowers Educators to become Experts in embedding Computational Thinking in their teaching strategies. Workshop topics include Introduction to Computational Thinking, Computational Thinking in Class & Developing Computational Thinking Tasks, and Computational Thinking Tools. At this event, I am responsible as a member of the Module (Presentation Slides) Division through designing the layout of the content and making illustrations of the material that has been prepajakarta by the Trainer.",
       position:
         "Member of Module (Presentation Slides) Division (Ad Hoc Committee)",
       date: "Jul 2022 - Sep 2022",
@@ -249,7 +271,7 @@ export default function Home() {
     );
   }
 
-  //* Awards
+  // * Awards
   const achievements = [
     {
       id: 1,
@@ -264,7 +286,7 @@ export default function Home() {
       id: 2,
       url: "https://informatika.uc.ac.id/id/2022/08/juara-2-ui-ux-design-competition-national-informatic-fun-competition-2022/",
       name: "2nd Place in National Informatic Fun Competition 2K22 - UI/UX Design Category",
-      description: `National Informatic Fun Competition (NIFC) 2K22 is a national scale activity in the form of 8 categories of Competition, Workshop, Webinars, and Bazaars organized by HIMA Teknik Informatika Universitas Muhammadiyah Riau. Weerausaha Team representing Universitas Ciputra Surabaya in the User Interface - User Experience (UI/UX) Design competition category with the competition theme "The Role of Digital Technology in the Development of Educational Ideas and Innovation" along with the sub-theme "Education" managed to win by occupying the Runner up. At this competition, I am responsible as a UI/UX Designer Lead.`,
+      description: `National Informatic Fun Competition (NIFC) 2K22 is a national scale activity in the form of 8 categories of Competition, Workshop, Webinars, and Bazaars organized by HIMA Teknik Informatika Universitas Muhammadiyah Riau. Weerausaha Team representing Universitas Ciputra Surabaya in the User Interface - User Experience (UI/UX) Design competition category with the competition theme "The Role of Digital Technology in the Development of Educational Ideas and Innovation" along with the sub-theme "Education" managed to win by occupying the Runner up. At this competition, I am responsible as a Lead UI/UX Designer.`,
       publisher: "Universitas Muhammadiyah Riau",
       date: "Aug 2022",
     },
@@ -272,7 +294,7 @@ export default function Home() {
       id: 3,
       url: "https://informatika.uc.ac.id/id/2022/08/prestasi-fit-competition-2022-juara-1-harapan-2-dan-ide-terbaik/",
       name: "9th Place in Faculty of Information Technology Competition 2022 - Web Developer Category",
-      description: `Faculty of Information Technology (FIT) Competition 2022 is a national scale competition in the field of information technology held by Himpunan Mahasiswa S1 Teknik Informatika Fakultas Teknologi Informasi Universitas Kristen Satya Wacana. This competition aims to foster a competitive spirit and spur students to realize creative and innovative ideas in the field of Informatics Engineering that have technology-based business values ​​(mobile and website applications) and are beneficial to the community. SK Team representing Universitas Ciputra Surabaya in the Web Developer category with the competition theme "Innovation For a Better World" managed to rank 9th as a finalist. At this competition, I am responsible as a Full Stack Web Developer Lead.`,
+      description: `Faculty of Information Technology (FIT) Competition 2022 is a national scale competition in the field of information technology held by Himpunan Mahasiswa S1 Teknik Informatika Fakultas Teknologi Informasi Universitas Kristen Satya Wacana. This competition aims to foster a competitive spirit and spur students to realize creative and innovative ideas in the field of Informatics Engineering that have technology-based business values ​​(mobile and website applications) and are beneficial to the community. SK Team representing Universitas Ciputra Surabaya in the Web Developer category with the competition theme "Innovation For a Better World" managed to rank 9th as a finalist. At this competition, I am responsible as a Lead Full Stack Web Developer.`,
       publisher: "Universitas Kristen Satya Wacana Salatiga",
       date: "Aug 2022",
     },
@@ -331,7 +353,7 @@ export default function Home() {
     );
   }
 
-  //* Hobbies
+  // * Hobbies
   // Jakarta
   const jkt = [
     { id: 1, image: "images/home/photography/gedung-1.jpg" },
@@ -520,7 +542,7 @@ export default function Home() {
                 {aboutMe}
               </div>
             </div>
-            <div>
+            <div className="align-self-center">
               <p>
                 I am an Undergraduate Informatics Student at Universitas Ciputra
                 Surabaya with 2+ years of experience in the field of Frontend
@@ -539,7 +561,7 @@ export default function Home() {
         </section>
 
         <section id="below-the-fold">
-          <div className="container vstack gap-5 mb-5">
+          <div className="vstack gap-5 mb-5">
             <div data-aos="fade-up">
               <h4 className="text-center section-title">
                 &#127979;&ensp;Educations
@@ -1000,487 +1022,410 @@ export default function Home() {
                 aria-label="Close"
               ></button>
             </div>
-            <div className="modal-body">
-              <ul
-                className="nav nav-pills nav flex-column flex-sm-row justify-content-center gap-3 mt-2 mb-5"
-                id="pills-tab"
-                role="tablist"
-                data-aos="fade-up"
-              >
-                <li className="nav-item" role="presentation">
-                  <button
-                    className="nav-link active px-5"
-                    id="pills-1-tab"
-                    data-bs-toggle="pill"
-                    data-bs-target="#pills-1"
-                    type="button"
-                    role="tab"
-                    aria-controls="pills-1"
-                    aria-selected="false"
-                  >
-                    Jakarta
-                  </button>
-                </li>
-                <li className="nav-item" role="presentation">
-                  <button
-                    className="nav-link px-5"
-                    id="pills-2-tab"
-                    data-bs-toggle="pill"
-                    data-bs-target="#pills-2"
-                    type="button"
-                    role="tab"
-                    aria-controls="pills-2"
-                    aria-selected="false"
-                  >
-                    Malang
-                  </button>
-                </li>
-                <li className="nav-item" role="presentation">
-                  <button
-                    className="nav-link px-5"
-                    id="pills-3-tab"
-                    data-bs-toggle="pill"
-                    data-bs-target="#pills-3"
-                    type="button"
-                    role="tab"
-                    aria-controls="pills-3"
-                    aria-selected="true"
-                  >
-                    Surabaya
-                  </button>
-                </li>
-                <li className="nav-item" role="presentation">
-                  <button
-                    className="nav-link px-5"
-                    id="pills-4-tab"
-                    data-bs-toggle="pill"
-                    data-bs-target="#pills-4"
-                    type="button"
-                    role="tab"
-                    aria-controls="pills-4"
-                    aria-selected="false"
-                  >
-                    Yogyakarta
-                  </button>
-                </li>
-              </ul>
-              <div className="tab-content" id="pills-tabContent">
+            <div className="modal-body d-grid gap-4">
+              <div className="d-flex justify-content-end">
+                <select className="form-select border-0 bg-primary text-white w-auto align-self-end">
+                  <option value="jakarta">Jakarta</option>
+                  <option value="surabaya">Surabaya</option>
+                  <option value="yogyakarta">Yogyakarta</option>
+                  <option value="malang">Malang</option>
+                </select>
+              </div>
+              <div className="jakarta photos">
                 <div
-                  className="tab-pane fade show active"
-                  id="pills-1"
-                  role="tabpanel"
-                  aria-labelledby="pills-1-tab"
+                  id="carouselPhotography1"
+                  className="carousel slide"
+                  data-bs-ride="false"
+                  data-bs-interval="false"
                 >
-                  <div
-                    id="carouselPhotography1"
-                    className="carousel slide"
-                    data-bs-ride="false"
-                    data-bs-interval="false"
-                  >
-                    <div className="carousel-indicators">
-                      <button
-                        type="button"
-                        data-bs-target="#carouselPhotography1"
-                        data-bs-slide-to="0"
-                        className="active"
-                        aria-current="true"
-                        aria-label="Photography"
-                      ></button>
-                      <button
-                        type="button"
-                        data-bs-target="#carouselPhotography1"
-                        data-bs-slide-to="1"
-                        aria-label="Photography"
-                      ></button>
-                      <button
-                        type="button"
-                        data-bs-target="#carouselPhotography1"
-                        data-bs-slide-to="2"
-                        aria-label="Photography"
-                      ></button>
-                      <button
-                        type="button"
-                        data-bs-target="#carouselPhotography1"
-                        data-bs-slide-to="3"
-                        aria-label="Photography"
-                      ></button>
-                      <button
-                        type="button"
-                        data-bs-target="#carouselPhotography1"
-                        data-bs-slide-to="4"
-                        aria-label="Photography"
-                      ></button>
-                      <button
-                        type="button"
-                        data-bs-target="#carouselPhotography1"
-                        data-bs-slide-to="5"
-                        aria-label="Photography"
-                      ></button>
-                      <button
-                        type="button"
-                        data-bs-target="#carouselPhotography1"
-                        data-bs-slide-to="6"
-                        aria-label="Photography"
-                      ></button>
-                      <button
-                        type="button"
-                        data-bs-target="#carouselPhotography1"
-                        data-bs-slide-to="7"
-                        aria-label="Photography"
-                      ></button>
-                      <button
-                        type="button"
-                        data-bs-target="#carouselPhotography1"
-                        data-bs-slide-to="8"
-                        aria-label="Photography"
-                      ></button>
-                      <button
-                        type="button"
-                        data-bs-target="#carouselPhotography1"
-                        data-bs-slide-to="9"
-                        aria-label="Photography"
-                      ></button>
-                    </div>
-                    <div className="carousel-inner text-center mx-auto">
-                      <div className="carousel-item active">
-                        <div className="col">{jakarta[0]}</div>
-                      </div>
-                      <div className="carousel-item">
-                        <div className="col">{jakarta[1]}</div>
-                      </div>
-                      <div className="carousel-item">
-                        <div className="col">{jakarta[2]}</div>
-                      </div>
-                      <div className="carousel-item">
-                        <div className="col">{jakarta[3]}</div>
-                      </div>
-                      <div className="carousel-item">
-                        <div className="col">{jakarta[4]}</div>
-                      </div>
-                      <div className="carousel-item">
-                        <div className="col">{jakarta[5]}</div>
-                      </div>
-                      <div className="carousel-item">
-                        <div className="col">{jakarta[6]}</div>
-                      </div>
-                      <div className="carousel-item">
-                        <div className="col">{jakarta[7]}</div>
-                      </div>
-                      <div className="carousel-item">
-                        <div className="col">{jakarta[8]}</div>
-                      </div>
-                      <div className="carousel-item">
-                        <div className="col">{jakarta[9]}</div>
-                      </div>
-                    </div>
+                  <div className="carousel-indicators">
                     <button
-                      className="carousel-control-prev"
                       type="button"
                       data-bs-target="#carouselPhotography1"
-                      data-bs-slide="prev"
-                    >
-                      <span
-                        className="carousel-control-prev-icon"
-                        aria-hidden="true"
-                        data-bs-toggle="tooltip"
-                        title="Previous"
-                      ></span>
-                      <span className="visually-hidden">Previous</span>
-                    </button>
+                      data-bs-slide-to="0"
+                      className="active"
+                      aria-current="true"
+                      aria-label="Photography"
+                    ></button>
                     <button
-                      className="carousel-control-next"
                       type="button"
                       data-bs-target="#carouselPhotography1"
-                      data-bs-slide="next"
-                    >
-                      <span
-                        className="carousel-control-next-icon"
-                        aria-hidden="true"
-                        data-bs-toggle="tooltip"
-                        title="Next"
-                      ></span>
-                      <span className="visually-hidden">Next</span>
-                    </button>
-                  </div>
-                </div>
-                <div
-                  className="tab-pane fade show"
-                  id="pills-3"
-                  role="tabpanel"
-                  aria-labelledby="pills-3-tab"
-                >
-                  <div
-                    id="carouselPhotography3"
-                    className="carousel slide"
-                    data-bs-ride="false"
-                    data-bs-interval="false"
-                  >
-                    <div className="carousel-indicators">
-                      <button
-                        type="button"
-                        data-bs-target="#carouselPhotography3"
-                        data-bs-slide-to="0"
-                        className="active"
-                        aria-current="true"
-                        aria-label="Photography"
-                      ></button>
-                      <button
-                        type="button"
-                        data-bs-target="#carouselPhotography3"
-                        data-bs-slide-to="1"
-                        aria-label="Photography"
-                      ></button>
-                      <button
-                        type="button"
-                        data-bs-target="#carouselPhotography3"
-                        data-bs-slide-to="2"
-                        aria-label="Photography"
-                      ></button>
-                    </div>
-                    <div className="carousel-inner text-center mx-auto">
-                      <div className="carousel-item active">
-                        <div className="col">{surabaya[0]}</div>
-                      </div>
-                      <div className="carousel-item">
-                        <div className="col">{surabaya[1]}</div>
-                      </div>
-                      <div className="carousel-item">
-                        <div className="col">{surabaya[2]}</div>
-                      </div>
-                    </div>
+                      data-bs-slide-to="1"
+                      aria-label="Photography"
+                    ></button>
                     <button
-                      className="carousel-control-prev"
+                      type="button"
+                      data-bs-target="#carouselPhotography1"
+                      data-bs-slide-to="2"
+                      aria-label="Photography"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselPhotography1"
+                      data-bs-slide-to="3"
+                      aria-label="Photography"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselPhotography1"
+                      data-bs-slide-to="4"
+                      aria-label="Photography"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselPhotography1"
+                      data-bs-slide-to="5"
+                      aria-label="Photography"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselPhotography1"
+                      data-bs-slide-to="6"
+                      aria-label="Photography"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselPhotography1"
+                      data-bs-slide-to="7"
+                      aria-label="Photography"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselPhotography1"
+                      data-bs-slide-to="8"
+                      aria-label="Photography"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselPhotography1"
+                      data-bs-slide-to="9"
+                      aria-label="Photography"
+                    ></button>
+                  </div>
+                  <div className="carousel-inner text-center mx-auto">
+                    <div className="carousel-item active">
+                      <div className="col">{jakarta[0]}</div>
+                    </div>
+                    <div className="carousel-item">
+                      <div className="col">{jakarta[1]}</div>
+                    </div>
+                    <div className="carousel-item">
+                      <div className="col">{jakarta[2]}</div>
+                    </div>
+                    <div className="carousel-item">
+                      <div className="col">{jakarta[3]}</div>
+                    </div>
+                    <div className="carousel-item">
+                      <div className="col">{jakarta[4]}</div>
+                    </div>
+                    <div className="carousel-item">
+                      <div className="col">{jakarta[5]}</div>
+                    </div>
+                    <div className="carousel-item">
+                      <div className="col">{jakarta[6]}</div>
+                    </div>
+                    <div className="carousel-item">
+                      <div className="col">{jakarta[7]}</div>
+                    </div>
+                    <div className="carousel-item">
+                      <div className="col">{jakarta[8]}</div>
+                    </div>
+                    <div className="carousel-item">
+                      <div className="col">{jakarta[9]}</div>
+                    </div>
+                  </div>
+                  <button
+                    className="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselPhotography1"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      className="carousel-control-prev-icon"
+                      aria-hidden="true"
+                      data-bs-toggle="tooltip"
+                      title="Previous"
+                    ></span>
+                    <span className="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    className="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselPhotography1"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      className="carousel-control-next-icon"
+                      aria-hidden="true"
+                      data-bs-toggle="tooltip"
+                      title="Next"
+                    ></span>
+                    <span className="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+              <div className="surabaya photos">
+                <div
+                  id="carouselPhotography3"
+                  className="carousel slide"
+                  data-bs-ride="false"
+                  data-bs-interval="false"
+                >
+                  <div className="carousel-indicators">
+                    <button
                       type="button"
                       data-bs-target="#carouselPhotography3"
-                      data-bs-slide="prev"
-                    >
-                      <span
-                        className="carousel-control-prev-icon"
-                        aria-hidden="true"
-                        data-bs-toggle="tooltip"
-                        title="Previous"
-                      ></span>
-                      <span className="visually-hidden">Previous</span>
-                    </button>
+                      data-bs-slide-to="0"
+                      className="active"
+                      aria-current="true"
+                      aria-label="Photography"
+                    ></button>
                     <button
-                      className="carousel-control-next"
                       type="button"
                       data-bs-target="#carouselPhotography3"
-                      data-bs-slide="next"
-                    >
-                      <span
-                        className="carousel-control-next-icon"
-                        aria-hidden="true"
-                        data-bs-toggle="tooltip"
-                        title="Next"
-                      ></span>
-                      <span className="visually-hidden">Next</span>
-                    </button>
-                  </div>
-                </div>
-                <div
-                  className="tab-pane fade"
-                  id="pills-4"
-                  role="tabpanel"
-                  aria-labelledby="pills-4-tab"
-                >
-                  <div
-                    id="carouselPhotography4"
-                    className="carousel slide"
-                    data-bs-ride="false"
-                    data-bs-interval="false"
-                  >
-                    <div className="carousel-indicators">
-                      <button
-                        type="button"
-                        data-bs-target="#carouselPhotography4"
-                        data-bs-slide-to="0"
-                        className="active"
-                        aria-current="true"
-                        aria-label="Photography"
-                      ></button>
-                      <button
-                        type="button"
-                        data-bs-target="#carouselPhotography4"
-                        data-bs-slide-to="1"
-                        aria-label="Photography"
-                      ></button>
-                      <button
-                        type="button"
-                        data-bs-target="#carouselPhotography4"
-                        data-bs-slide-to="2"
-                        aria-label="Photography"
-                      ></button>
-                      <button
-                        type="button"
-                        data-bs-target="#carouselPhotography4"
-                        data-bs-slide-to="3"
-                        aria-label="Photography"
-                      ></button>
-                      <button
-                        type="button"
-                        data-bs-target="#carouselPhotography4"
-                        data-bs-slide-to="4"
-                        aria-label="Photography"
-                      ></button>
-                      <button
-                        type="button"
-                        data-bs-target="#carouselPhotography4"
-                        data-bs-slide-to="5"
-                        aria-label="Photography"
-                      ></button>
-                    </div>
-                    <div className="carousel-inner text-center mx-auto">
-                      <div className="carousel-item active">
-                        <div className="col">{yogyakarta[0]}</div>
-                      </div>
-                      <div className="carousel-item">
-                        <div className="col">{yogyakarta[1]}</div>
-                      </div>
-                      <div className="carousel-item">
-                        <div className="col">{yogyakarta[2]}</div>
-                      </div>
-                      <div className="carousel-item">
-                        <div className="col">{yogyakarta[3]}</div>
-                      </div>
-                      <div className="carousel-item">
-                        <div className="col">{yogyakarta[4]}</div>
-                      </div>
-                      <div className="carousel-item">
-                        <div className="col">{yogyakarta[5]}</div>
-                      </div>
-                    </div>
+                      data-bs-slide-to="1"
+                      aria-label="Photography"
+                    ></button>
                     <button
-                      className="carousel-control-prev"
+                      type="button"
+                      data-bs-target="#carouselPhotography3"
+                      data-bs-slide-to="2"
+                      aria-label="Photography"
+                    ></button>
+                  </div>
+                  <div className="carousel-inner text-center mx-auto">
+                    <div className="carousel-item active">
+                      <div className="col">{surabaya[0]}</div>
+                    </div>
+                    <div className="carousel-item">
+                      <div className="col">{surabaya[1]}</div>
+                    </div>
+                    <div className="carousel-item">
+                      <div className="col">{surabaya[2]}</div>
+                    </div>
+                  </div>
+                  <button
+                    className="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselPhotography3"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      className="carousel-control-prev-icon"
+                      aria-hidden="true"
+                      data-bs-toggle="tooltip"
+                      title="Previous"
+                    ></span>
+                    <span className="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    className="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselPhotography3"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      className="carousel-control-next-icon"
+                      aria-hidden="true"
+                      data-bs-toggle="tooltip"
+                      title="Next"
+                    ></span>
+                    <span className="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+              <div className="yogyakarta photos">
+                <div
+                  id="carouselPhotography4"
+                  className="carousel slide"
+                  data-bs-ride="false"
+                  data-bs-interval="false"
+                >
+                  <div className="carousel-indicators">
+                    <button
                       type="button"
                       data-bs-target="#carouselPhotography4"
-                      data-bs-slide="prev"
-                    >
-                      <span
-                        className="carousel-control-prev-icon"
-                        aria-hidden="true"
-                        data-bs-toggle="tooltip"
-                        title="Previous"
-                      ></span>
-                      <span className="visually-hidden">Previous</span>
-                    </button>
+                      data-bs-slide-to="0"
+                      className="active"
+                      aria-current="true"
+                      aria-label="Photography"
+                    ></button>
                     <button
-                      className="carousel-control-next"
                       type="button"
                       data-bs-target="#carouselPhotography4"
-                      data-bs-slide="next"
-                    >
-                      <span
-                        className="carousel-control-next-icon"
-                        aria-hidden="true"
-                        data-bs-toggle="tooltip"
-                        title="Next"
-                      ></span>
-                      <span className="visually-hidden">Next</span>
-                    </button>
+                      data-bs-slide-to="1"
+                      aria-label="Photography"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselPhotography4"
+                      data-bs-slide-to="2"
+                      aria-label="Photography"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselPhotography4"
+                      data-bs-slide-to="3"
+                      aria-label="Photography"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselPhotography4"
+                      data-bs-slide-to="4"
+                      aria-label="Photography"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselPhotography4"
+                      data-bs-slide-to="5"
+                      aria-label="Photography"
+                    ></button>
                   </div>
-                </div>
-                <div
-                  className="tab-pane fade"
-                  id="pills-2"
-                  role="tabpanel"
-                  aria-labelledby="pills-2-tab"
-                >
-                  <div
-                    id="carouselPhotography2"
-                    className="carousel slide"
-                    data-bs-ride="false"
-                    data-bs-interval="false"
+                  <div className="carousel-inner text-center mx-auto">
+                    <div className="carousel-item active">
+                      <div className="col">{yogyakarta[0]}</div>
+                    </div>
+                    <div className="carousel-item">
+                      <div className="col">{yogyakarta[1]}</div>
+                    </div>
+                    <div className="carousel-item">
+                      <div className="col">{yogyakarta[2]}</div>
+                    </div>
+                    <div className="carousel-item">
+                      <div className="col">{yogyakarta[3]}</div>
+                    </div>
+                    <div className="carousel-item">
+                      <div className="col">{yogyakarta[4]}</div>
+                    </div>
+                    <div className="carousel-item">
+                      <div className="col">{yogyakarta[5]}</div>
+                    </div>
+                  </div>
+                  <button
+                    className="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselPhotography4"
+                    data-bs-slide="prev"
                   >
-                    <div className="carousel-indicators">
-                      <button
-                        type="button"
-                        data-bs-target="#carouselPhotography2"
-                        data-bs-slide-to="0"
-                        className="active"
-                        aria-current="true"
-                        aria-label="Photography"
-                      ></button>
-                      <button
-                        type="button"
-                        data-bs-target="#carouselPhotography2"
-                        data-bs-slide-to="1"
-                        aria-label="Photography"
-                      ></button>
-                      <button
-                        type="button"
-                        data-bs-target="#carouselPhotography2"
-                        data-bs-slide-to="2"
-                        aria-label="Photography"
-                      ></button>
-                      <button
-                        type="button"
-                        data-bs-target="#carouselPhotography2"
-                        data-bs-slide-to="3"
-                        aria-label="Photography"
-                      ></button>
-                      <button
-                        type="button"
-                        data-bs-target="#carouselPhotography2"
-                        data-bs-slide-to="4"
-                        aria-label="Photography"
-                      ></button>
-                      <button
-                        type="button"
-                        data-bs-target="#carouselPhotography2"
-                        data-bs-slide-to="5"
-                        aria-label="Photography"
-                      ></button>
-                    </div>
-                    <div className="carousel-inner text-center mx-auto">
-                      <div className="carousel-item active">
-                        <div className="col">{malang[0]}</div>
-                      </div>
-                      <div className="carousel-item">
-                        <div className="col">{malang[1]}</div>
-                      </div>
-                      <div className="carousel-item">
-                        <div className="col">{malang[2]}</div>
-                      </div>
-                      <div className="carousel-item">
-                        <div className="col">{malang[3]}</div>
-                      </div>
-                      <div className="carousel-item">
-                        <div className="col">{malang[4]}</div>
-                      </div>
-                      <div className="carousel-item">
-                        <div className="col">{malang[5]}</div>
-                      </div>
-                    </div>
+                    <span
+                      className="carousel-control-prev-icon"
+                      aria-hidden="true"
+                      data-bs-toggle="tooltip"
+                      title="Previous"
+                    ></span>
+                    <span className="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    className="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselPhotography4"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      className="carousel-control-next-icon"
+                      aria-hidden="true"
+                      data-bs-toggle="tooltip"
+                      title="Next"
+                    ></span>
+                    <span className="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+              <div className="malang photos">
+                <div
+                  id="carouselPhotography2"
+                  className="carousel slide"
+                  data-bs-ride="false"
+                  data-bs-interval="false"
+                >
+                  <div className="carousel-indicators">
                     <button
-                      className="carousel-control-prev"
                       type="button"
                       data-bs-target="#carouselPhotography2"
-                      data-bs-slide="prev"
-                    >
-                      <span
-                        className="carousel-control-prev-icon"
-                        aria-hidden="true"
-                        data-bs-toggle="tooltip"
-                        title="Previous"
-                      ></span>
-                      <span className="visually-hidden">Previous</span>
-                    </button>
+                      data-bs-slide-to="0"
+                      className="active"
+                      aria-current="true"
+                      aria-label="Photography"
+                    ></button>
                     <button
-                      className="carousel-control-next"
                       type="button"
                       data-bs-target="#carouselPhotography2"
-                      data-bs-slide="next"
-                    >
-                      <span
-                        className="carousel-control-next-icon"
-                        aria-hidden="true"
-                        data-bs-toggle="tooltip"
-                        title="Next"
-                      ></span>
-                      <span className="visually-hidden">Next</span>
-                    </button>
+                      data-bs-slide-to="1"
+                      aria-label="Photography"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselPhotography2"
+                      data-bs-slide-to="2"
+                      aria-label="Photography"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselPhotography2"
+                      data-bs-slide-to="3"
+                      aria-label="Photography"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselPhotography2"
+                      data-bs-slide-to="4"
+                      aria-label="Photography"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselPhotography2"
+                      data-bs-slide-to="5"
+                      aria-label="Photography"
+                    ></button>
                   </div>
+                  <div className="carousel-inner text-center mx-auto">
+                    <div className="carousel-item active">
+                      <div className="col">{malang[0]}</div>
+                    </div>
+                    <div className="carousel-item">
+                      <div className="col">{malang[1]}</div>
+                    </div>
+                    <div className="carousel-item">
+                      <div className="col">{malang[2]}</div>
+                    </div>
+                    <div className="carousel-item">
+                      <div className="col">{malang[3]}</div>
+                    </div>
+                    <div className="carousel-item">
+                      <div className="col">{malang[4]}</div>
+                    </div>
+                    <div className="carousel-item">
+                      <div className="col">{malang[5]}</div>
+                    </div>
+                  </div>
+                  <button
+                    className="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselPhotography2"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      className="carousel-control-prev-icon"
+                      aria-hidden="true"
+                      data-bs-toggle="tooltip"
+                      title="Previous"
+                    ></span>
+                    <span className="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    className="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselPhotography2"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      className="carousel-control-next-icon"
+                      aria-hidden="true"
+                      data-bs-toggle="tooltip"
+                      title="Next"
+                    ></span>
+                    <span className="visually-hidden">Next</span>
+                  </button>
                 </div>
               </div>
             </div>

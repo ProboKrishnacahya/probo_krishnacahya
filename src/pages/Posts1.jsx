@@ -6,11 +6,11 @@ import SideBar from "../components/SideBar";
 
 export default function Posts1() {
   useEffect(() => {
-    //* Tab Page Title
+    // * Tab Page Title
     document.title =
       "Klasifikasi Tingkat Keganasan Kanker Payudara Menggunakan Algoritma K-Nearest Neighbors";
 
-    //* Enable Bootstrap's Tooltip Everywhere
+    // * Enable Bootstrap's Tooltip Everywhere
     var tooltipElList = [].slice.call(
       document.querySelectorAll('[data-bs-toggle="tooltip"]')
     );

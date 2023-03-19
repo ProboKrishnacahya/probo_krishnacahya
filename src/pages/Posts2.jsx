@@ -6,11 +6,11 @@ import SideBar from "../components/SideBar";
 
 export default function Posts2() {
   useEffect(() => {
-    //* Tab Page Title
+    // * Tab Page Title
     document.title =
       "Sistem Pendukung Metode Pembelajaran Self-Paced Learning bagi Mahasiswa di dalam Kelas Berbasis Web";
 
-    //* Enable Bootstrap's Tooltip Everywhere
+    // * Enable Bootstrap's Tooltip Everywhere
     var tooltipElList = [].slice.call(
       document.querySelectorAll('[data-bs-toggle="tooltip"]')
     );

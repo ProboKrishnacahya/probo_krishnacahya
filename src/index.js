@@ -26,16 +26,16 @@ root.render(
   </Router>
 );
 
-//* Web Preload
+// * Web Preload
 const preload = document.querySelector('#preload');
 
 window.addEventListener('load', function () {
   preload.classList.add('fade-out');
 });
 
-//* Initialize Animate On Scroll (Scrolling Effect)
+// * Initialize Animate On Scroll (Scrolling Effect)
 AOS.init();
 AOS.refreshHard();
 
-//* Measuring performance
+// * Measuring performance
 reportWebVitals();

@@ -202,7 +202,7 @@ export default function Home() {
       url: "https://sites.google.com/ciputra.ac.id/ct-for-educators/",
       name: "Best Practices on Computational Thinking for Future Educators Workshop",
       description:
-        "Best Practices on Computational Thinking for Future Educators Workshop is a special program designed by Universitas Ciputra Techno Center for Teachers to train Computational Thinking successfully. This program empowers Educators to become Experts in embedding Computational Thinking in their teaching strategies. Workshop topics include Introduction to Computational Thinking, Computational Thinking in Class & Developing Computational Thinking Tasks, and Computational Thinking Tools. At this event, I am responsible as a member of the Module (Presentation Slides) Division through designing the layout of the content and making illustrations of the material that has been prepajakarta by the Trainer.",
+        "Best Practices on Computational Thinking for Future Educators Workshop is a special program designed by Universitas Ciputra Techno Center for Teachers to train Computational Thinking successfully. This program empowers Educators to become Experts in embedding Computational Thinking in their teaching strategies. Workshop topics include Introduction to Computational Thinking, Computational Thinking in Class & Developing Computational Thinking Tasks, and Computational Thinking Tools. At this event, I am responsible as a member of the Module (Presentation Slides) Division through designing the layout of the content and making illustrations of the material that has been prepared by the Trainer.",
       position:
         "Member of Module (Presentation Slides) Division (Ad Hoc Committee)",
       date: "Jul 2022 - Sep 2022",
@@ -548,7 +548,7 @@ export default function Home() {
                 Surabaya with 2+ years of experience in the field of Frontend
                 Development and UI/UX Design expertise with an interest in
                 DevSecOps and Machine Learning. Proficient in using SwiftUI,
-                ReactJS, Flutter, Bootstrap, and Figma to create interactive and
+                ReactJS, Flutter, Figma, and Sketch to create interactive and
                 aesthetic visual designs that are implemented into Mobile
                 Applications and Web Applications while still prioritizing ease
                 of use and accessibility so as to produce a satisfying user

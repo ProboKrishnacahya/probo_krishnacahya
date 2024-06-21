@@ -1,5 +1,5 @@
 :root {
-  --color-primary: #3d8bfd;
+  --color-primary: #649ef5;
   --text-primary: #ffffff;
   --text-secondary: #000000;
   --font-primary: "Manrope", sans-serif;
@@ -7,7 +7,7 @@
 }
 
 body {
-  background: url(background/desktop.png) fixed center / cover no-repeat;
+  background: url(background/desktop.svg) fixed center / cover no-repeat;
   font-family: var(--font-primary);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -157,7 +157,7 @@ img {
 }
 
 .nav-link:not(.active) {
-  filter: brightness(75%);
+  filter: brightness(90%);
 }
 
 .navbar-toggler.collapsed .btn-close {

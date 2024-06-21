@@ -39,7 +39,7 @@ export default function SideBar() {
         </div>
       </div>
 
-      <a href="/blogs">
+      <a href="/articles">
         <button className="btn btn-primary w-100">
           <i className="bi bi-file-text"></i>&emsp;Read Another Posts
         </button>

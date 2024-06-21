@@ -54,13 +54,6 @@ export default function Contacts() {
       title: "Instagram",
       text: "probo_krishnacahya",
     },
-    // {
-    //   id: 6,
-    //   url: "https://t.me/cahyaa02",
-    //   image: "images/contacts/telegram.svg",
-    //   title: "Telegram",
-    //   text: "cahyaa02",
-    // },
     {
       id: 6,
       url: "https://github.com/ProboKrishnacahya",
@@ -120,7 +113,7 @@ export default function Contacts() {
               <div>
                 <i className="bi bi-envelope"></i>&emsp;
                 <label for="formControlInputEmail" className="form-label">
-                  Email Address<label className="text-danger">&#42;</label>
+                  Email Address<label className="text-light-emphasis">&#42;</label>
                 </label>
                 <input
                   type="email"
@@ -134,7 +127,7 @@ export default function Contacts() {
               <div>
                 <i className="bi bi-person"></i>&emsp;
                 <label for="formControlInputFullName" className="form-label">
-                  Full Name<label className="text-danger">&#42;</label>
+                  Full Name<label className="text-light-emphasis">&#42;</label>
                 </label>
                 <input
                   type="text"
@@ -201,7 +194,7 @@ export default function Contacts() {
                   </div>
                 </div>
               </div>
-              <div>
+              {/* <div>
                 <i className="bi bi-link-45deg"></i>&emsp;
                 <label for="formControlURL" className="form-label">
                   Uniform Resource Locator (URL)
@@ -214,11 +207,11 @@ export default function Contacts() {
                   placeholder="https://url.com/"
                   aria-describedby="form-addon"
                 />
-              </div>
+              </div> */}
               <div>
                 <i className="bi bi-calendar-date"></i>&emsp;
                 <label for="formControlInputDate" className="form-label">
-                  Destined Date<label className="text-danger">&#42;</label>
+                  Destined Date<label className="text-light-emphasis">&#42;</label>
                 </label>
                 <input
                   type="date"
@@ -232,13 +225,13 @@ export default function Contacts() {
               <div>
                 <i className="bi bi-quote"></i>&emsp;
                 <label for="formControlTextarea" className="form-label">
-                  Message<label className="text-danger">&#42;</label>
+                  Message<label className="text-light-emphasis">&#42;</label>
                 </label>
                 <textarea
                   name="message"
                   className="form-control border border-2 border-secondary"
                   id="formControlTextarea"
-                  placeholder="Insert your message here.."
+                  placeholder="Type your message here.."
                   rows={5}
                   onChange={(e) => setCount(e.target.value.length)}
                   required
@@ -246,7 +239,7 @@ export default function Contacts() {
                 <div className="form-text text-end">{count}</div>
               </div>
               <small className="text-white-50 mt-2">
-                <label className="text-danger">
+                <label className="text-light-emphasis">
                   &#42;&#41;&nbsp;Required to fill.
                 </label>
               </small>

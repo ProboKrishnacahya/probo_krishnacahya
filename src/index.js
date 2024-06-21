@@ -7,16 +7,16 @@ import ReactDOM from 'react-dom/client';
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import { Blogs, Contacts, Home, PageNotFound, Posts1, Posts2, Projects, Resume, Skills } from "./script/export";
+import { Articles, Contacts, Home, PageNotFound, Posts1, Posts2, Projects, Resume, Skills } from "./script/export";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Router>
     <Routes>
       <Route path="*" element={<PageNotFound />} />
-      <Route path="/blogs" element={<Blogs />} />
-      <Route path="/blogs/klasifikasi-tingkat-keganasan-kanker-payudara-menggunakan-algoritma-k-nearest-neighbors" element={<Posts1 />} />
-      <Route path="/blogs/sistem-pendukung-metode-pembelajaran-self-paced-learning-bagi-mahasiswa-di-dalam-kelas-berbasis-web" element={<Posts2 />} />
+      <Route path="/articles" element={<Articles />} />
+      <Route path="/articles/klasifikasi-tingkat-keganasan-kanker-payudara-menggunakan-algoritma-k-nearest-neighbors" element={<Posts1 />} />
+      <Route path="/articles/sistem-pendukung-metode-pembelajaran-self-paced-learning-bagi-mahasiswa-di-dalam-kelas-berbasis-web" element={<Posts2 />} />
       <Route path="/contacts" element={<Contacts />} />
       <Route path="/" element={<Home />} />
       <Route path="/projects" element={<Projects />} />

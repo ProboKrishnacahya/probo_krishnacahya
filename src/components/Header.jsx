@@ -7,11 +7,12 @@ export default function Header() {
       <nav className="navbar navbar-expand-lg navbar-dark user-select-none py-3">
         <div className="container">
           <NavLink className="navbar-brand" to="/">
-            <img
+            {/* <img
               src="images/assets/pk.svg"
               alt="Probo Krishnacahya"
               width={32}
-            />
+            /> */}
+            Probo Krishnacahya
           </NavLink>
           <button
             className="navbar-toggler collapsed border border-2 border-secondary bg-dark"
@@ -47,8 +48,8 @@ export default function Header() {
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/blogs">
-                  Blogs
+                <NavLink className="nav-link" to="/articles">
+                Articles
                 </NavLink>
               </li>
             </ul>

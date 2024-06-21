@@ -56,7 +56,7 @@ export default function Skills() {
       alt: "Flutter",
       name: "Flutter",
       url: "https://flutter.dev/",
-      progress: "80%",
+      progress: "70%",
     },
     {
       id: 6,
@@ -64,7 +64,7 @@ export default function Skills() {
       alt: "JavaScript",
       name: "JavaScript",
       url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-      progress: "40%",
+      progress: "60%",
     },
     {
       id: 7,
@@ -72,7 +72,7 @@ export default function Skills() {
       alt: "jQuery",
       name: "jQuery",
       url: "https://jquery.com/",
-      progress: "35%",
+      progress: "60%",
     },
     {
       id: 8,
@@ -96,7 +96,7 @@ export default function Skills() {
       alt: "Tailwind CSS",
       name: "Tailwind CSS",
       url: "https://tailwindcss.com/",
-      progress: "75%",
+      progress: "85%",
     },
   ];
 
@@ -1204,28 +1204,30 @@ export default function Skills() {
           </div>
         </div>
 
-        <div className="container text-center mt-5">
-              <span className="fs-6">Built with&ensp;</span>
-              <div className="hstack gap-4 justify-content-center">
-                {personalWebsite}
-              </div>
-              <br />
+        <hr />
 
-              <div className="d-inline">
-                <span className="fs-6">Deployed using&ensp;</span>
-                <span>
-                  <a href="https://firebase.google.com/products/hosting">
-                    <img
-                      src="images/skills/technologies/hosting.svg"
-                      width={256}
-                      alt="Firebase"
-                      data-bs-toggle="tooltip"
-                      title="Firebase"
-                    />
-                  </a>
-                </span>
-              </div>
-            </div>
+        <div className="container text-center mt-5">
+          <span className="fs-6">Built with&ensp;</span>
+          <div className="hstack gap-4 justify-content-center">
+            {personalWebsite}
+          </div>
+          <br />
+
+          <div className="d-inline">
+            <span className="fs-6">Deployed using&ensp;</span>
+            <span>
+              <a href="https://firebase.google.com/products/hosting">
+                <img
+                  src="images/skills/technologies/hosting.svg"
+                  width={256}
+                  alt="Firebase"
+                  data-bs-toggle="tooltip"
+                  title="Firebase"
+                />
+              </a>
+            </span>
+          </div>
+        </div>
       </section>
       <Footer />
     </div>

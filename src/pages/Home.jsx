@@ -55,8 +55,6 @@ export default function Home() {
       .typeString("UI/UX Designer")
       .pauseFor(3000)
       .deleteAll(30)
-      // .typeString('DevSecOps Engineer').pauseFor(3000).deleteAll(30)
-      // .typeString('ML Engineer').pauseFor(3000).deleteAll(30)
       .start();
   }, []);
 
@@ -116,11 +114,11 @@ export default function Home() {
     {
       id: 1,
       url: "https://appledeveloperacademy.uc.ac.id/#academy-experience",
-      name: "Tech (Coder) Intern Cohort 2023",
+      name: "UI/UX Designer, iOS Developer Intern",
       description:
         "The 10 months Internship at Apple Developer Academy @ UC is a program to forge oneself into a World-Class Developer via Industry Leading Frameworks including Challenge Based Learning, Design Thinking, and Project Management that combined with a T-Shaped Curriculum Model to become a well-rounded professional.",
       type: "Internship - Onsite",
-      date: "Mar 2022 - present",
+      date: "Mar 2022 - Dec 2023",
     },
     {
       id: 2,
@@ -129,7 +127,7 @@ export default function Home() {
       description:
         "Digital Entrepreneurship and Innovation class which is under the management of Faculty of Entrepreneurship and Humanities is intended for Students to be able to create innovative business models in the technology/digital industry that are validated through a process of exploration and exploitation opportunities, resource mobilization, and process validation using the Business Model Canvas. At this assistance, I am responsible to manage E-Learning contents using Moodle LMS, preparing presentation slides as a learning module, and guiding Students in the practice of working on projects as assignments of class participants.",
       type: "Contract - Onsite",
-      date: "Feb 2022 - present",
+      date: "Feb 2023 - Jun 2023",
     },
     {
       id: 3,
@@ -527,35 +525,31 @@ export default function Home() {
         <section id="home" data-aos="fade-up">
           <h4 className="text-center section-title">&#128587;&ensp;About Me</h4>
           <br />
-          <div className="d-grid justify-content-between gap-4 d-lg-flex">
-            <div className="card hstack flex-column flex-sm-row justify-content-between gap-4 col-xl-6">
-              <div className="text-center col-lg-6">
+          <div className="card">
+            <div className="row align-items-center g-3">
+              <div className="col-md-3 text-center">
                 <img
-                  src="images/assets/author-about.svg"
-                  className="rounded-circle shadow-sm"
+                  src="images/assets/author-about.jpeg"
+                  className="rounded-circle shadow-sm border border-2 border-info"
                   id="assets"
                   alt="Probo Krishnacahya"
                   loading="lazy"
                 />
               </div>
-              <div className="vstack col-lg-6 justify-content-center gap-3">
-                {aboutMe}
+              <div className="col-md-9">
+                <p>
+                  I am an Undergraduate Informatics Student at Universitas
+                  Ciputra Surabaya specializing in Frontend Development and
+                  UI/UX Design. Proficient in using SwiftUI, ReactJS, Tailwind
+                  CSS, Figma, and Sketch to create interactive and aesthetic
+                  visual designs that are implemented into Mobile Applications
+                  and Web Applications while still prioritizing ease of use and
+                  accessibility so as to produce a satisfying user experience.
+                  Along with that, Cooperative Teamwork, Proactive, Persistence,
+                  Lifelong Learner, and High Sense of Achievement are the key
+                  points that define me.
+                </p>
               </div>
-            </div>
-            <div className="align-self-center">
-              <p>
-                I am an Undergraduate Informatics Student at Universitas Ciputra
-                Surabaya with 2+ years of experience in the field of Frontend
-                Development and UI/UX Design expertise with an interest in
-                DevSecOps and Machine Learning. Proficient in using SwiftUI,
-                ReactJS, Flutter, Figma, and Sketch to create interactive and
-                aesthetic visual designs that are implemented into Mobile
-                Applications and Web Applications while still prioritizing ease
-                of use and accessibility so as to produce a satisfying user
-                experience. Along with that, Cooperative Teamwork, Proactive,
-                Persistence, Lifelong Learner, and High Sense of Achievement are
-                the key points that define me.
-              </p>
             </div>
           </div>
         </section>

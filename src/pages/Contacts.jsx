@@ -35,27 +35,34 @@ export default function Contacts() {
     },
     {
       id: 3,
+      url: "https://wa.me/message/PVKIHMW2KTLRG1",
+      image: "images/contacts/whatsapp.svg",
+      title: "WhatsApp",
+      text: "+6285190055343",
+    },
+    {
+      id: 4,
       url: "https://line.me/ti/p/~krshn_",
       image: "images/contacts/line.svg",
       title: "LINE",
       text: "krshn_",
     },
     {
-      id: 4,
+      id: 5,
       url: "https://discord.com/users/542619130428391434",
       image: "images/contacts/discord.svg",
       title: "Discord",
       text: "ProboKrishnacahya #0912",
     },
     {
-      id: 5,
+      id: 6,
       url: "https://www.instagram.com/probo_krishnacahya/",
       image: "images/contacts/instagram.svg",
       title: "Instagram",
       text: "probo_krishnacahya",
     },
     {
-      id: 6,
+      id: 7,
       url: "https://github.com/ProboKrishnacahya",
       image: "images/contacts/github.svg",
       title: "GitHub",
@@ -194,20 +201,6 @@ export default function Contacts() {
                   </div>
                 </div>
               </div>
-              {/* <div>
-                <i className="bi bi-link-45deg"></i>&emsp;
-                <label for="formControlURL" className="form-label">
-                  Uniform Resource Locator (URL)
-                </label>
-                <input
-                  type="url"
-                  name="url"
-                  className="form-control border border-2 border-secondary"
-                  id="formControlURL"
-                  placeholder="https://url.com/"
-                  aria-describedby="form-addon"
-                />
-              </div> */}
               <div>
                 <i className="bi bi-calendar-date"></i>&emsp;
                 <label for="formControlInputDate" className="form-label">

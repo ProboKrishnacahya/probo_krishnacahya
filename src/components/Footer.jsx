@@ -37,6 +37,17 @@ export default function Footer() {
                 ></i>
               </a>
               <a
+                href="https://wa.me/message/PVKIHMW2KTLRG1"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i
+                  className="bi bi-whatsapp"
+                  data-bs-toggle="tooltip"
+                  title="WhatsApp"
+                ></i>
+              </a>
+              <a
                 href="https://line.me/ti/p/~krshn_"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -58,17 +69,6 @@ export default function Footer() {
                   title="Discord"
                 ></i>
               </a>
-              {/* <a
-                href="https://t.me/cahyaa02"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i
-                  className="bi bi-telegram"
-                  data-bs-toggle="tooltip"
-                  title="Telegram"
-                ></i>
-              </a> */}
               <a
                 href="https://www.instagram.com/probo_krishnacahya/"
                 target="_blank"

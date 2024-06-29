@@ -473,10 +473,10 @@ export default function Home() {
               type="button"
               className="btn btn-secondary btn-lg"
               data-bs-toggle="modal"
-              data-bs-target="#resumeModal"
+              data-bs-target="#curriculumVitaeModal"
             >
               <i className="bi bi-filetype-pdf"></i>&emsp;
-              <strong>View Resume</strong>
+              <strong>View Curriculum Vitae</strong>
             </button>
           </div>
           <h3 className="scroll-down text-center mt-5 pt-5">
@@ -491,17 +491,17 @@ export default function Home() {
         </div>
         <div
           className="modal fade"
-          id="resumeModal"
+          id="curriculumVitaeModal"
           tabindex="-1"
-          aria-labelledby="resumeModalLabel"
+          aria-labelledby="curriculumVitaeModalLabel"
           aria-hidden="true"
         >
           <div className="modal-dialog modal-fullscreen">
             <div className="modal-content bg-dark">
               <div className="modal-header">
-                <h5 className="modal-title" id="resumeModalLabel">
+                <h5 className="modal-title" id="curriculumVitaeModalLabel">
                   <i className="bi bi-file-earmark-person"></i>&emsp;Probo
-                  Krishnacahya&#39;s Resume
+                  Krishnacahya&#39;s Curriculum Vitae
                 </h5>
                 <button
                   type="button"
@@ -512,9 +512,9 @@ export default function Home() {
               </div>
               <div className="modal-body p-0">
                 <iframe
-                  src="pdf/home/ProboKrishnacahya_Resume.pdf"
+                  src="pdf/home/Curriculum Vitae - Probo Krishnacahya.pdf"
                   frameborder="0"
-                  title="Resume"
+                  title="Curriculum Vitae"
                   className="w-100 vh-100"
                 ></iframe>
               </div>
@@ -529,8 +529,8 @@ export default function Home() {
             <div className="row align-items-center g-3">
               <div className="col-md-3 text-center">
                 <img
-                  src="images/assets/author-about.jpeg"
-                  className="rounded-circle shadow-sm border border-2 border-info"
+                  src="images/assets/author-about.JPG"
+                  className="rounded-circle shadow-sm border border-2 border-primary"
                   id="assets"
                   alt="Probo Krishnacahya"
                   loading="lazy"

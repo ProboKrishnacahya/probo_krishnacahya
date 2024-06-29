@@ -28,14 +28,25 @@ export default function Blogs() {
         "Sistem Pendukung Metode Pembelajaran Self-Paced Learning bagi Mahasiswa di dalam Kelas Berbasis Web",
       time: 15,
       category: "Web Development",
-      date: "Jun 19th, 2023",
+      date: "Jun 20th, 2023",
       url: "https://e-journal.hamzanwadi.ac.id/index.php/edumatic/article/view/8317",
     },
     {
       id: 2,
       image:
+        "https://images.unsplash.com/photo-1706101126602-5a6132b98b8b?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop",
+      alt: "Regresi Penjualan Laptop",
+      title: "Model Regresi Penjualan Laptop",
+      time: 7,
+      category: "Machine Learning",
+      date: "Dec 12th, 2022",
+      url: "https://medium.com/@probo_krishnacahya/model-regresi-penjualan-laptop-2d5c5e69b88b",
+    },
+    {
+      id: 3,
+      image:
         "https://images.unsplash.com/photo-1579154341098-e4e158cc7f55?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop",
-      alt: "Breast Cancer",
+      alt: "Klasifikasi Tingkat Keganasan Kanker Payudara",
       title:
         "Klasifikasi Tingkat Keganasan Kanker Payudara Menggunakan Algoritma K-Nearest Neighbors",
       time: 11,
@@ -108,83 +119,6 @@ export default function Blogs() {
     );
   }
 
-  // const postsComingSoon = [
-  //   {
-  //     id: 1,
-  //     image:
-  //       "https://images.unsplash.com/photo-1610484826917-0f101a7bf7f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop",
-  //     alt: "ComfyPace",
-  //     title:
-  //       "Sistem Pendukung Metode Pembelajaran Self-Paced Learning bagi Mahasiswa di dalam Kelas Berbasis Web",
-  //     time: "-",
-  //     category: "-",
-  //     date: "-",
-  //     url: "#",
-  //   },
-  // ];
-
-  // const blogsComingSoon = [];
-
-  // for (const postComingSoon of postsComingSoon) {
-  //   blogsComingSoon.push(
-  //     <div className="postTarget card p-0 mb-4">
-  //       <div className="row opacity-50">
-  //         <div className="col-md-4">
-  //           <img
-  //             src={postComingSoon.image}
-  //             className="post-thumbnail img-fluid h-100"
-  //             alt={postComingSoon.alt}
-  //             loading="lazy"
-  //           />
-  //         </div>
-  //         <div className="col-md-8 vstack justify-content-between">
-  //           <div className="card-body vstack gap-3 justify-content-between">
-  //             <div>
-  //               <h5 className="card-title mb-0">{postComingSoon.title}</h5>
-  //             </div>
-  //             <div>
-  //               <p className="card-text hstack flex-column flex-sm-row align-items-start text-truncate text-white-50 gap-md-5 gap-2">
-  //                 <div>
-  //                   <i
-  //                     className="bi bi-stopwatch"
-  //                     data-bs-toggle="tooltip"
-  //                     title="Estimated Reading Time"
-  //                   ></i>
-  //                   &emsp;{postComingSoon.time}&nbsp;minutes
-  //                 </div>
-  //                 <div>
-  //                   <i
-  //                     className="bi bi-calendar-date"
-  //                     data-bs-toggle="tooltip"
-  //                     title="Uploaded Date"
-  //                   ></i>
-  //                   &emsp;{postComingSoon.date}
-  //                 </div>
-  //                 <div className="text-truncate">
-  //                   <i
-  //                     className="bi bi-tag"
-  //                     data-bs-toggle="tooltip"
-  //                     title="Category"
-  //                   ></i>
-  //                   &emsp;{postComingSoon.category}
-  //                 </div>
-  //               </p>
-  //             </div>
-  //             <div>
-  //               <a href={postComingSoon.url} className="stretched-link">
-  //                 <button className="btn btn-primary w-100">
-  //                   <i className="bi bi-hourglass-split"></i>&emsp;
-  //                   <strong>Coming Soon</strong>
-  //                 </button>
-  //               </a>
-  //             </div>
-  //           </div>
-  //         </div>
-  //       </div>
-  //     </div>
-  //   );
-  // }
-
   return (
     <div className="blogs">
       <Header />
@@ -201,7 +135,6 @@ export default function Blogs() {
         {/* Data ditemukan */}
         <div>
         <div>{blogsReadMore}</div>
-        {/* <div>{blogsComingSoon}</div> */}
         </div>
       </div>
       <Footer />
